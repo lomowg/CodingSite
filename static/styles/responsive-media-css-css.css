@@ -1,0 +1,3112 @@
+/*===================== Car Repair Code Start =======================*/
+
+@media screen and (min-width:1600px) and (max-width:1920px) {
+  .wpe-car-header-main-container .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-footer-main-container .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-about-us-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+   .wpe-car-services-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-discount-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-work-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-why-choose-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-price-plan-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-why-counter-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-gallery-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-brand-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-sale-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-testimonial-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-team-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-blog-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-about-page-second-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-about-page-history-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-about-page-mission-section .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-faq-page .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-contact-page .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-ourblog-page .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .wpe-car-car-listing-page .e-con-inner {
+    max-width: 1300px !important;
+  }
+  .single-post-comment {
+    width: 100%;
+  }
+  #comments input[type=text], #comments input[type=email], #comments textarea {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .auto-listings-single .content {
+    width: 1300px !important;
+  }
+}
+@media screen and (min-width:1600px) and (max-width:1680px) {
+
+}
+@media screen and (min-width:1440px) and (max-width:1599px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+  .single-auto-listing .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-box4 .elementor-widget-container {
+    margin-left: 0px !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 0px !important;
+  }
+  .wpe-car-footer-newsletter-container-text p {
+    margin-bottom: 0px;
+  }
+  .wpe-car-footer-newsletter-container {
+    padding-bottom: 8px;
+  }
+  .wpe-car-footer-time-table tr td:nth-child(2) {
+    padding-left: 10px !important;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  #sbi_images .sbi_photo_wrap a {
+    width: 175px !important;
+  }
+  .single-post-comment {
+    width: 61%;
+  }
+  #comments input[type=text], #comments input[type=email], #comments textarea {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .single-post .feature-box img {
+    object-fit: cover;
+  }
+  .single-post-comment {
+    width: 100%;
+  }
+  .single-post #comments {
+    width: 100%;
+  }
+  .single-post #commentform input[type="text"], .single-post #commentform input[type="email"],.single-post  #commentform textarea {
+    width: 100%;
+  }
+  .auto-listings-single .content {
+    width: 1280px;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 35% !important;
+  }
+  .wpe-car-why-choose-left-section .e-con-inner {
+    display: flex !important;
+    justify-content: end !important;
+  }
+  .wpe-car-why-choose-right-icon-box {
+    padding-bottom: 20px;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    width: 41% !important;
+  }
+  .wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
+    padding: 50px 30px 0 30px !important;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: 3em;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 71px 95px 20px 95px;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    bottom: 4%;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    bottom: 3%;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 240px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
+    color: #121212;
+    font: 600 16px/25px 'Rajdhani';
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__input {
+    padding: 5px 0px;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__button {
+    padding: 6px 12px;
+  }
+  .auto-listings-single .content {
+    width: 1100px;
+  }
+  .single-auto-listing-page-title-box {
+    max-width: 986px;
+  }
+  .single-auto-listing .container>.content {
+    padding-top: 10px !important;
+  }
+  .single-auto-listing #image-gallerys .owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+  }
+  .single-auto-listing #image-gallerys .owl-next {
+    position: absolute;
+    top: 45%;
+    right: 12%;
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    position: absolute;
+    bottom: 15px;
+    transform: translate(53%, 0px);
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 150px;
+    height: 110px;
+  }
+  .wpe-car-team-div .ea-tm-wrapper .ea-tm-content .ea-tm-position {
+    font-size: 14px !important;
+  }
+  .category-post_cat .post-image img {
+    object-fit: fill;
+    height: 340px;
+    border-radius: 10px;
+  }
+  .category-post_cat #sidebar {
+    margin-top: 0px !important;
+  }
+
+}
+@media screen and (min-width:1366px) and (max-width:1439px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .single-auto-listing .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-box4 .elementor-widget-container {
+    margin-left: 0px !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 4px !important;
+  }
+  .wpe-car-footer-time-table tr td:nth-child(2) {
+    padding-left: 10px !important;
+  }
+  .wpe-car-footer-newsletter-container-text p {
+    margin-bottom: 0px;
+  }
+  .wpe-car-footer-newsletter-container {
+    padding-bottom: 15px;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: -45%;
+    top: 92%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: -38%;
+    top: 92%;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 175px !important;
+  }
+  .single-post .feature-box img {
+    height: 550px;
+    object-fit: cover;
+  }
+  .single-post-comment {
+    width: 100%;
+  }
+  .single-post #comments {
+    width: 100%;
+  }
+  .single-post #commentform input[type="text"], .single-post #commentform input[type="email"],.single-post  #commentform textarea {
+    width: 100%;
+  }
+  .auto-listings-single .content {
+    width: 1100px;
+  }
+  .wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
+    padding: 50px 30px 0 30px !important;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 35% !important;
+  }
+  .wpe-car-why-choose-left-section .e-con-inner {
+    display: flex !important;
+    justify-content: end !important;
+  }
+  .wpe-car-why-choose-right-icon-box {
+    padding-bottom: 20px;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    width: 41% !important;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: 3em;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 70px 70px 20px 70px;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    bottom: 4%;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    bottom: 3%;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 240px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
+    color: #121212;
+    font: 600 16px/25px 'Rajdhani';
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__input {
+    padding: 5px 0px;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__button {
+    padding: 6px 12px;
+  }
+  .single-auto-listing-page-title-box {
+    max-width: 986px;
+  }
+  .single-auto-listing .container>.content {
+    padding-top: 10px !important;
+  }
+  .single-auto-listing #image-gallerys .owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 14%;
+  }
+  .single-auto-listing #image-gallerys .owl-next {
+    position: absolute;
+    top: 45%;
+    right: 14%;
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    position: absolute;
+    bottom: 15px;
+    transform: translate(39%, 0px);
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 150px;
+    height: 110px;
+  }
+  .wpe-car-team-div .ea-tm-wrapper .ea-tm-content .ea-tm-position {
+    font-size: 14px !important;
+  }
+  .category-post_cat #sidebar {
+    margin-top: 0px !important;
+  }
+  .category-post_cat .wp-block-latest-posts__list li a {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4!important;
+  }
+
+}
+@media screen and (min-width:1200px) and (max-width:1365px) {
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-box4 .elementor-widget-container {
+    margin-left: 0px !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 5px !important;
+  }
+  .wpe-car-footer-time-table tr td:nth-child(2) {
+    padding-left: 10px !important;
+  }
+  .wpe-car-footer-newsletter-container-text p {
+    margin-bottom: 0px;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: -45%;
+    top: 92%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: -38%;
+    top: 92%;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    right: -18%;
+    bottom: 3%;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: -18%;
+    bottom: -2%;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 175px !important;
+  }
+  .single-post .feature-box img {
+    height: 550px;
+    object-fit: cover;
+  }
+  .single-post #comments {
+    width: 100%;
+  }
+  .single-post #commentform input[type="text"], .single-post #commentform input[type="email"],.single-post  #commentform textarea {
+    width: 100%;
+  }
+  .single-services .feature-box-services img {
+    height: 450px;
+    background-size: 100% 100%;
+  }
+  .auto-listings-single .content {
+    width: 1100px;
+  }
+  .wpe-car-slider-section .wpr-slider-content {
+    padding: 70px 50px 50px 50px !important;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 35%;
+  }
+  .wpe-car-why-choose-left-section .e-con-inner {
+    display: flex !important;
+    justify-content: end !important;
+  }
+  .wpe-car-why-choose-right-icon-box {
+    padding-bottom: 20px;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    width: 41% !important;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 29%;
+  }
+  .wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
+    padding: 50px 30px 0 30px !important;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: 3em;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 70px 60px 20px 60px;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 240px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
+    color: #121212;
+    font: 600 16px/25px 'Rajdhani';
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__button {
+    margin-top: 15px;
+  }
+  .single-auto-listing-page-title-box {
+    max-width: 970px;
+  }
+  .single-auto-listing .container>.content {
+    padding-top: 10px !important;
+  }
+  .single-auto-listing #image-gallerys .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 14%;
+  }
+  .single-auto-listing #image-gallerys .owl-next {
+    position: absolute;
+    top: 40%;
+    right: 14%;
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    position: absolute;
+    bottom: 15px;
+    transform: translate(39%, 0px);
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 150px;
+    height: 110px;
+  }
+  .wpe-car-team-div .ea-tm-wrapper .ea-tm-content .ea-tm-position {
+    font-size: 14px !important;
+  }
+  .category-post_cat #sidebar {
+    margin-top: 0px !important;
+  }
+  .category-post_cat .wp-block-latest-posts__list li a {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4!important;
+  }
+
+}
+@media screen and (min-width:1025px) and (max-width:1199px) {
+  #ekit-megamenu-menu-left .elementskit-navbar-nav > li > a {
+    padding: 0px 10px 0px 10px !important;
+  }
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-main-container {
+    background-size: 100% 100% !important;
+  }
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-newsletter-container-text p {
+    font-size: 16px !important;
+    margin-bottom: 0px;
+  }
+  .wpe-car-footer-box1, .wpe-car-footer-box4 {
+    width: 30% !important;
+  }
+  #wpe-car-footer-box3 {
+    width: 25% !important;
+  }
+  .wpe-car-footer-box2 {
+    width: 15% !important;
+  }
+  .wpe-car-footer-box4 .elementor-widget-container {
+    margin-left: 10px !important;
+  }
+  .wpe-car-footer-time-table tr td:nth-child(2) {
+    padding-left: 10px !important;
+  }
+  .wpe-car-footer-time-table .elementor-widget-container {
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 12px !important;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  .wpe-car-about-us-counter-box {
+    position: absolute;
+    bottom: 12%;
+    left: 2%;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 2%;
+    top: -8%;
+  }
+  .wpe-car-discount-section {
+    padding: 0 20px;
+  }
+  .wpe-car-discount-section-car .elementor-widget-container {
+    margin-right: 0px !important;
+  }
+  .wpe-car-social-icon-text .elementor-widget-container::before {
+    display: none;
+  }
+  .wpe-car-work-section {
+    padding: 0 20px;
+  }
+  .wpe-car-work-section .wpe-car-work-box1 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box2 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box3 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box4 .elementor-image-box-wrapper::after {
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    top: 15%;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    width: 46%;
+  }
+  .wpe-car-testimonial-content .ea-testimonial-outer {
+    padding: 0px 20px 0px 20px !important;
+  }
+  .wpe-car-testimonial-section .e-con-inner .elementor-element .e-con-inner .elementor-element {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: -45%;
+    top: 98%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: -37%;
+    top: 98%;
+  }
+  .wpe-car-blog-section .ea-author a {
+    width: 14px;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .wpe-car-blog-section {
+    padding: 0 15px;
+  }
+  .wpe-car-about-page-second-section {
+    padding: 0 20px;
+  }
+  .wpe-car-about-page-second-sec-right .ekit-wid-con .elementkit-tab-nav li {
+    margin-bottom: 30px !important;
+  }
+  .wpe-car-about-page-history-section {
+    padding: 0 20px;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    right: -61%;
+    bottom: 7%;
+  }
+  .wpe-car-team-section {
+    padding: 0 20px;
+  }
+  .single-post .feature-box img {
+    height: 500px;
+    object-fit: cover;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 150px !important;
+  }
+  .single-post #comments {
+    width: 100%;
+  }
+  .single-post #commentform input[type="text"], .single-post #commentform input[type="email"],.single-post  #commentform textarea {
+    width: 100%;
+  }
+  .single-services .feature-box-services img {
+    height: 450px;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+  .auto-listings-single .content {
+    width: 900px;
+  }
+  .wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
+    margin: 0 auto !important;
+    padding: 50px 20px 0 20px !important;
+  }
+  .wpe-car-slider-section .wpr-slider-content {
+    padding: 35px 50px 50px 50px !important;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 38%;
+  }
+  .featured-services-sec .top-nav {
+    gap: 14px;
+  }
+  .services-right-content {
+    position: relative;
+    align-items: center;
+    display: flex;
+  }
+  .services-right-content li:nth-child(6) button img {
+    position: absolute;
+    top: 34%;
+  }
+  .services-right-content li:nth-child(3) button img {
+    position: absolute;
+    top: 33%;
+  }
+  .wpe-car-why-choose-left-section .e-con-inner {
+    display: flex !important;
+    justify-content: end !important;
+  }
+  .wpe-car-why-choose-right-icon-box {
+    padding-bottom: 20px;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 62%;
+    left: 9%;
+  }
+  .wpe-car-price-plan-right-box {
+    padding-right: 10px;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: 3em;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 70px 35px 20px 35px;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    bottom: -8%;
+  }
+  .wpe-car-about-page-second-sec-right .elementkit-tab-nav .elementkit-nav-link {
+    padding: 14px 30px 14px 25px !important;
+  }
+  .wpe-car-ourblog-page .ea-amox-grid .ea-author {
+    width: 50px;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .wpe-car-blog-leftsidebar-page .ea-amox-grid .ea-author {
+    width: 50px;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 240px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
+    color: #121212;
+    font: 600 16px/25px 'Rajdhani';
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__button {
+    margin-top: 15px;
+  }
+  .single-auto-listing-page-title-box {
+    max-width: 790px;
+  }
+  .single-auto-listing .container>.content {
+    padding-top: 10px !important;
+  }
+  .single-auto-listing #image-gallerys .owl-prev {
+    position: absolute;
+    top: 43%;
+    left: 17%;
+  }
+  .single-auto-listing #image-gallerys .owl-next {
+    position: absolute;
+    top: 43%;
+    right: 17%;
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    position: absolute;
+    bottom: 15px;
+    transform: translate(50%, 0px);
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 110px;
+    height: 85px;
+  }
+  .related .products li .price ins {
+    font: 500 14px/18px "Rubik" , Sans-serif;
+  }
+  .related .products li .price del {
+    font: 500 14px/18px "Rubik" , Sans-serif;
+  }
+  .related .shop-page-price-main .shop-off-details {
+    margin-left: 10px !important;
+  }
+  .wpe-car-team-div .ea-tm .ea-tm-position {
+    font-size: 13px !important;
+  }
+  .wpe-car-team-section .ea-tm-content {
+    border-radius: 12px 0px 12px 12px;
+    padding: 10px;
+  }
+  .category-post_cat #sidebar {
+    margin-top: 0px !important;
+  }
+  .category-post_cat .wp-block-latest-posts__list li a {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4!important;
+  }
+  .car-listing-page-realted-car .re_portfolio_col .portfolio_wrap {
+    padding: 1px 5px 0px 5px;
+  }
+  .car-listing-page-realted-car .re_portfolio_col .related_portfolio_img {
+    padding: 5px 5px 0px 5px;
+  }
+
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+  .elementskit-menu-container {
+    box-shadow: 0 2px 6px #ccbabaf2 !important;
+  }
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-main-container {
+    background-image: none !important;
+    background-color: #161616;
+  }
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 0px !important;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 15%;
+    top: -4%;
+  }
+  .wpe-car-about-us-counter-box {
+    position: absolute;
+    bottom: 15%;
+    left: 4%;
+  }
+  .wpe-car-work-section .wpe-car-work-box1 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box2 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box3 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box4 .elementor-image-box-wrapper::after {
+    position: absolute;
+    height: 10px;
+    border-top: 1px dashed #9F9F9F;
+    border-bottom: 1px dashed #9F9F9F;
+    content: '';
+    width: 100%;
+    top: 15%;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    left: 3%;
+    width: 40%;
+  }
+  .wpe-car-why-choose-left-icon-box .elementor-image-box-title {
+    font-size: 20px!important;
+  }
+  .wpe-car-blog-section .ea-author a {
+    width: 73px;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: -37%;
+    top: 78%;
+  }
+  .wpe-car-footer-main-container {
+    background-image: none !important;
+    background-color: #161616 !important;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    right: 10%;
+    bottom: -27%;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: 2%;
+    bottom: unset;
+    top: -63%;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 150px !important;
+  }
+  .single-post #comments {
+    width: 100%;
+    display: block;
+  }
+  .single-post .feature-box img {
+    height: 450px;
+    object-fit: cover;
+  }
+  .single-post #comments {
+    width: 100%;
+  }
+  .single-post .comment-list {
+    width: 100%;
+  }
+  .single-post #respond {
+    width: 100%;
+  }
+  .single-post .content-box {
+    transform: translateY(-3%);
+    padding: 25px !important;
+  }
+  .single-post #commentform input[type="text"], .single-post #commentform input[type="email"],.single-post  #commentform textarea {
+    width: 100%;
+  }
+  .single-services .feature-box-services img {
+    height: 425px;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 70px 30px 20px 30px;
+  }
+  .auto-listings-single .content {
+    width: 900px;
+  }
+  .wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
+    padding: 50px 70px 0 70px !important;
+  }
+  .wpe-car-price-plan-right-section {
+    margin: 0 auto;
+    width: 40%;
+  }
+  .featured-services-sec .top-nav {
+    gap: 10px;
+  }
+  .wpe-car-slider-section .wpr-slider-content {
+    padding: 70px 50px 50px 50px !important;
+  }
+  .services-right-content {
+    position: relative;
+    align-items: center;
+    display: flex;
+  }
+  .services-right-content li:nth-child(6) button img {
+    position: absolute;
+    top: 34%;
+  }
+  .services-right-content li:nth-child(3) button img {
+    position: absolute;
+    top: 33%;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 22%;
+  }
+  .wpe-car-why-choose-right-icon-box {
+    padding-bottom: 25px;
+  }
+  .wpe-car-why-counter-section .elementor-counter-title {
+    overflow: hidden!important;
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical!important;
+    -webkit-line-clamp: 1!important;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 63%;
+    left: 9%;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: 3em;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    gap: 5px;
+    position: absolute;
+    bottom: 10px;
+    transform: translate(63%, 0px);
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 100px;
+    height: 80px;
+  }
+  .single-auto-listing-page-title-box {
+    max-width: 790px;
+  }
+  .single-auto-listing .container>.content {
+    padding-top: 10px !important;
+  }
+  .single-auto-listing #image-gallerys .owl-prev {
+    position: absolute;
+    top: 43%;
+    left: 17%;
+  }
+  .single-auto-listing #image-gallerys .owl-next {
+    position: absolute;
+    top: 43%;
+    right: 17%;
+  }
+  .car-listing-page-realted-car .re_portfolio_col .portfolio_wrap {
+    padding: 1px 5px 0px 5px;
+  }
+  .car-listing-page-realted-car .re_portfolio_col .related_portfolio_img {
+    padding: 5px 5px 0px 5px;
+  }
+  .wpe-car-about-us-block>div:nth-child(1) {
+    flex-direction: row !important;
+  }
+  .wpe-car-about-us-left {
+    width: 50% !important;
+  }
+  .wpe-car-about-us-right {
+    width: 50% !important;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 42% !important;
+  }
+  .wpe-car-about-us-left-img-box img {
+    width: 85% !important;
+  }
+  .wpe-car-why-choose-block>div:nth-child(1) {
+    flex-direction: row !important;
+  }
+  .wpe-car-why-choose-left-section {
+    width: 50% !important;
+  }
+  .wpe-car-why-choose-right-section {
+    width: 50% !important;
+  }
+  .wpe-car-why-choose-left-img-box img {
+    width: 95% !important;
+  }
+  .wpe-car-why-choose-left-section>div:nth-child(1) {
+    justify-content: end !important;
+  }
+  .related .products li .price ins {
+    font: 500 14px/18px "Rubik" , Sans-serif;
+  }
+  .related .products li .price del {
+    font: 500 14px/18px "Rubik" , Sans-serif;
+  }
+  .wpe-car-team-section .ea-tm-wrapper .ea-tm-image {
+    justify-content: center;
+    display: flex;
+  }
+  .wpe-car-team-section .ea-tm-content {
+    margin: 0 auto;
+    margin-top: -60px;
+    width: 80%;
+  }
+  .category-post_cat .postbox .post-content .search-post-readmore {
+    font: 600 18px/40px "Rajdhani";
+    padding: 13px 13px;
+    width: max-content;
+  }
+  .category-post_cat .postbox {
+    padding: 15px;
+  }
+  .category-post_cat #sidebar {
+    margin-bottom: 50px;
+    margin-top: 0px !important;
+  }
+  .category-post_cat .wp-block-latest-posts__list li a {
+    color: #000 !important;
+    font: 600 16px/18px "Rajdhani";
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4!important;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
+    position: absolute;
+    right: 5%;
+    top: -7%;
+    left: unset;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
+    position: absolute;
+    right: 0%;
+    top: -7%;
+    left: unset;
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+  .elementskit-menu-container {
+    box-shadow: 0 2px 6px #ccbabaf2 !important;
+  }
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-main-container {
+    background-image: none !important;
+    background-color: #161616 !important;
+  }
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 0px !important;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  .wpe-car-slider-section .wpr-slider-item .wpr-slider-sub-title h2 {
+    font-size: 32px !important;
+  }
+  .wpe-car-slider-section .wpr-slider-content .wpr-slider-title h1 {
+    font-size: 20px !important;
+  }
+  .wpe-car-slider-section .wpr-slider-content .wpr-slider-primary-btn {
+    padding: 12px 18px 12px 18px !important;
+  }
+  .wpe-car-slider-section .wpr-slider-content .wpr-slider-secondary-btn {
+    padding: 12px 18px 12px 18px !important;
+  }
+  .wpe-car-social-icon {
+    position: absolute;
+    top: -325px;
+    left: 6%;
+  }
+  .wpe-car-social-icon-text {
+    position: absolute;
+    top: -132px;
+    left: 6%;
+    transform: rotate(270deg);
+  }
+  .wpe-car-work-section .wpe-car-work-box1 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box2 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box3 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box4 .elementor-image-box-wrapper::after {
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 18%;
+    z-index: 2;
+    left: 4%;
+    width: 35%;
+  }
+  .wpe-car-about-us-counter-box {
+    position: absolute;
+    bottom: 12%;
+    left: 2%;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 12%;
+    top: -10%;
+  }
+  .wpe-car-social-icon-text .elementor-widget-container::before {
+    display: none;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 69%;
+    left: 11%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-prev {
+    left: unset !important;
+    right: 8% !important;
+  }
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: -46%;
+    top: 94%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: -35%;
+    top: 94%;
+  }
+  .wpe-car-blog-section .ea-author a {
+    width: 36px;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    right: 2%;
+    bottom: -21%;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: 2%;
+    bottom: unset;
+    top: -55%;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 114px !important;
+  }
+  .dropbtn {
+    padding: 0px !important;
+  }
+  .single-post-comment {
+    margin-top: 2em;
+    width: 100%;
+  }
+  #commentform input[type="text"], #commentform input[type="email"], #commentform textarea {
+    width: 100%;
+  }
+  .related .products .product_type_variable {
+    float: left;
+    margin-left: -128px !important;
+    margin-bottom: 15px !important;
+    margin-top: 30px !important;
+  }
+  .related .products a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    width: fit-content !important;
+    float: left;
+    margin-left: -129px !important;
+    margin-bottom: 18px !important;
+    margin-top: 25px !important;
+  }
+  .related a.added_to_cart {
+    background-color: #D10022;
+    border-radius: 0px;
+    float: left;
+    margin-top: 25px;
+    margin-left: -129px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .single-page-title {
+    font: 600 28px/40px "Rajdhani", Sans-serif;
+    color: #121212;
+    padding: 0px !important;
+    margin-top: 0px;
+  }
+  .single-author-image a {
+    font: 600 18px/30px "Rajdhani", Sans-serif;
+  }
+  span.entry-date, span.entry-comments {
+    font: normal 18px/30px "Rajdhani", Sans-serif;
+  }
+  .single-page-metabox {
+    align-items: center;
+    padding: 20px 10px !important;
+  }
+  .single-page-metaimage {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .single-page-metaimage img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .woocommerce-shop a.button {
+    margin: 0 10px;
+    position: relative;
+    text-align: center;
+    left: 0px;
+    width: -webkit-fill-available;
+  }
+  .shop-page .yith-wcwl-wishlistexistsbrowse {
+    margin: 0 10px;
+  }
+  .woocommerce-shop a.added_to_cart {
+    margin-left: unset !important;
+    padding: 10px 17px !important;
+    width: -webkit-fill-available;
+    text-align: center;
+    margin: 0 10px !important;
+  }
+  .shop-page .yith-wcwl-add-button a span {
+    margin: 0 10px;
+  }
+  .woocommerce-shop .yith-wcwl-add-to-wishlist.exists .yith-wcwl-wishlistaddedbrowse {
+    text-align: center;
+    margin: 0 10px;
+  }
+  .single-post #comments {
+    width: 100%;
+    display: block;
+  }
+  .single-post .feature-box img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .single-post #comments {
+    width: 100%;
+  }
+  .single-post .comment-list {
+    width: 100%;
+  }
+  .single-post #respond {
+    width: 100%;
+  }
+  .single-post .content-box {
+    transform: translateY(-3%);
+    padding: 25px !important;
+  }
+  .single-services .feature-box-services img {
+    height: 335px;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+  .single-services-row .latest-bg div.single-service-price-box:nth-child(3) {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .wpe-car-price-plan-right-section {
+    margin: 0 auto;
+  }
+  .wpe-car-slider-section .wpr-slider-content {
+    padding: 35px 50px 50px 50px !important;
+  }
+  .wpe-car-why-counter-section .elementor-counter-title {
+    overflow: hidden!important;
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical!important;
+    -webkit-line-clamp: 1!important;
+  }
+  .home-product-sec .product-top-nav .nav-link {
+    padding: 10px;
+    border-radius: 8px !important;
+  }
+  .wpe-car-about-us-emg-box {
+    width: 26%;
+  }
+  .featured-services-sec .top-nav {
+    gap: 6px;
+    width: max-content;
+  }
+  .featured-services-sec .top-nav .nav-link {
+    font: 600 16px/19px "Rajdhani", Sans-serif;
+    padding: 6px 6px 6px 6px;
+  }
+  .featured-services-sec .nav-item button img {
+    padding: 6px;
+    width: 33px;
+    height: 33px;
+  }
+  .featured-services-sec .tab-content .tab-pane {
+    padding: 0px 0px 20px 0px !important;
+  }
+  .services-right-content {
+    position: relative;
+    align-items: center;
+    display: flex;
+  }
+  .services-right-content li:nth-child(6) button img {
+    position: absolute;
+    top: 34%;
+  }
+  .services-right-content li:nth-child(3) button img {
+    position: absolute;
+    top: 33%;
+  }
+  .wpe-car-team-div .ea-tm-position {
+    font-size: 14px !important;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: 3em;
+  }
+  .single-service-page-two-img div img {
+    width: 100% !important;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    padding-right: 20px;
+    padding-top: 30px !important;
+  }
+  .single-service-page-list-img img {
+    width: 70% !important;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 70px 50px 20px 50px;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .wpe-car-why-counter-section .elementor-counter-title {
+    font-size: 25px !important;
+  }
+  .wpe-car-brand-section figure .widget-image-caption {
+    font-size: 22px !important;
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    /* gap: 5px;
+    position: absolute;
+    bottom: 5px;
+    transform: translate(87%, 0px); */
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    gap: 10px;
+    position: unset;
+    z-index: 9;
+    bottom: 15px;
+    transform: unset;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 15px !important;
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 76px;
+    height: 65px;
+  }
+  .single-auto-listing-page-title-box {
+    max-width: 580px;
+  }
+  .single-auto-listing .container>.content {
+    padding-top: 0px !important;
+  }
+  .single-auto-listing .car-listing-page-realted-car .portfolio_wrap  .car-listing-bottom-row {
+    display: unset !important;
+  }
+  .single-auto-listing #image-gallerys .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 22%;
+  }
+  .single-auto-listing #image-gallerys .owl-next {
+    position: absolute;
+    top: 40%;
+    right: 23%;
+  }
+  .single-service-page-two-img {
+    display: flex;
+  }
+  .single-service-page-two-img-second {
+    margin-top: 0px !important;
+  }
+  .category-post_cat .postbox .post-content .search-post-readmore {
+    font: 600 18px/40px "Rajdhani";
+    padding: 13px 13px;
+    width: max-content;
+  }
+  .category-post_cat .postbox {
+    padding: 15px;
+  }
+  .category-post_cat #sidebar {
+    margin-bottom: 50px;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
+    position: absolute;
+    right: 7%;
+    top: -7%;
+    left: unset;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
+    position: absolute;
+    right: 0%;
+    top: -7%;
+    left: unset;
+  }
+
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+  /*---------------- Header Responsive CSS Start --------------*/
+  .elementskit-menu-container {
+    box-shadow: 0 2px 6px #ccbabaf2 !important;
+  }
+  /*---------------- Header Responsive CSS End --------------*/
+
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-main-container {
+    background-image: none !important;
+    background-color: #161616 !important;
+  }
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-information-link .hfe-nav-menu nav ul li a {
+    text-align: center;
+    display: block;
+  }
+  .wpe-car-footer-time-table .elementor-widget-container {
+    justify-content: center !important;
+  }
+  .wpe-car-footer-contact-link .ekit-wid-con .ekit-header-info, .wpe-car-footer-contact-link .ekit-wid-con .ekit-header-info a {
+    text-align: center;
+  }
+  .wpe-car-footer-box4 {
+    align-items: center !important;
+  }
+  .wpe-car-footer-box2 h4.elementor-heading-title:after {
+    left: 0;
+    top: 45px !important;
+    right: 0;
+    margin: 0 auto;
+  }
+  #wpe-car-footer-box3 h4.elementor-heading-title:after {
+    left: 0;
+    top: 45px !important;
+    right: 0;
+    margin: 0 auto;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 0px !important;
+    top: 50px !important;
+    right: 0;
+    margin: 0 auto;
+  }
+  .wpe-car-footer-newsletter input[type=email] {
+    padding: 13px !important;
+    border-radius: 10px;
+    border: unset;
+    width: 586px;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+
+  /*---------------- Slider Responsive CSS Start --------------*/
+  .wpe-car-social-icon {
+    position: absolute;
+    top: -140px;
+    left: 0%;
+  }
+  .wpe-car-social-icon-text {
+    display: none;
+  }
+  .wpe-car-social-icon-text .elementor-widget-container::before {
+    display: none;
+  }
+  .wpe-car-slider-section .wpr-slider-prev-arrow {
+    left: 4%;
+    top: 25%;
+  }
+  .wpe-car-slider-section .wpr-slider-next-arrow {
+    right: 4%;
+    top: 25%;
+  }
+  /*---------------- Slider Responsive CSS End --------------*/
+
+  /*---------------- About us Responsive CSS Start --------------*/
+
+  .wpe-car-about-us-counter-box {
+    width: 133px;
+    margin-left: 10px;
+  }
+  .wpe-car-about-us-section {
+    background-image: unset !important;
+  }
+  .wpe-car-about-us-btn .ekit-btn-wraper a {
+    display: block;
+    width: 172px;
+  }
+  .wpe-car-about-us-btn {
+    margin: 0 auto;
+  }
+  .wpe-car-why-choose-box1 figure img {
+    margin: 0 auto;
+  }
+  .wpe-car-why-choose-section {
+    background-image: unset !important;
+  }
+  .wpe-car-about-us-counter-box .elementor-counter-number-wrapper {
+    position: relative;
+    left: 8%;
+  }
+  .wpe-car-about-us-counter-box .elementor-counter-title {
+    position: relative;
+    left: 8%;
+  }
+
+  /*---------------- About us Responsive CSS End --------------*/
+
+  /*---------------- Services Responsive CSS Start --------------*/
+  .services-right-content .pro-img img {
+    margin-top: 50px;
+  }
+  .featured-services-sec .tab-content .tab-pane {
+    padding: 0px 0px 20px 0px !important;
+  }
+  .featured-services-sec .service-btn a {
+    width: max-content;
+    padding: 13px 35px 13px 15px;
+  }
+  /*---------------- Services Responsive CSS End --------------*/
+
+  /*---------------- How Work Responsive CSS Start --------------*/
+
+  .wpe-car-work-section .wpe-car-work-box1 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box2 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box3 .elementor-image-box-wrapper::after, .wpe-car-work-section .wpe-car-work-box4 .elementor-image-box-wrapper::after {
+    display: none;
+  }
+  .wpe-car-work-section .wpe-car-work-box1 p.elementor-image-box-description, .wpe-car-work-section .wpe-car-work-box2 p.elementor-image-box-description, .wpe-car-work-section .wpe-car-work-box3 p.elementor-image-box-description, .wpe-car-work-section .wpe-car-work-box4 p.elementor-image-box-description {
+    padding-right: 0px;
+  }
+  .wpe-car-work-section .wpe-car-work-box1 figure img, .wpe-car-work-section .wpe-car-work-box2 figure img, .wpe-car-work-section .wpe-car-work-box3 figure img, .wpe-car-work-section .wpe-car-work-box4 figure img {
+    margin: 0 auto;
+  }
+
+  /*---------------- How Work Responsive CSS End --------------*/
+
+  /*---------------- Pricing Plan Responsive CSS Start --------------*/
+
+  .wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
+    padding: 60px 45px 0 45px !important;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    margin: 10px;
+  }
+  #sbi_images {
+    display: inline-block;
+    padding: 0px 0px !important;
+    margin: 0 auto !important;
+  }
+  .service-cost-features {
+    -moz-column-count: 1;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 20px;
+    column-count: 1;
+    column-gap: 20px;
+  }
+  .service-cost-features .pricing_feature {
+    font: 400 14px/20px "Rubik", Sans-serif;
+  }
+  .single-service-price-box {
+    padding-bottom: 30px;
+  }
+  .single-services-row {
+    margin-right: calc(-1 * var(--bs-gutter-x));
+  }
+  .wpe-car-price-plan-right-section {
+    display: block;
+    padding-bottom: 60px;
+  }
+
+  /*---------------- Pricing Plan Responsive CSS End --------------*/
+
+  /*---------------- Gallery Responsive CSS Start --------------*/
+
+  /*---------------- Gallery Responsive CSS End --------------*/
+
+  /*----------------Home Product Section Responsive CSS Start --------------*/
+  .home-product-sec .owl-nav {
+    margin-top: 40px;
+  }
+  .home-product-sec .nav-pills .nav-link.active, .home-product-sec .nav-pills .show>.nav-link {
+    padding: 13px 20px;
+    border-radius: 8px;
+  }
+  .home-product-sec .nav-link {
+    padding: 12px;
+  }
+  /*----------------Home Product Section Responsive CSS End --------------*/
+
+  /*----------------Home Car Sale Section Responsive CSS Start --------------*/
+  .home-car-listing-sec .product-cat .nav {
+    width: unset;
+  }
+  /*----------------Home Car Sale Section Responsive CSS End --------------*/
+
+  /*---------------- Testimonial Responsive CSS Start --------------*/
+  .wpe-car-testimonial-section .ea-testimonial-text {
+    padding: 25px 25px 60px 25px;
+  }
+  /*---------------- Testimonial Responsive CSS End --------------*/
+
+  /*---------------- Team Responsive CSS Start --------------*/
+  .wpe-car-team-section .ea-tm-image {
+    display: block;
+    width: 100% !important;
+  }
+  .wpe-car-team-section .ea-tm-wrapper .ea-tm-image img {
+    display: block;
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  /*---------------- Team Responsive CSS End --------------*/
+
+  /*---------------- Blog Responsive CSS Start --------------*/
+  .wpe-car-blog-section {
+    background-image: unset !important;
+  }
+  .wpe-car-blog-section [class*=ea-arrows-align-bottom] .ea-arrows-container {
+    transform: translateY(70px);
+  }
+  /*---------------- Blog Responsive CSS End --------------*/
+  /*======== About Page Responsive CSS Start =======*/
+  .wpe-car-about-page-second-sec-right .ekit-wid-con ul  {
+    gap: 20px;
+  }
+  .wpe-car-about-page-second-sec-right .ekit-wid-con ul li {
+    margin-bottom: 20px;
+  }
+  .wpe-car-about-page-second-sec-right .ekit-wid-con .elementkit-tab-nav {
+    display: block !important;
+    margin-left: 15px !important;
+  }
+  .wpe-car-about-page-second-sec-right .ekit-wid-con .elementkit-tab-nav li {
+    margin-bottom: 30px !important;
+  }
+  /*======== About Page Responsive CSS End =======*/
+  .wpe-car-faq-page .ekit-wid-con .ekit_accordion_icon_group {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+  }
+  .ekit-wid-con .elementskit-accordion .elementskit-card-header>.elementskit-btn-link .ekit_accordion_icon_left_group,
+  .ekit-wid-con .elementskit-accordion .elementskit-card-header>.elementskit-btn-link>.icon-left{
+    padding-right: 14px !important;
+  }
+  /*======== Single Blog Page Responsive CSS Start =======*/
+  .single-post .feature-box img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .single-author-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .single-post #comments {
+    width: 100%;
+    display: block;
+    padding: 0px;
+  }
+  .single-post .comment-list {
+    width: 100%;
+  }
+  .single-post #respond {
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 20px;
+    border-radius: 10px;
+    height: max-content;
+  }
+  .content-box {
+    transform: translateY(-1%);
+  }
+  .single-page-title {
+    font: 600 25px/38px "Rajdhani", Sans-serif;
+  }
+  .meta-box-question {
+    font: 600 25px/38px "Rajdhani", Sans-serif;
+  }
+  .single-post-comment {
+    margin-top: 2em;
+    width: 100%;
+    padding: 0 !important;
+  }
+  .single-page-title {
+    margin-top: 5px;
+  }
+  span.entry-date {
+    padding: 10px 0px;
+  }
+  .single-author-image img {
+    width: 15%;
+  }
+  .single-page-metaimage {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .single-date-box {
+    margin: 15px 0px;
+  }
+  .comment-form-cookies-consent label {
+    font: 400 15px/22px "Rubik" !important;
+  }
+  .single-post-nav .nav-links {
+    display: inline-flex;
+    gap: unset;
+  }
+  .single-post .nav-previous {
+    text-align: left;
+  }
+  .single-post .nav-next {
+    text-align: right;
+  }
+  .single-post .comment-author img {
+    margin: 0 auto;
+  }
+  /*======== Single Blog Page Responsive CSS End =======*/
+
+  /*======== Single Service Page Responsive CSS Start =======*/
+  .single-services .feature-box-services img {
+    height: 225px;
+    object-fit: cover;
+  }
+  .some-facts-icon-box img {
+    display: inline;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 70px 40px 20px 40px;
+  }
+  .auto-listings-single .content {
+    padding: 0 10px;
+  }
+  .car-list-item-row div {
+    padding-left: 0px !important;
+  }
+  /*======== Single Service Page Responsive CSS End =======*/
+
+  /*======== Single Car Listing Page Responsive CSS Start =======*/
+  .car-listing-page-bottom-img img {
+    padding-top: 20px;
+  }
+  .single-auto-listing-page-price {
+    padding-top: 15px;
+  }
+  .car-list-item-row .svg-inline--fa {
+    height: 18px;
+  }
+  .car-listing-page-realted-car #related_portfolio>div {
+    padding-bottom: 20px;
+  }
+  .car-listing-page-realted-car {
+    padding: 40px 0;
+  }
+  .car-listing-page-realted-car .re_portfolio_col {
+    padding: 0px 20px;
+  }
+  span.single-auto-listing-page-title-name {
+    font: 700 30px/35px "Rajdhani";
+  }
+  .single-auto-listing-page-price {
+    font: 400 26px/30px "Rubik";
+  }
+  /*======== Single Car Listing Page Responsive CSS End =======*/
+
+  /*======== Single Product Page Responsive CSS Start =======*/
+  .related .products li a .shop-page-brand-name {
+    display: inline-flex;
+  }
+  /*======== Single Product Page Responsive CSS End =======*/
+
+  .wpe-car-about-page-mission-left-rating-section .ekit-header-info > li > a {
+    line-height: 0px !important;
+  }
+  .wpe-car-about-page-mission-right-rating-section .ekit-header-info > li > a {
+    line-height: 0px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 225px;
+    height: 85px;
+    object-fit: cover;
+  }
+  .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
+    color: #121212;
+    font: 600 16px/25px 'Rajdhani';
+  }
+  .single-auto-listing div#image-gallerys-thumbnails {
+    position: unset;
+    bottom: -118px;
+    transform: translate(0%, 60px);
+  }
+  .single-auto-listing #image-gallerys-thumbnails div img {
+    width: 60px;
+    height: 60px;
+  }
+  .single-auto-listing-page-title-box {
+    flex-wrap: wrap;
+  }
+  .category-post_cat #sidebar {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+  .wpe-car-testimonial-content .ea-arrow-prev {
+    left: 41% !important;
+    top: unset !important;
+    bottom: -12%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-next {
+    right: 41% !important;
+    top: unset !important;
+    bottom: -12%;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 57%;
+    left: 5%;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 2%;
+    width: 47%;
+    top: -15%;
+  }
+  .wpe-car-work-section .wpe-car-work-box1 .elementor-image-box-wrapper figure:before {
+    content: '01';
+    position: absolute;
+    right: 25px;
+  }
+  .wpe-car-work-section .wpe-car-work-box2 .elementor-image-box-wrapper figure:before {
+    content: '02';
+    position: absolute;
+    right: 25px;
+  }
+  .wpe-car-work-section .wpe-car-work-box3 .elementor-image-box-wrapper figure:before {
+    content: '03';
+    position: absolute;
+    right: 25px;
+  }
+  .wpe-car-work-section .wpe-car-work-box4 .elementor-image-box-wrapper figure:before {
+    content: '04';
+    position: absolute;
+    right: 25px;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 9%;
+    z-index: 2;
+    width: 32%;
+    left: 2%;
+    padding: 22px;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 2%;
+    width: 45%;
+    top: -10%;
+  }
+  .wpe-car-team-para {
+    padding-bottom: 10px;
+  }
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: 40%;
+    top: -2%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: 50%;
+    top: -2%;
+  }
+  .wpe-car-about-us-counter-box {
+    position: absolute;
+    bottom: 10%;
+  }
+  .wpe-car-about-us-emg-box {
+    height: 50%;
+    width: 40%;
+    margin: 0 auto;
+  }
+  #gallery-1 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,150px);
+    margin: 0;
+    gap: 6px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item {
+    padding-bottom: 5px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item img {
+    border-radius: 10px;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    left: 25%;
+    bottom: -25%;
+    width: 50%;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: 25%;
+    bottom: 193%;
+    width: 50%;
+  }
+  .wpe-car-about-page-history-box figure img {
+    width: -webkit-fill-available;
+  }
+  .wpe-car-about-page-second-sec-right .elementkit-tab-nav .elementkit-nav-link {
+    padding: 14px 38px 14px 32px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+  }
+  #image-gallerys .owl-stage{
+    display: flex;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
+    position: absolute;
+    right: unset;
+    top: unset;
+    left: unset;
+    bottom: -12%;
+    left: 41%;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
+    position: absolute;
+    right: 41%;
+    top: unset;
+    left: unset;
+    bottom: -12%;
+  }
+  .wpe-car-counter-row>div.e-con-inner>div {
+    flex-basis: 47%;
+  }
+  .wpe-car-counter-row>div img {
+    width: 37% !important;
+    height: 125px !important;
+  }
+
+}
+@media screen and (min-width:425px) and (max-width:575px) {
+  .wpe-car-slider-section .slick-slide .wpr-slider-img {
+    height: 400px;
+    object-fit: cover;
+    background-size: 100% 100%;
+  }
+  .wpe-car-social-icon {
+    position: absolute;
+    top: -165px;
+    left: 0%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-prev {
+    left: 37% !important;
+    top: unset !important;
+    bottom: -12%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-next {
+    right: 37% !important;
+    top: unset !important;
+    bottom: -12%;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 65%;
+    left: 6%;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 1%;
+    z-index: 2;
+    width: 37%;
+    left: 2%;
+    padding: 18px;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 2%;
+    width: 59%;
+    top: -16%;
+  }
+  .wpe-car-team-para {
+    padding-bottom: 10px;
+  }
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: 37%;
+    top: -3%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: 51%;
+    top: -3%;
+  }
+  .wpe-car-about-us-emg-box {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+  }
+  #gallery-1 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,130px);
+    margin: 0;
+    gap: 6px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item {
+    padding-bottom: 5px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item img {
+    border-radius: 10px;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: 17%;
+    bottom: 156%;
+    width: 66%;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    left: 17%;
+    bottom: -20%;
+    width: 66%;
+  }
+  .wpe-car-about-page-second-sec-right .ekit-wid-con .elementkit-tab-nav {
+    margin-left: 70px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-latest-posts.wp-block-latest-posts__list li img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+  }
+  #image-gallerys .owl-stage-outer .owl-stage {
+    /* padding-left: 0 !important;
+    padding-right: 0 !important;
+    transform: translate3d(0px, 0px, 0px) !important; */
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
+    position: absolute;
+    right: unset;
+    top: unset;
+    left: unset;
+    bottom: -12%;
+    left: 37%;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
+    position: absolute;
+    right: 37%;
+    top: unset;
+    left: unset;
+    bottom: -12%;
+  }
+
+}
+@media screen and (min-width:375px) and (max-width:424px) {
+  .wpe-car-slider-section .slick-slide .wpr-slider-img {
+    height: 400px;
+    object-fit: cover;
+    background-size: 100% 100%;
+  }
+  .wpe-car-social-icon {
+    position: absolute;
+    top: -165px;
+    left: 0%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-prev {
+    left: 36% !important;
+    top: unset !important;
+    bottom: -12%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-next {
+    right: 36% !important;
+    top: unset !important;
+    bottom: -12%;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 67%;
+    left: 7%;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 1%;
+    z-index: 2;
+    width: 37%;
+    left: 2%;
+    padding: 12px;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 2%;
+    width: 67%;
+    top: -21%;
+  }
+  .wpe-car-blog-section .ea-amox-carousel .ea-item {
+    padding: 60px 15px 15px 15px !important;
+  }
+  .wpe-car-blog-section .ea-meta  {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 160px !important;
+    height: 130px !important;
+  }
+  .wpe-car-team-para {
+    padding-bottom: 10px;
+  }
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: 36%;
+    top: -3%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: 52%;
+    top: -3%;
+  }
+  .wpe-car-about-us-counter-box {
+    position: absolute;
+    bottom: -6%;
+  }
+  .wpe-car-about-us-emg-box {
+    height: 50%;
+    width: 55%;
+    margin: 0 auto;
+  }
+  #gallery-1 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,110px);
+    margin: 0;
+    gap: 6px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item {
+    padding-bottom: 5px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item img {
+    border-radius: 10px;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: 0%;
+    bottom: 144%;
+    width: 75%;
+    text-align: center;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    left: 0%;
+    bottom: -18%;
+    width: 75%;
+    text-align: center;
+  }
+  .wpe-car-about-page-second-sec-right .ekit-wid-con .elementkit-tab-nav {
+    margin-left: 40px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__input {
+    padding: 5px 7px;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__button {
+    padding: 5px 19px;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
+    position: absolute;
+    right: unset;
+    top: unset;
+    left: unset;
+    bottom: -11%;
+    left: 34%;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
+    position: absolute;
+    right: 34%;
+    top: unset;
+    left: unset;
+    bottom: -11%;
+  }
+
+}
+@media screen and (min-width:320px) and (max-width:374px) {
+  .wpe-car-slider-section .slick-slide .wpr-slider-img {
+    height: 400px;
+    object-fit: cover;
+    background-size: 100% 100%;
+  }
+  .wpe-car-social-icon {
+    position: absolute;
+    top: -165px;
+    left: 0%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-prev {
+    left: 34% !important;
+    top: unset !important;
+    bottom: -10%;
+  }
+  .wpe-car-testimonial-content .ea-arrow-next {
+    right: 34% !important;
+    top: unset !important;
+    bottom: -10%;
+  }
+  .wpe-car-testimonial-section .ea-testimonial-text {
+    padding: 25px 25px 60px 25px;
+  }
+  .wpe-car-testimonial-content .elementor-star-rating {
+    position: absolute;
+    top: 72%;
+    left: 8%;
+  }
+  .wpe-car-blog-section .ea-meta  {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .wpe-car-blog-section .ea-amox-carousel .ea-item {
+    padding: 60px 15px 15px 15px !important;
+  }
+  .wpe-car-footer-time-table tr td:nth-child(2) {
+    padding-left: 23px !important;
+  }
+  .wpe-car-why-choose-left-icon-box {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    width: 37%;
+    left: 2%;
+    padding: 7px;
+  }
+  .wpe-car-about-us-rating-box {
+    position: absolute;
+    left: 2%;
+    width: 70%;
+    top: -26%;
+  }
+  .wpe-car-about-us-rating-box .ekit-header-info > li > a {
+    line-height: 17px !important;
+  }
+  .wpe-car-about-page-vision-right-rating-section {
+    position: absolute;
+    left: 0%;
+    bottom: 130%;
+    width: 90%;
+  }
+  .wpe-car-about-page-mission-left-rating-section {
+    position: absolute;
+    left: 0%;
+    bottom: -13%;
+    width: 90%;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 130px !important;
+    height: 130px !important;
+  }
+  .wpe-car-team-para {
+    padding-bottom: 10px;
+  }
+  .wpe-car-team-section .swiper-button-prev {
+    position: absolute;
+    left: 36%;
+    top: -3%;
+  }
+  .wpe-car-team-section .swiper-button-next {
+    position: absolute;
+    left: 52%;
+    top: -3%;
+  }
+  .plan-main-box .pricing_plan_feature_list {
+    padding: 60px 30px 20px 30px;
+  }
+  .container .pricing-plan-section {
+    background-color: #F3F3F3;
+    padding: 70px 0;
+    box-shadow: -268px 0px #F3F3F3, 268px 0 #F3F3F3 !important;
+  }
+  .single-services-row {
+    margin-right: calc(-1 * var(--bs-gutter-x));
+  }
+  .wpe-car-about-us-counter-box {
+    position: absolute;
+    bottom: -16%;
+  }
+  .wpe-car-about-us-emg-box {
+    height: 50%;
+    width: 66%;
+    margin: 0 auto;
+  }
+  #gallery-1 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,100px);
+    margin: 0;
+    gap: 6px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item {
+    padding-bottom: 5px;
+  }
+  .wpe-car-gallery-section #gallery-1 .gallery-item img {
+    border-radius: 10px;
+  }
+  .wpe-car-ourblog-page .ea-meta {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .wpe-car-ourblog-page .ea-amox-grid .ea-item {
+    padding: 60px 10px 15px 10px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .ea-meta {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .wpe-car-blog-leftsidebar-page .ea-amox-grid .ea-item {
+    padding: 60px 10px 15px 10px !important;
+  }
+  .wpe-car-blog-leftsidebar-page .wp-block-search__button {
+    margin-top: 15px;
+  }
+  #image-gallerys .owl-stage-outer .owl-stage {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .owl-item .active {
+    width: 100px !important;
+  }
+  .car-listing-page-realted-car {
+    box-shadow: -270px 0px #F3F3F3, 260px 0px #F3F3F3;
+  }
+  .car-list-item-row div {
+    gap: 5px;
+    margin-left: 0px !important;
+  }
+  .car-list-item-row h6 {
+    font: 600 16px/16px "Rajdhani", Sans-serif;
+  }
+  .car-list-item-row p {
+    font: 400 15px/16px "Rubik", Sans-serif;
+  }
+  .wpe-car-brand-row1>div.e-con-inner>div, .wpe-car-brand-row2>div.e-con-inner>div {
+    flex-basis: 46% !important;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
+    position: absolute;
+    right: unset;
+    top: unset;
+    left: unset;
+    bottom: -9%;
+    left: 33%;
+  }
+  .wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
+    position: absolute;
+    right: 33%;
+    top: unset;
+    left: unset;
+    bottom: -9%;
+  }
+
+}
+
+@media screen and (min-width:1023px) and (max-width:1024px) {
+  .wpe-car-blog-section .ea-author a {
+    width: 13px !important;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .home-car-listing-sec .product-cat .nav {
+    /* width: max-content; */
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+  #sbi_images {
+    display: inline-flex;
+  }
+  #sbi_images .sbi_photo_wrap a {
+    width: 82px !important;
+    height: 100px !important;
+    object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .wpe-car-brand-row1>div.e-con-inner>div {
+    flex-basis: 47%;
+    padding-bottom: 20px;
+  }
+  .wpe-car-brand-row2>div.e-con-inner>div {
+    flex-basis: 47%;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================== Car Repair Code End =======================*/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1365px) {
+  html {
+    overflow-x: hidden;
+  }
+  .single-post-comment {
+    width: 100%;
+  }
+  .content-box {
+    transform: translateY(-3%);
+  }
+  .single-page-title {
+    font: 600 28px/40px "Rajdhani", Sans-serif;
+    color: #121212;
+    padding: 0px !important;
+    margin-top: 0px;
+  }
+  .single-author-image a {
+    font: 600 18px/30px "Rajdhani", Sans-serif;
+  }
+  span.entry-date, span.entry-comments {
+    font: normal 18px/30px "Rajdhani", Sans-serif;
+  }
+  .single-page-metabox {
+    align-items: center;
+    padding: 20px 0px !important;
+  }
+  .single-page-metaimage img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .woocommerce-shop a.button {
+    margin: 0 10px;
+    position: relative;
+    text-align: center;
+    left: 0px;
+    width: -webkit-fill-available;
+  }
+  .shop-page .yith-wcwl-wishlistexistsbrowse {
+    margin: 0 10px;
+  }
+  .woocommerce-shop a.added_to_cart {
+    margin-left: unset !important;
+    padding: 10px 17px !important;
+    width: -webkit-fill-available;
+    text-align: center;
+    margin: 0 10px !important;
+  }
+  .shop-page .yith-wcwl-add-button a span {
+    margin: 0 10px;
+  }
+  .woocommerce-shop .yith-wcwl-add-to-wishlist.exists .yith-wcwl-wishlistaddedbrowse {
+    text-align: center;
+    margin: 0 10px;
+  }
+
+}
+@media screen and (min-width:992px) and (max-width:1023px) {
+  html {
+    overflow-x: hidden;
+  }
+  .dropbtn {
+    padding: 4px !important;
+  }
+  .single-post-comment {
+    width: 100%;
+  }
+  .content-box {
+    transform: translateY(-3%);
+  }
+  .single-page-title {
+    font: 600 28px/40px "Rajdhani", Sans-serif;
+    color: #121212;
+    padding: 0px !important;
+    margin-top: 0px;
+  }
+  .single-author-image a {
+    font: 600 18px/30px "Rajdhani", Sans-serif;
+  }
+  span.entry-date, span.entry-comments {
+    font: normal 18px/30px "Rajdhani", Sans-serif;
+  }
+  .single-page-metabox {
+    align-items: center;
+    padding: 20px 0px !important;
+  }
+  .single-page-metaimage img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .woocommerce-shop a.button {
+    margin: 0 10px;
+    position: relative;
+    text-align: center;
+    left: 0px;
+    width: -webkit-fill-available;
+  }
+  .shop-page .yith-wcwl-wishlistexistsbrowse {
+    margin: 0 10px;
+  }
+  .woocommerce-shop a.added_to_cart {
+    margin-left: unset !important;
+    padding: 10px 17px !important;
+    width: -webkit-fill-available;
+    text-align: center;
+    margin: 0 10px !important;
+  }
+  .shop-page .yith-wcwl-add-button a span {
+    margin: 0 10px;
+  }
+  .woocommerce-shop .yith-wcwl-add-to-wishlist.exists .yith-wcwl-wishlistaddedbrowse {
+    text-align: center;
+    margin: 0 10px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+  html {
+    overflow-x: hidden;
+  }
+
+}
+@media screen and (min-width:769px) and (max-width:991px) {
+  .woocommerce-shop .woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product {
+    width: 45.75% !important;
+  }
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  .dropbtn {
+    padding: 0px !important;
+  }
+  /*======== Slider Responsive CSS Start =======*/
+  .ekit-offcanvas-toggle-wraper {
+    width: max-content;
+  }
+  /*======== Slider Responsive CSS End =======*/
+
+  /*======== Trending Products Responsive CSS Start =======*/
+  .ht-products .ht-product-inner .ht-product-action ul {
+    height: 60px !important;
+  }
+  .ht-product-content .ht-product-content-inner .ht-product-title {
+    text-align: center;
+  }
+  .ht-product .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-price span {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ht-products .ht-product .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-ratting-wrap {
+    display: block;
+  }
+  .ht-product .ht-product-inner .ht-product-ratting  {
+    display: initial !important;
+    position: relative !important;
+    margin-left: 0px !important;
+    margin-right: 0px!important;
+  }
+  .ht-product .ht-product-inner .ht-product-user-ratting {
+    display: contents !important;
+    overflow: hidden;
+    position: absolute !important;
+    left: 0px !important;
+    top: 0;
+    z-index: 3;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  /*======== Trending Products Responsive CSS End =======*/
+
+  /*======== Single BLog Page Responsive CSS Start =======*/
+
+  /*======== Single Product Page Responsive CSS Start =======*/
+  .single-product span.woocs_price_code {
+    display: block;
+  }
+  #single-product-page div.product div.images .flex-control-thumbs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .product-buy-now-btn {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    display: block;
+  }
+  .woocommerce button.button.alt {
+    margin-left: 0px;
+  }
+  #reviews {
+    display: block;
+    flex-direction: unset;
+  }
+  #comments {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #review_form_wrapper {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .woocommerce .star-rating {
+    display: inline-flex;
+  }
+  .panel.entry-content {
+    padding: 15px !important;
+  }
+  .variations .woo-variation-items-wrapper ul {
+    justify-content: center;
+  }
+  body .qib-button.qib-button-wrapper {
+    float: inherit !important;
+    justify-content: center;
+  }
+  #single-product-page button.single_add_to_cart_button.button.alt.wp-element-button {
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+  }
+  .related .products a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    width: fit-content !important;
+    float: left;
+    margin-left: -129px !important;
+    margin-bottom: 10px !important;
+    background: #D10022;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 0px;
+    text-transform: capitalize;
+    margin-top: 25px !important;
+  }
+  .related .products .product_type_variable {
+    float: left;
+    margin-left: -129px !important;
+    margin-bottom: 10px !important;
+    background: #D10022;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 0px;
+    text-transform: capitalize;
+    font-size: 0;
+    width: 128px;
+    margin-top: 20px !important;
+  }
+  .single-product .yith-wcwl-add-to-wishlist {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    line-height: 52px;
+  }
+  /*======== Single Product Page Responsive CSS End =======*/
+
+  /*======== Shop Page Responsive CSS Start =======*/
+  .woocommerce-shop .accordion-body {
+    padding: 0px 10px;
+    text-align: start;
+  }
+  #sidebar ul.shop-page-produts-category li label span:nth-child(3) {
+    right: 30px;
+  }
+  .shop-page .container {
+    padding-left: 10px !important;
+    padding-right: 10px!important;
+  }
+  /*======== Shop Page Responsive CSS End =======*/
+
+  .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
+    padding: 13px 24px 13px 8px !important;
+  }
+}
+@media screen and (min-width:320px) and (max-width:374px) {
+
+  .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
+    padding: 13px 24px 13px 4px !important;
+  }
+}
+@media screen and (max-width:576px){
+  body{
+    /* text-align: center; */
+  }
+  .post-contents{
+    display: unset;
+  }
+  .title-box h1{
+    font-size: 22px;
+  }
+  #blog-with-sidebar .post-contents .post-text-content > div {
+    flex: 0 0 100%;
+  }
+  .efarm-feature-box-sec{
+    position: static;
+  }
+  h4.ht-product-title,#efarm-blog-sec h3.ea-title,#efarm-blog-sec .ea-text-wrap {
+    text-align: left;
+  }
+  #popular-brand-product .content-box{
+    text-align: left;
+  }
+  .wishlist_shop_table .wishlist-items-wrapper tr {
+    width: 100%;
+  }
+  form.cart{
+    row-gap: 7px;
+    display: grid;
+  }
+  .woocommerce-product-gallery {
+    display: block;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs li{
+    width: 45%;
+  }
+  #single-product-page div.product div.images .flex-control-thumbs li{
+    margin: 15px 6px;
+  }
+  #single-product-page .variations tr:nth-child(1),#single-product-page .variations tr:nth-child(2){
+    position: static;
+    display: block;
+  }
+  #single-product-page div.product form.cart table td{
+    padding-left: 0;
+  }
+  #single-product-page ul.variable-items-wrapper.color-variable-items-wrapper.wvs-style-squared {
+    background: unset !important;
+  }
+  #single-product-page .variations tr:nth-child(1) .variable-items-wrapper .variable-item:not(.radio-variable-item) {
+    filter: unset;
+    height: var(--wvs-single-product-item-height,30px);
+    width: var(--wvs-single-product-item-width,30px);
+    display: inline-block;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item{
+    padding: 6px 0px;
+    margin-top: 20px;
+    font: 600 15px/38px Mulish;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    top: -12px;
+    font-size: 22px;
+  }
+  #single-product-page div.product form.cart .button,#single-product-page div.product form.cart div.quantity{
+    float: unset;
+    margin-bottom: 30px;
+  }
+  a.reset_variations{
+    bottom: -16px;
+  }
+  .elementor-section .elementor-container {
+    padding: 0 0px !important;
+  }
+  .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product{
+     width: 100%;
+  }
+  #product-slider-section .slider.slider-for .thumbnail-image{
+    margin-left: 20px;
+  }
+  #product-slider-section .slider.slider-for .thumbnail-image{
+    padding: 10px;
+  }
+  #product-slider-section .variations tr:nth-child(1){
+    left: 15px;
+    top: 50px;
+  }
+  #product-slider-section .variations tr:nth-child(1) .variable-items-wrapper .variable-item:not(.radio-variable-item){
+    height: 70px;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item{
+    font: 600 16px/38px Mulish;
+    padding: 0 2px;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 20px;
+    top: -20px;
+  }
+  #product-slider-section .woocommerce-variation-add-to-cart.variations_button .single_add_to_cart_button{
+    margin-left: 0;
+  }
+  .woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item){
+    margin: 2px;
+  }
+  #product-slider-section form.cart{
+    margin: 0 auto;
+    width: max-content;
+  }
+}
+
+@media screen and (max-width:767px){
+  #commentform input[type="text"], #commentform input[type="email"], #commentform textarea {
+    width: 100%;
+  }
+  .wishlist_shop_table td.product-add-to-cart a{
+    padding: 6px 10px;
+  }
+  #product-slider-section{
+    padding-top: 0;
+  }
+  .banner-slider .slider.slider-nav{
+    max-width: 100%;
+  }
+  .slider-nav .slick-slide.thumbnail-image .thumbImg{
+    top: 0;
+    max-width: unset;
+  }
+  .banner-slider .slider.slider-for{
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs li {
+    margin: 0px -1px 10px 0;
+  }
+}
+
+@media screen and (min-width:575px) and (max-width:767px){
+  .wishlist_shop_table .wishlist-items-wrapper tr {
+    width: 49%;
+  }
+  form#yith-wcwl-form{
+    width: 95%;
+  }
+  #single-product-page .variations tr:nth-child(2){
+    bottom: 63px;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item{
+    font: 600 20px/38px Mulish;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 22px;
+  }
+  button.single_add_to_cart_button.button.alt.wp-element-button {
+    padding: 22px 12px;
+  }
+
+  #product-slider-section .variations tr:nth-child(2) li.variable-item{
+    font: 600 22px/38px Mulish;
+  }
+  #product-slider-section .slider.slider-for .thumbnail-image{
+    padding: 10px 0px 4em 2em;
+  }
+  #product-slider-section .variations tr:nth-child(1){
+    left: 30px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px)  {
+  form#yith-wcwl-form{
+    width: 87%;
+  }
+  .wishlist_shop_table .wishlist-items-wrapper tr {
+    width: 32%;
+  }
+  .wishlist_shop_table td.product-add-to-cart a{
+    padding: 6px 10px;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px)  {
+  .banner-slider .slider.slider-nav{
+    max-width: 100%;
+  }
+  .slider-nav .slick-slide.thumbnail-image .thumbImg{
+    top: 0;
+    max-width: unset;
+  }
+  .banner-slider .slider.slider-for{
+    max-width: 100%;
+    margin-left: 0;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item{
+    padding: 0 6px;
+    font: 600 18px/38px Mulish;
+  }
+  #product-slider-section .woocommerce-variation-add-to-cart.variations_button .single_add_to_cart_button{
+    margin-left: -55px;
+  }
+  #product-slider-section .slider.slider-for .thumbnail-image{
+    padding: 10px 0px 4em 2em;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 23px;
+    top: -20px;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1024px)  {
+  #single-product-page .variations tr:nth-child(2) li.variable-item{
+    font: 600 20px/38px Mulish;
+    padding: 0 5px;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 30px;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item{
+    font: 600 18px/38px Mulish;
+    padding: 0 3px;
+  }
+  .banner-slider .slider.slider-for {
+    max-width: 73%;
+    margin-left: 20px;
+  }
+  .banner-slider .slider.slider-nav {
+    max-width: 20%;
+  }
+  .slider-nav .slick-slide.thumbnail-image .thumbImg{
+    width: 107px;
+  }
+  #product-slider-section .slider.slider-for .thumbnail-image{
+    padding: 10px 20px 4em 2em;
+  }
+  .slider-nav .slick-slide.thumbnail-image .thumbImg{
+    margin: 17px 5px;
+    top: -21px;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 25px;
+    top: -26px;
+  }
+  .shop-off-details {
+    margin-left: 8px !important;
+  }
+  .shop-off {
+    margin-left: 2px !important;
+  }
+  .related .products li a img {
+    height: 190px !important;
+  }
+  .related .products li a .shop-page-rating {
+    position: absolute;
+    right: 4%;
+    top: 58%;
+  }
+  .elementskit-menu-container {
+    box-shadow: 0 2px 6px #ccbabaf2 !important;
+  }
+  /*---------------- Footer Responsive CSS Start --------------*/
+  .wpe-car-footer-main-container {
+    background-image: none !important;
+    background-color: #161616;
+  }
+  .wpe-car-footer-newsletter input[type=email] {
+    width: 100% !important;
+  }
+  .wpe-car-footer-box4 h4.elementor-heading-title:after {
+    left: 0px !important;
+  }
+  /*---------------- Footer Responsive CSS End --------------*/
+  .single-product-buy-now-btn a {
+    float: right;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+
+  .elementor-column.wpe-sneaker-footer-app-store {
+    width: 100% !important;
+    padding-bottom: 10px;
+  }
+  .elementor-column.wpe-sneaker-footer-google-play {
+    width: 100% !important;
+  }
+  .wpe-sneaker-app-images .elementor-container.elementor-column-gap-default {
+    display: block;
+  }
+  form#yith-wcwl-form{
+    width: 82%;
+  }
+  .wishlist_shop_table td.product-add-to-cart a{
+    padding: 6px 10px;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item{
+    font: 600 16px/30px;
+    padding: 0 5px;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 30px;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item{
+    font: 600 16x/30px;
+    padding: 0 5px;
+  }
+  #single-product-page .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 18px;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item{
+    font: 600 18px/38px Rajdhani;
+    padding: 0 3px;
+  }
+  .banner-slider .slider.slider-for {
+    max-width: 73%;
+    margin-left: 20px;
+  }
+  .banner-slider .slider.slider-nav {
+    max-width: 20%;
+  }
+  #product-slider-section .slider.slider-for .thumbnail-image{
+    padding: 10px 20px 4em 2em;
+  }
+  .slider-nav .slick-slide.thumbnail-image .thumbImg{
+    margin: 14px auto;
+    top: -21px;
+    width: 115px;
+    padding: 13px 6px;
+  }
+  #product-slider-section .variations tr:nth-child(2) li.variable-item.button-variable-item.selected{
+    font-size: 25px;
+    top: -26px;
+  }
+}
+
+@media screen and (min-width:1440px) and (max-width:1650px){
+  form#yith-wcwl-form{
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1651px) and (max-width: 1920px){
+  .slider-nav .slick-slide.thumbnail-image .thumbImg{
+    padding: 13px 8px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .content-container {
+    max-width: calc(100% - 2%);
+  }
+  .post-contents{
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px){
+  .elemento-farm-head-phone-box p.elementor-icon-box-description{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1600px){
+  textarea{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  ul.sub-menu li a {
+    background: unset !important;
+  }
+}
