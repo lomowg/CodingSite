@@ -170,3 +170,8 @@ form.submitting .wpcf7-spinner {
 .wpcf7-reflection > output[hidden] {
 	display: none;
 }
+
+.elementor-star-rating i {
+    color: rgba(0, 0, 0, 0);
+    margin-right: 5px;
+}
