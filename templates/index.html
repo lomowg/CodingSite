@@ -25,21 +25,16 @@
   <link rel='stylesheet' id='ekit-widget-styles-css' href="{{ url_for('static', filename='styles/ekit-widget-styles-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='wpr-addons-css-css' href="{{ url_for('static', filename='styles/wpr-addons-css-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Rajdhani%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.5' type='text/css' media='all' />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <script type="text/javascript" data-cfasync="false" src="{{ url_for('static', filename='jquery-core.js') }}" id="jquery-core-js"></script>
   <!-- Прокрутка картинок в начале -->
 
-
-
   <script type="text/javascript" src="{{ url_for('static', filename='bootstrap-js.js') }}" id="bootstrap-js-js"></script>
   <!-- Our Featured Services -->
 
-
-
   <script type="text/javascript" src="{{ url_for('static', filename='wp-customscripts.js') }}" id="wp-customscripts-js"></script>
   <!-- Меню следует за прокруткой -->
-
 
 </head>
 
@@ -58,29 +53,29 @@
                   <div id="ekit-megamenu-menu-left" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                     <ul id="menu-menu-left" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
                       <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-28 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Home</a></li>
-<!--                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Services<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
-<!--                        <ul class="elementskit-dropdown elementskit-submenu-panel">-->
-<!--                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Diagnostic</a>-->
-<!--                            <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Engine-Repair</a>-->
-<!--                              <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Oil-Filter</a>-->
-<!--                                <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Tires</a>-->
+                      <!--                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Services<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
+                      <!--                        <ul class="elementskit-dropdown elementskit-submenu-panel">-->
+                      <!--                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Diagnostic</a>-->
+                      <!--                            <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Engine-Repair</a>-->
+                      <!--                              <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Oil-Filter</a>-->
+                      <!--                                <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Tires</a>-->
 
-<!--                                  <li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1142 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Transmition</a>-->
-<!--                                    <li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1143 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Batteries</a></ul>-->
-<!--                        </li>-->
-<!--                        <li id="menu-item-30" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
-<!--                          <ul class="elementskit-dropdown elementskit-submenu-panel">-->
-<!--                            <li id="menu-item-31" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-31 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="car-listing dropdown-item">Car Listing</a>-->
-<!--                              <li id="menu-item-32" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-32 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="about-us dropdown-item">About Us</a>-->
-<!--                                <li id="menu-item-33" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-33 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="faq dropdown-item">FAQ</a>-->
-<!--                                  <li id="menu-item-34" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-34 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="404 dropdown-item">404</a></ul>-->
-<!--                          </li>-->
-<!--                          <li id="menu-item-35" class="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Blog<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
-<!--                            <ul class="elementskit-dropdown elementskit-submenu-panel">-->
-<!--                              <li id="menu-item-36" class="blog-with-no-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-36 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-no-sidebar dropdown-item">Blog With No Sidebar</a>-->
-<!--                                <li id="menu-item-37" class="blog-with-left-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-left-sidebar dropdown-item">Blog With Left Sidebar</a>-->
-<!--                                  <li id="menu-item-38" class="blog-with-right-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-38 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-right-sidebar dropdown-item">Blog With Right Sidebar</a></ul>-->
-<!--                            </li>-->
+                      <!--                                  <li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1142 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Transmition</a>-->
+                      <!--                                    <li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1143 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Batteries</a></ul>-->
+                      <!--                        </li>-->
+                      <!--                        <li id="menu-item-30" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
+                      <!--                          <ul class="elementskit-dropdown elementskit-submenu-panel">-->
+                      <!--                            <li id="menu-item-31" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-31 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="car-listing dropdown-item">Car Listing</a>-->
+                      <!--                              <li id="menu-item-32" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-32 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="about-us dropdown-item">About Us</a>-->
+                      <!--                                <li id="menu-item-33" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-33 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="faq dropdown-item">FAQ</a>-->
+                      <!--                                  <li id="menu-item-34" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-34 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="404 dropdown-item">404</a></ul>-->
+                      <!--                          </li>-->
+                      <!--                          <li id="menu-item-35" class="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Blog<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
+                      <!--                            <ul class="elementskit-dropdown elementskit-submenu-panel">-->
+                      <!--                              <li id="menu-item-36" class="blog-with-no-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-36 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-no-sidebar dropdown-item">Blog With No Sidebar</a>-->
+                      <!--                                <li id="menu-item-37" class="blog-with-left-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-left-sidebar dropdown-item">Blog With Left Sidebar</a>-->
+                      <!--                                  <li id="menu-item-38" class="blog-with-right-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-38 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-right-sidebar dropdown-item">Blog With Right Sidebar</a></ul>-->
+                      <!--                            </li>-->
                     </ul>
                   </div>
                   <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
@@ -103,21 +98,21 @@
                   <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
                     <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
                   </button>
-<!--                  <div id="ekit-megamenu-menu-right" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">-->
-<!--                    <ul id="menu-menu-right" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">-->
-<!--                      <li id="menu-item-39" class="shop menu-item menu-item-type-custom menu-item-object-custom menu-item-39 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Shop</a></li>-->
-<!--                      <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Contact Us</a></li>-->
-<!--                      <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Buy Now</a></li>-->
-<!--                    </ul>-->
-<!--                    <div class="elementskit-nav-identity-panel">-->
-<!--                      <div class="elementskit-site-title">-->
-<!--                        <a class="elementskit-nav-logo" href="{{ url_for('index') }}" target="_self" rel="">-->
-<!--                          <img src="" title="" alt="" />-->
-<!--                        </a>-->
-<!--                      </div>-->
-<!--                      <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>-->
-<!--                    </div>-->
-<!--                  </div>-->
+                  <!--                  <div id="ekit-megamenu-menu-right" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">-->
+                  <!--                    <ul id="menu-menu-right" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">-->
+                  <!--                      <li id="menu-item-39" class="shop menu-item menu-item-type-custom menu-item-object-custom menu-item-39 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Shop</a></li>-->
+                  <!--                      <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Contact Us</a></li>-->
+                  <!--                      <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Buy Now</a></li>-->
+                  <!--                    </ul>-->
+                  <!--                    <div class="elementskit-nav-identity-panel">-->
+                  <!--                      <div class="elementskit-site-title">-->
+                  <!--                        <a class="elementskit-nav-logo" href="{{ url_for('index') }}" target="_self" rel="">-->
+                  <!--                          <img src="" title="" alt="" />-->
+                  <!--                        </a>-->
+                  <!--                      </div>-->
+                  <!--                      <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>-->
+                  <!--                    </div>-->
+                  <!--                  </div>-->
                   <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
                 </div>
               </div>
@@ -232,6 +227,7 @@
         </div>
       </div>
     </div>
+
     <div class="elementor-element elementor-element-27a4fb63 wpe-car-services-section e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="27a4fb63" data-element_type="container" id="wpe-car-featured-services" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div class="e-con-inner">
         <div class="elementor-element elementor-element-4cb78881 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4cb78881" data-element_type="container">
@@ -702,8 +698,7 @@
           <div class="e-con-inner">
             <div class="elementor-element elementor-element-15117601 wpe-car-discount-section-car elementor-widget elementor-widget-image" data-id="15117601" data-element_type="widget" data-widget_type="image.default">
               <div class="elementor-widget-container">
-                <img loading="lazy" decoding="async" width="541" height="423" src="{{ url_for('static', filename='images/services-single-right-img.png') }}" class="attachment-full size-full wp-image-1049" alt="" srcset="{{ url_for('static', filename='images/discount-right-img.png') }} 541w, {{ url_for('static', filename='images/discount-right-img-300x235.png') }} 300w"
- sizes="(max-width: 541px) 100vw, 541px" /> </div>
+                <img loading="lazy" decoding="async" width="541" height="423" src="{{ url_for('static', filename='images/services-single-right-img.png') }}" class="attachment-full size-full wp-image-1049" alt="" srcset="{{ url_for('static', filename='images/discount-right-img.png') }} 541w, {{ url_for('static', filename='images/discount-right-img-300x235.png') }} 300w" sizes="(max-width: 541px) 100vw, 541px" /> </div>
             </div>
           </div>
         </div>
@@ -1241,21 +1236,21 @@
                     <div class="elementor-element elementor-element-191db4d3 wpe-car-footer-newsletter elementor-widget elementor-widget-shortcode" data-id="191db4d3" data-element_type="widget" data-widget_type="shortcode.default">
                       <div class="elementor-widget-container">
                         <div class="elementor-shortcode">
-                          <div class="wpcf7 no-js" id="wpcf7-f134-o1" lang="" dir="ltr">
+                          <div class="wpcf7 js" id="wpcf7-f134-o1" lang="" dir="ltr">
                             <div class="screen-reader-response">
                               <p role="status" aria-live="polite" aria-atomic="true"></p>
                               <ul></ul>
                             </div>
                             <form action="/auto-car-repair/#wpcf7-f134-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                               <div style="display: none;">
-                                <input type="hidden" name="_wpcf7" value="134" />
-                                <input type="hidden" name="_wpcf7_version" value="5.9.5" />
-                                <input type="hidden" name="_wpcf7_locale" value="" />
-                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f134-o1" />
-                                <input type="hidden" name="_wpcf7_container_post" value="0" />
-                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                                <input type="hidden" name="_wpcf7" value="134">
+                                <input type="hidden" name="_wpcf7_version" value="5.9.5">
+                                <input type="hidden" name="_wpcf7_locale" value="">
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f134-o1">
+                                <input type="hidden" name="_wpcf7_container_post" value="0">
+                                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
                               </div>
-                              <p><span class="wpcf7-form-control-wrap" data-name="Enter"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Mail Here" value="" type="email" name="Enter" /></span><span class="subscribe-btn"><button type="submit" class="newsltr-btn btn primary wpcf7-submit"><i class="fa-2x fa-brands fa-telegram"></i></button></span>
+                              <p><span class="wpcf7-form-control-wrap" data-name="Enter"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Mail Here" value="" type="email" name="Enter"></span><span class="subscribe-btn"><button type="submit" class="newsltr-btn btn primary wpcf7-submit"><svg class="svg-inline--fa fa-telegram fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"></path></svg><!-- <i class="fa-2x fa-brands fa-telegram"></i> Font Awesome fontawesome.com --></button></span>
                               </p>
                               <div class="wpcf7-response-output" aria-hidden="true"></div>
                             </form>
@@ -1372,9 +1367,6 @@
         </div>
       </div>
     </div>
-
-
-
 
     <script type="text/javascript" src="{{ url_for('static', filename='jquery-numerator.js') }}" id="jquery-numerator-js"></script>
     <!-- Цифры статистики -->
@@ -1514,7 +1506,7 @@
       };
       /* ]]> */
     </script>
-	<script type="text/javascript" src="{{ url_for('static', filename='elementor-frontend.js') }}" id="elementor-frontend-js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='elementor-frontend.js') }}" id="elementor-frontend-js"></script>
     <!-- Отзывы, прокрутка картинок -->
 
     <script type="text/javascript" data-cfasync="false" src="{{ url_for('static', filename='wpr-addons-js.js') }}" id="wpr-addons-js-js"></script>
