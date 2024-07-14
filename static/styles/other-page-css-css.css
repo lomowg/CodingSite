@@ -14,7 +14,7 @@
 }
 .wpe-car-about-breadcrumb .fbc-page .fbc-wrap .fbc-items li.active span {
   color: #000000;
-  font: 700 18px/18px 'Rajdhani';
+  font: 700 18px/18px 'Rubik';
 }
 .wpe-car-about-breadcrumb .fbc-page .fbc-wrap .fbc-items li a {
   color: #000000;
@@ -65,7 +65,7 @@ p.tab-p {
     justify-content: space-between;
     align-items: center;
     color: #000;
-    font: 600 19px/19px 'Rajdhani';
+    font: 600 19px/19px 'Rubik';
   }
   .progress {
     width: 100%;
@@ -304,11 +304,11 @@ p.tab-p {
 /*======= 404 Page CSS Start =======*/
 
 .title-404 {
-  font: 800 40px/40px 'Rajdhani';
+  font: 800 40px/40px 'Rubik';
   color: #D10022;
 }
 .text-404 {
-  font: 600 40px/40px 'Rajdhani';
+  font: 600 40px/40px 'Rubik';
   color: #000000;
 }
 .wpe-car-404-btn .ekit-btn-wraper a {
@@ -343,7 +343,7 @@ p.tab-p {
   display: grid;
   gap: 8px;
   color: #000000;
-  font: 600 20px/26px 'Rajdhani';
+  font: 600 20px/26px 'Rubik';
 }
 .wpe-car-contact-page-right-section input[type="text"], .wpe-car-contact-page-right-section textarea, .wpe-car-contact-page-right-section input[type="email"] {
   width: 100%;
@@ -352,7 +352,7 @@ p.tab-p {
   border: 1px solid #1212124D;
 }
 .wpe-car-contact-page-right-section .wpcf7-submit {
-  font: 600 20px/26px 'Rajdhani';
+  font: 600 20px/26px 'Rubik';
   color: #fff !important;
   background-color: #000000 !important;
   border-radius: 8px !important;
@@ -369,12 +369,12 @@ p.tab-p {
   margin: 0px;
   padding: 10px 12px;
   border: 1px solid #D10022;
-  font: 500 18px/18px 'Rajdhani';
+  font: 500 18px/18px 'Rubik';
   border-radius: 5px;
 }
 .wpe-car-contact-page-right-section .wpcf7-not-valid-tip {
   color: #D10022;
-  font: 500 18px/18px 'Rajdhani';
+  font: 500 18px/18px 'Rubik';
   display: block;
   margin-top: 6px;
 }
@@ -610,12 +610,12 @@ p.tab-p {
 }
 .wpe-car-blog-leftsidebar-page .wp-block-heading {
   color: #000000;
-  font: 700 25px/25px 'rajdhani';
+  font: 700 25px/25px 'Rubik';
   padding: 15px 0;
 }
 .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
   color: #121212;
-  font: 600 18px/30px 'Rajdhani';
+  font: 600 18px/30px 'Rubik';
 }
 .wpe-car-blog-leftsidebar-page-left-section .widget_search {
   border: 1px solid #000;
@@ -654,10 +654,10 @@ p.tab-p {
 /*======= Single Blog Page CSS Start =======*/
 
 .single-post .comment-reply-title {
-  font: normal normal bold 31px/26px Rajdhani;
+  font: normal normal bold 31px/26px Rubik;
 }
 .single-page-title{
-  font: 700 30px/50px "Rajdhani", Sans-serif;
+  font: 700 30px/50px "Rubik", Sans-serif;
   color: #242424;
   padding: 0px !important;
   margin-top: 25px;
@@ -711,7 +711,7 @@ p.tab-p {
   word-spacing: 1px;
 }
 .meta-box-question {
-  font: 700 30px/50px "Rajdhani", Sans-serif;
+  font: 700 30px/50px "Rubik", Sans-serif;
   color: #242424;
   padding: 10px 0px!important;
 }
@@ -727,7 +727,7 @@ span.entry-date, span.entry-comments{
   padding: 20px 0px !important;
 }
 .single-author-image a{
-  font: 600 24px/30px "Rajdhani", Sans-serif;
+  font: 600 24px/30px "Rubik", Sans-serif;
 }
 .single-post-nav {
   padding: 0px !important;
@@ -763,7 +763,7 @@ span.entry-date, span.entry-comments{
   color: #242424;
 }
 .form-submit input[type=submit] {
-  font-family: "Rajdhani" ,Sans-serif;
+  font-family: "Rubik" ,Sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #fff !important;
@@ -931,7 +931,7 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   padding: 10px 18px !important;
   color: #fff;
   border-radius: 0px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   text-transform: capitalize;
   display: inline-block !important;
   position: absolute;
@@ -943,7 +943,7 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   display: inline-block;
   background-color: #D10022;
   color: #fff;
-  font: 600 16px/20px "Rajdhani";
+  font: 600 16px/20px "Rubik";
   padding: 10px 24px;
   text-transform: capitalize;
   margin: 0px 20px;
@@ -955,7 +955,7 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   -webkit-line-clamp: 1!important;
   padding: 0px 0px !important;
   margin-bottom: 10px !important;
-  font: 600 16px/25px ""Rajdhani", Sans-serif", Sans-serif !important;
+  font: 600 16px/25px ""Rubik", Sans-serif", Sans-serif !important;
   color: #121212;
   padding-left: 10px !important;
 }
@@ -963,7 +963,7 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   color: fff;
   background-color: #D10022;
   padding: 10px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   display: block;
   margin: 0px 18px !important;
   margin-top: 15px !important;
@@ -972,7 +972,7 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   color: fff;
   background-color: #D10022;
   padding: 10px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   display: block;
   text-align: center;
   margin: 0 18px !important;
@@ -1024,12 +1024,12 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
 }
 .woocommerce-wishlist ins {
   text-decoration: none;
-  font: 600 18px/20px 'Rajdhani';
+  font: 600 18px/20px 'Rubik';
   color: #D10022;
 }
 .woocommerce-wishlist del {
   text-decoration: none;
-  font: 600 15px/20px 'Rajdhani';
+  font: 600 15px/20px 'Rubik';
   color: #121212;
   opacity: 0.6;
   align-items: baseline;
@@ -1040,7 +1040,7 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   top: 13px;
 }
 .wishlist_shop_table td.product-name a {
-  font: 600 20px/20px "Rajdhani";
+  font: 600 20px/20px "Rubik";
   color: #121212;
   overflow: hidden;
   display: -webkit-box;
@@ -1062,10 +1062,10 @@ a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_ca
   bottom: 10px;
 }
 td.product-price {
-  font: normal 22px/37px "Rajdhani", Sans-serif;
+  font: normal 22px/37px "Rubik", Sans-serif;
 }
 .wishlist_shop_table td.product-add-to-cart a {
-  font: 600 16px/25px "Rajdhani", Sans-serif;
+  font: 600 16px/25px "Rubik", Sans-serif;
   background: #D10022;
   border-radius: 8px;
   padding: 6px 18px;
@@ -1142,7 +1142,7 @@ a.wishsuite-addtocart.button {
   display: inline-block;
   border-radius: 8px;
   color: #fff;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
 }
 .wishsuite-product-price span.woocs_price_code {
   display: inline-flex;
@@ -1155,7 +1155,7 @@ a.wishsuite-addtocart.button {
 }
 .wishsuite-product-price .woocs_price_code ins {
   text-decoration: none;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   color: #D10022;
 }
 /*======== Wishlist Page CSS End =========*/
@@ -1195,12 +1195,12 @@ a.wishsuite-addtocart.button {
 }
 .content-woolentorquickview ins {
   text-decoration: none;
-  font: 600 18px/27px "Rajdhani", Sans-serif;
+  font: 600 18px/27px "Rubik", Sans-serif;
   color: #D10022;
 }
 .content-woolentorquickview del {
   text-decoration: none;
-  font: 600 15px/28px "Rajdhani", Sans-serif;
+  font: 600 15px/28px "Rubik", Sans-serif;
   color: #D10022;
 }
 .content-woolentorquickview .yith-wcwl-add-button svg {
@@ -1219,7 +1219,7 @@ a.wishsuite-addtocart.button {
   background-color: #D10022;
   color: #fff;
   line-height: 1;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   top: 3px;
     opacity: 1;
   margin-left: 10px;
@@ -1241,7 +1241,7 @@ a.wishsuite-addtocart.button {
   position: relative;
   text-transform: capitalize;
   padding: 10px 20px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   top: 3px ;
 }
 #htwlquick-viewmodal .htcloseqv {
@@ -1292,17 +1292,17 @@ span.sli.sli-close {
   margin-left: 0px;
 }
 .single-post-content p {
-  font: normal 16px/25px "Rajdhani", Sans-serif;
+  font: normal 16px/25px "Rubik", Sans-serif;
   color: #242424;
   word-spacing: 1px;
 }
 .meta-box-question {
-  font: 600 30px/40px "Rajdhani", Sans-serif;
+  font: 600 30px/40px "Rubik", Sans-serif;
   color: #242424;
   padding: 10px 0px!important;
 }
 .single-page-title{
-  font: 600 32px/50px "Rajdhani", Sans-serif;
+  font: 600 32px/50px "Rubik", Sans-serif;
   color: #242424;
   padding: 0px !important;
   margin-top: 30px;
@@ -1311,7 +1311,7 @@ span.sli.sli-close {
   padding: 0px !important;
 }
 span.entry-date, span.entry-comments{
-  font: normal 20px "Rajdhani", Sans-serif;
+  font: normal 20px "Rubik", Sans-serif;
   color: #BFBFBF;
 }
 .single-page-metabox {
@@ -1319,7 +1319,7 @@ span.entry-date, span.entry-comments{
   padding: 20px 0px !important;
 }
 .single-author-image a{
-  font: 600 24px/30px "Rajdhani", Sans-serif;
+  font: 600 24px/30px "Rubik", Sans-serif;
 }
 .single-post-nav {
   padding: 0px !important;
@@ -1338,7 +1338,7 @@ span.entry-date, span.entry-comments{
   padding: 10px 0px;
 }
 .single-post-social-box .cat-item a {
-  font: 500 14px/18px "Rajdhani";
+  font: 500 14px/18px "Rubik";
   color: #fff;
 }
 .single-post-comment {
@@ -1352,7 +1352,7 @@ span.entry-date, span.entry-comments{
   padding: 8px 10px;
 }
 .form-submit input[type=submit] {
-  font-family: Rajdhani,Sans-serif;
+  font-family: Rubik,Sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #fff !important;
@@ -1379,7 +1379,7 @@ p.form-submit {
   width: 40px;
   position: relative;
   margin: 0 2px;
-  cursor: po"Rajdhani", Sans-serif;
+  cursor: po"Rubik", Sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1420,7 +1420,7 @@ input[type="checkbox"]:checked + label:before {
 .hover-fx {
   font-size: 16px;
   display: inline-block;
-  cursor: po"Rajdhani", Sans-serif;
+  cursor: po"Rubik", Sans-serif;
   margin: 5px;
   width: 35px;
   height: 35px;
@@ -1433,7 +1433,7 @@ input[type="checkbox"]:checked + label:before {
   transition: 300ms;
 }
 .hover-fx:after {
-  font-family:"Rajdhani", Sans-serif-events;
+  font-family:"Rubik", Sans-serif-events;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1518,7 +1518,7 @@ span.feedback {
 }
 .yith-wcwl-add-to-wishlist.exists .yith-wcwl-wishlistaddedbrowse a{
   color: #fff !important;
-  font: normal normal 600 16px/20px "Rajdhani", Sans-serif;
+  font: normal normal 600 16px/20px "Rubik", Sans-serif;
 }
 .woocommerce-shop #yith-quick-view-content .product .type-product{
   display: flex !important;
@@ -1572,7 +1572,7 @@ span.feedback {
 
 .woocommerce-currency-switcher-form a.dd-selected {
   text-decoration: none !important;
-  font-family: 'Rajdhani'!important;
+  font-family: 'Rubik'!important;
   font-size: 16px;
   font-weight: 600;
 }
@@ -1588,12 +1588,12 @@ span.mb-siwc-tag {
   background: rgb(251 212 212 / 31%);
 }
 .siwc-popup-inner h1 {
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
   color: #000000;
 }
 .popup div.mb-siwc-popup-inner h2 {
   color: #D10022;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 div.mb-siwc-popup div.mb-siwc-popup-inner a {
   font-size: 16px;
@@ -1614,12 +1614,12 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   color:#fff;
 }
 .wpelemento-zymerce-header-top-bar .gt_selector {
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
   font-weight: 600;
 }
 .woocommerce-currency-switcher-form a.dd-selected {
   text-decoration: none !important;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 .wpelemento-zymerce-contact-us-section .wpcf7 form .wpcf7-response-output {
   color: #121212;
@@ -1646,11 +1646,11 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 .shop-page a.button.wp-element-button.product_type_variable.add_to_cart_button {
   font-size: 0px;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 .shop-page a.button.wp-element-button.product_type_variable.add_to_cart_button {
   padding: 10px 21px 4px 20px;
@@ -1680,7 +1680,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   padding: 10px 18px !important;
   color: #fff;
   border-radius: 0px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   text-transform: capitalize;
   margin: 6px 18px !important;
   display: inline-block !important;
@@ -1743,7 +1743,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   background: #D10022 !important;
   padding: 12px 22px 13px 18px !important;
   margin: 0px 18px 0px 18px !important;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
 }
 .tax-product_cat .product_type_variable.add_to_cart_button {
  border-radius: 0px;
@@ -1751,7 +1751,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   background: #D10022;
   padding: 11px 22px 5px 18px !important;
   margin: 0px 20px 0px 20px !important;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
 }
 .tax-product_cat a.button.wp-element-button {
   background: #D10022;
@@ -1798,7 +1798,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 #commentform label {
   display: block;
-  font: normal normal 600 20px/26px Rajdhani;
+  font: normal normal 600 20px/26px Rubik;
 }
 .comment-form-cookies-consent label {
   font: 400 15px/16px "Rubik" !important;
@@ -1924,9 +1924,8 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   /* max-width: 100%; */
 }
 .home-services-name {
-  font: 600 24px/40px "Rajdhani", Sans-serif;
+  font: 600 24px/40px "Open Sans", Sans-serif;
   color: #000000;
-  text-transform: capitalize;
 }
 .services-icon-box {
   display: flex;
@@ -2015,8 +2014,8 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .featured-services-sec .top-nav .nav-link {
   color: #FFF;
-  font: 600 19px/19px "Rajdhani", Sans-serif;
-  padding: 8px 18px 8px 9px;
+  font: 600 19px/19px "Open Sans", Sans-serif;
+  padding: 8px 10px 8px 10px;
   border-radius: 10px
 }
 .featured-services-sec .services-text p {
@@ -2098,10 +2097,10 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   margin-bottom: 15px;
 }
 .service-cost-title h3 {
-  font: 700 20px/30px "Rajdhani", Sans-serif;
+  font: 700 20px/30px "Rubik", Sans-serif;
 }
 .service-cost-price h5 {
-  font: 700 18px/30px "Rajdhani", Sans-serif;
+  font: 700 18px/30px "Rubik", Sans-serif;
   color: #D10022;
 }
 
@@ -2165,11 +2164,11 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .home-product-sec .product-top-nav .nav-link {
   color: #000000;
-  font: 600 19px/19px "Rajdhani", Sans-serif;
+  font: 600 19px/19px "Rubik", Sans-serif;
   cursor: pointer;
 }
 .home-product-sec .product-title a {
-  font: 600 20px/20px "Rajdhani", Sans-serif;
+  font: 600 20px/20px "Rubik", Sans-serif;
   color: #000000;
 }
 .home-product-sec .cart-btn {
@@ -2182,7 +2181,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .home-product-sec .cart-btn a {
   color: #FFFFFF;
-  font: 600 18px/18px "Rajdhani", Sans-serif;
+  font: 600 18px/18px "Rubik", Sans-serif;
 }
 .home-product-sec .product-rating {
   font: 500 16px/16px "Rubik", Sans-serif;
@@ -2207,15 +2206,15 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   gap: 10px;
 }
 .home-product-sec .product-off {
-  font: 600 18px/18px  "Rajdhani", Sans-serif;
+  font: 600 18px/18px  "Rubik", Sans-serif;
 }
 .home-product-sec .product-price-rate ins {
-  font: 600 18px/18px  "Rajdhani", Sans-serif;
+  font: 600 18px/18px  "Rubik", Sans-serif;
   color: #000000;
   text-decoration: none;
 }
 .home-product-sec .product-price-rate del {
-  font: 500 18px/18px  "Rajdhani", Sans-serif;
+  font: 500 18px/18px  "Rubik", Sans-serif;
   color: #828282;
 }
 .home-product-sec .product-content .product-rating svg path {
@@ -2287,7 +2286,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .home-car-listing-sec ul li .nav-link {
   cursor: pointer;
-  font: 600 19px/19px "Rajdhani", Sans-serif;
+  font: 600 19px/19px "Rubik", Sans-serif;
   color: #000 !important;
   background-color: unset !important;
   padding: 15px 25px;
@@ -2308,7 +2307,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   border-radius: 0px;
 }
 .car-listing-main .our-product-box .list-title h3 a {
-  font: 800 20px/20px "Rajdhani", Sans-serif;
+  font: 800 20px/20px "Rubik", Sans-serif;
   color: #000000;
 }
 .car-listing-main .our-product-box .listing-price .price-amount {
@@ -2405,13 +2404,13 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .shop-page .yith-wcwl-wishlistexistsbrowse a{
   color: #fff !important;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
 }
 .shop-page .yith-wcwl-add-button a span {
   color: fff;
   background-color: #D10022;
   padding: 10px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   display: block;
   margin: 0 24px;
   display: none;
@@ -2449,7 +2448,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   color: #FFF;
   border-radius: 8px;
   font-size: 16px;
-  font: 700 18px/20px "Rajdhani" , Sans-serif;
+  font: 700 18px/20px "Rubik" , Sans-serif;
 }
 .woocommerce-shop a.added_to_cart:hover {
   background-color: #D10022;
@@ -2465,7 +2464,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   -webkit-line-clamp: 1!important;
   padding: 0px 0px !important;
   margin-bottom: 10px !important;
-  font: 600 16px/25px ""Rajdhani", Sans-serif", Sans-serif !important;
+  font: 600 16px/25px ""Rubik", Sans-serif", Sans-serif !important;
   color: #121212;
 }
 .shop-page .yith-wcwl-add-button path {
@@ -2488,7 +2487,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   background: #000000;
   color: #fff;
   border-radius: 8px;
-  font: 700 18px/20px "Rajdhani" , Sans-serif;
+  font: 700 18px/20px "Rubik" , Sans-serif;
   text-transform: capitalize;
   padding: 12px 48px 12px 15px;
 }
@@ -2638,7 +2637,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   display: none !important;
 }
 .woocommerce-shop .shop-off-details {
-  font: 700 17px/18px "Rajdhani" , Sans-serif;
+  font: 700 17px/18px "Rubik" , Sans-serif;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -2721,7 +2720,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .woocommerce-shop ul li a .woocommerce-loop-product__title {
   order: 2;
-  font: 700 20px/20px "Rajdhani", Sans-serif !important;
+  font: 700 20px/20px "Rubik", Sans-serif !important;
   margin-top: 8px !important;
 }
 .woocommerce-shop ul li a .shop-page-brand-name {
@@ -2736,7 +2735,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current {
   background: unset;
   color: #FFF;
-  font: 500 20px/20px "Rajdhani", Sans-serif;
+  font: 500 20px/20px "Rubik", Sans-serif;
   padding: 10px 15px;
   background-color: #D10022;
   border-radius: 5px;
@@ -2749,7 +2748,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   justify-content: center;
 }
 .woocommerce nav.woocommerce-pagination ul li a{
-  font: bold 20px/20px "Rajdhani", Sans-serif;
+  font: bold 20px/20px "Rubik", Sans-serif;
   color: #C8C2C2;
   padding: 10px 14px;
   border: 1px solid #C8C2C2;
@@ -2801,7 +2800,7 @@ a.prev.page-numbers,a.next.page-numbers {
   color: #FFF;
 }
 #sidebar h2.accordion-header button,#sidebar .accordion-button:not(.collapsed) {
-  font: 700 24px/30px "Rajdhani", Sans-serif;
+  font: 700 24px/30px "Rubik", Sans-serif;
   color: #000000;
   background: unset;
   box-shadow: unset;
@@ -2815,7 +2814,7 @@ a.prev.page-numbers,a.next.page-numbers {
   border: 1px solid #AFAFAF;
   background: #fff;
   padding: 10px 10px;
-  font: 500 16px/16px "Rajdhani", Sans-serif;
+  font: 500 16px/16px "Rubik", Sans-serif;
 }
 .woocommerce-shop .shop-page-produts-category li label span {
   color: #121212;
@@ -2843,18 +2842,18 @@ a.prev.page-numbers,a.next.page-numbers {
 }
 .shop-page a.button.wp-element-button.product_type_variable.add_to_cart_button {
   font-size: 0px;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 .shop-page .product_type_variable.add_to_cart_button {
   font-size: 0px !important;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 .shop-page .product_type_variable.add_to_cart_button::before {
   content: 'View More' !important;
   font-weight: 600 !important;
   font-size: 16px !important;
   line-height: 20px !important;
-  font-family: 'Rajdhani' !important;
+  font-family: 'Rubik' !important;
 }
 .shop-popular-product {
   border: 1px solid #F3F3F3;
@@ -2884,7 +2883,7 @@ a.prev.page-numbers,a.next.page-numbers {
   -webkit-line-clamp: 1!important;
   padding: 0px 0px !important;
   margin-bottom: 10px !important;
-  font: 600 18px/26px "Rajdhani", Sans-serif !important;
+  font: 600 18px/26px "Rubik", Sans-serif !important;
   color: #121212;
   margin-left: -32px !important;
   height: 22px;
@@ -2918,7 +2917,7 @@ a.prev.page-numbers,a.next.page-numbers {
   border: 0px solid #FFFFFF;
 }
 .shop-popular-product-title {
-  font: 700 24px/24px "Rajdhani", Sans-serif;
+  font: 700 24px/24px "Rubik", Sans-serif;
   margin-top: 25px;
   padding-left: 10px;
 }
@@ -2997,13 +2996,13 @@ fieldset {
   color: #FFCC00;
 }
 .woocommerce span#reply-title {
-  font: bold 22px/32px "Rajdhani", Sans-serif;
+  font: bold 22px/32px "Rubik", Sans-serif;
   color: #000000;
   padding-bottom: 25px;
   display: block;
 }
 h2.woocommerce-Reviews-title {
-  font: 800 22px/30px "Rajdhani",  Sans-serif;
+  font: 800 22px/30px "Rubik",  Sans-serif;
   color: #000000;
   padding-bottom: 10px;
 }
@@ -3034,11 +3033,11 @@ h2.woocommerce-Reviews-title {
   box-shadow: unset;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
   color: #121212;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
   color: #121212;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a:hover {
@@ -3094,7 +3093,7 @@ span.brand-name {
   display: block;
 }
 h1.product_title.entry-title {
-  font: bold 34px/44px "Rajdhani", Sans-serif;
+  font: bold 34px/44px "Rubik", Sans-serif;
 }
 a.woocommerce-review-link {
   font: 400 18px/24px "Rubik", Sans-serif;
@@ -3185,7 +3184,7 @@ form#commentform {
   color: #000000;
 }
 .single-product h6.add-cart-quantity {
-  font: 700 16px/21px "Rajdhani", Sans-serif;
+  font: 700 16px/21px "Rubik", Sans-serif;
 }
 .single-product .woocommerce-tabs .desc-head {
   display: none;
@@ -3194,7 +3193,7 @@ form#commentform {
   margin-top: 10px;
 }
 .single-product h4.single-product-h4 {
-  font: 600 24px/30px Rajdhani;
+  font: 600 24px/30px Rubik;
 }
 #yith-quick-view-content  .woocommerce-product-gallery__image a img {
   width: 50%;
@@ -3232,7 +3231,7 @@ form#commentform {
 }
 .single-product .woocommerce button.button .alt{
   border-radius: 0px;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   text-transform: capitalize;
   border-radius: 0px;
 }
@@ -3241,7 +3240,7 @@ form#commentform {
   color: #FFFFFF;
 }
 .single-product a.product-buy-now {
-  font: 600 18px/42px "Rajdhani", Sans-serif;
+  font: 600 18px/42px "Rubik", Sans-serif;
   letter-spacing: 0px;
   color: #fff;
   background: #D10022;
@@ -3266,19 +3265,19 @@ form#commentform {
   border-radius: 8px;
   padding: 10px 26px;
   color: #FFFFFF;
-  font: 600 16px/20px "Rajdhani", Sans-serif;
+  font: 600 16px/20px "Rubik", Sans-serif;
   margin: 17px 0px 0px 0px;
 }
 #single-product-page div.product div.summary,#single-product-page div.product div.summary{
   width: 37%;
 }
 #single-product-page div.product p.price del {
-  font: 400 21px/38px "Rajdhani", Sans-serif;
+  font: 400 21px/38px "Rubik", Sans-serif;
   opacity: 0.8;
   color: #000000;
 }
 #single-product-page div.product p.price ins{
-  font: 600 24px/38px "Rajdhani", Sans-serif;
+  font: 600 24px/38px "Rubik", Sans-serif;
 }
 #single-product-page button.single_add_to_cart_button.button.alt.wp-element-button {
   opacity: 1;
@@ -3287,7 +3286,7 @@ form#commentform {
 }
 #single-product-page div.product p.price, .woocommerce div.product span.price{
   color: #000000;
-  font: 600 28px/38px "Rajdhani", Sans-serif;
+  font: 600 28px/38px "Rubik", Sans-serif;
   flex-direction: row-reverse;
   display: inline-flex;
   gap: 15px;
@@ -3357,7 +3356,7 @@ a.btn.button.show-title-form {
   font-size: 26px;
   text-transform: capitalize;
   color: #D10022;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
   width: 50px;
   line-height: 55px;
   height: 50px;
@@ -3384,7 +3383,7 @@ a.woocommerce-product-gallery__trigger {
   padding: 10px;
   text-transform: capitalize;
   color: #fff;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
   font-weight: 600;
   display: inline-block;
 }
@@ -3431,7 +3430,7 @@ a.woocommerce-product-gallery__trigger {
 .single-product .summary button.single_add_to_cart_button.button.alt {
   width: max-content;
   background: #000000;
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
   letter-spacing: 0px;
   color: #FFFFFF;
   border-radius: 8px;
@@ -3456,7 +3455,7 @@ a.woocommerce-product-gallery__trigger {
 .single-product-buy-now-btn a {
   width: max-content;
   background: #000000;
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
   letter-spacing: 0px;
   color: #FFFFFF;
   border-radius: 8px;
@@ -3546,7 +3545,7 @@ a.woocommerce-product-gallery__trigger {
   bottom: 0px;
 }
 .related .related-heading {
-  font: 600 32px/45px "Rajdhani", Sans-serif;
+  font: 600 32px/45px "Rubik", Sans-serif;
   color: #121212;
   text-transform: capitalize;
   border-bottom: 1px solid #D5D5D5;
@@ -3620,7 +3619,7 @@ section.related.products li.product img{
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Rajdhani';
+  font-family: 'Rubik';
 }
 .related .products li.product .button:hover {
   background-color: #000;
@@ -3632,7 +3631,7 @@ section.related.products li.product img{
   float: left;
   text-transform: capitalize;
   border-radius: 8px;
-  font: 600 18px/26px "Rajdhani", 'Sans Sarif';
+  font: 600 18px/26px "Rubik", 'Sans Sarif';
   margin-top: 8px;
 }
 .related .products .yith-wcwl-wishlistexistsbrowse{
@@ -3682,10 +3681,10 @@ section.related.products li.product img{
 }
 .related .products li a .woocommerce-loop-product__title {
   order: 2;
-  font: 600 20px/20px "Rajdhani", Sans-serif !important;
+  font: 600 20px/20px "Rubik", Sans-serif !important;
 }
 .related .products li a .shop-page-price-main {
-  font: 600 17px/18px "Rajdhani" , Sans-serif;
+  font: 600 17px/18px "Rubik" , Sans-serif;
   color: #000000;
   margin-top: 8px;
   order: 3;
@@ -3744,7 +3743,7 @@ section.related.products li.product img{
   padding: 60px 0;
 }
 .woocommerce-cart .wc-block-cart-items__header-image {
-  font: 600 22px/22px "Rajdhani", Sans-serif !important;
+  font: 600 22px/22px "Rubik", Sans-serif !important;
   color: #000000;
 }
 .woocommerce-cart .wc-block-components-product-name {
@@ -3756,23 +3755,23 @@ section.related.products li.product img{
   border-radius: 8px;
   border: unset;
   color: #FFF;
-  font: 600 20px/20px "Rajdhani", Sans-serif;
+  font: 600 20px/20px "Rubik", Sans-serif;
 }
 .woocommerce-cart .wc-block-cart-items__header-total span {
-  font: 600 16px/16px "Rajdhani", Sans-serif;
+  font: 600 16px/16px "Rubik", Sans-serif;
 }
 .woocommerce-cart .wc-block-components-product-price__value {
-  font: 600 16px/16px "Rajdhani", Sans-serif !important;
+  font: 600 16px/16px "Rubik", Sans-serif !important;
 }
 .woocommerce-cart .wc-block-components-button {
   background-color: #D10022;
   border-radius: 8px;
   border: unset;
   color: #FFF;
-  font: 600 18px/18px "Rajdhani", Sans-serif;
+  font: 600 18px/18px "Rubik", Sans-serif;
 }
 .woocommerce-cart .wc-block-cart__totals-title {
-  font: 600 16px/16px "Rajdhani", Sans-serif !important;
+  font: 600 16px/16px "Rubik", Sans-serif !important;
 }
 
 
@@ -3802,17 +3801,17 @@ section.related.products li.product img{
   color: #fff !important;
 }
 h2#empty-cart-heading {
-  font: 600 30px/38px "Rajdhani", Sans-serif;
+  font: 600 30px/38px "Rubik", Sans-serif;
   color: #000000;
   padding: 10px 0;
 }
 #empty-cart-page p {
-  font: normal 18px/26px "Rajdhani", Sans-serif;
+  font: normal 18px/26px "Rubik", Sans-serif;
   color: #000000;
   padding: 10px 0;
 }
 #empty-cart-page a {
-  font: 600 16px/18px "Rajdhani", Sans-serif;
+  font: 600 16px/18px "Rubik", Sans-serif;
   letter-spacing: 0px;
   color: #FFFFFF;
   background: #D10022;
@@ -3843,7 +3842,7 @@ h2#empty-cart-heading {
   padding: 40px 0;
 }
 .woocommerce-checkout .wc-block-components-checkout-step__title {
-  font: 600 22px/22px "Rajdhani", Sans-serif !important;
+  font: 600 22px/22px "Rubik", Sans-serif !important;
   color: #000000;
 }
 .woocommerce-checkout .wc-block-components-checkout-step__description {
@@ -3859,14 +3858,14 @@ h2#empty-cart-heading {
   border-radius: 8px;
   border: unset;
   color: #FFF;
-  font: 600 20px/20px "Rajdhani", Sans-serif;
+  font: 600 20px/20px "Rubik", Sans-serif;
 }
 .woocommerce-checkout .wc-block-checkout__actions_row a {
   background-color: #D10022;
   border-radius: 8px;
   border: unset;
   color: #FFF;
-  font: 600 20px/20px "Rajdhani", Sans-serif;
+  font: 600 20px/20px "Rubik", Sans-serif;
   width: max-content;
   padding: 17px 30px;
 }
@@ -3874,7 +3873,7 @@ h2#empty-cart-heading {
   display: none;
 }
 .woocommerce-checkout .wc-block-components-order-summary__button-text {
-  font: 600 22px/22px "Rajdhani", Sans-serif !important;
+  font: 600 22px/22px "Rubik", Sans-serif !important;
   color: #000000;
 }
 .woocommerce-checkout .wc-block-components-product-name {
@@ -3886,7 +3885,7 @@ h2#empty-cart-heading {
   border-radius: 8px;
   border: unset;
   color: #FFF;
-  font: 600 18px/18px "Rajdhani", Sans-serif;
+  font: 600 18px/18px "Rubik", Sans-serif;
 }
 .woocommerce-checkout  .woocommerce table.shop_table td {
   color: #000;
@@ -3906,7 +3905,7 @@ h2#empty-cart-heading {
 /*======== Car Repair Wishlist Page CSS Start =========*/
 
 .woocommerce-wishlist .wishlist-title h2 {
-  font: 600 22px/22px "Rajdhani", Sans-serif;
+  font: 600 22px/22px "Rubik", Sans-serif;
   color: #000000;
 }
 .woocommerce-wishlist .wishlist-items-wrapper .product-add-to-cart a {
@@ -3914,7 +3913,7 @@ h2#empty-cart-heading {
   border-radius: 8px !important;
   border: unset;
   color: #FFF;
-  font: 600 20px/20px "Rajdhani", Sans-serif;
+  font: 600 20px/20px "Rubik", Sans-serif;
   padding: 14px 30px;
   display: block !important;
 }
@@ -3939,7 +3938,7 @@ h2#empty-cart-heading {
   height: 70px !important;
 }
 .services-single-post-title h2 {
-  font: 600 30px/38px "Rajdhani", Sans-serif;
+  font: 600 30px/38px "Rubik", Sans-serif;
 }
 .services-single-page-first-para p, .services-single-page-second-para p {
   color: #2C2C2C;
@@ -3947,11 +3946,11 @@ h2#empty-cart-heading {
 }
 .some-fact-title {
   color: #000000;
-  font: 600 24px/30px "Rajdhani", Sans-serif;
+  font: 600 24px/30px "Rubik", Sans-serif;
 }
 .some-fact-icon-title {
   color: #000000;
-  font: 600 18px/34px "Rajdhani", Sans-serif;
+  font: 600 18px/34px "Rubik", Sans-serif;
 }
 .some-facts-icon-box .icon-para {
   color: #2C2C2C;
@@ -3969,7 +3968,7 @@ h2#empty-cart-heading {
 }
 .pricing-plan-bottom-title {
   color: #000000;
-  font: 600 30px/40px "Rajdhani", Sans-serif;
+  font: 600 30px/40px "Rubik", Sans-serif;
 }
 .pricing-plan-bottom-para {
   color: #000000;
@@ -3995,7 +3994,7 @@ h2#empty-cart-heading {
   text-align: center;
   background-color: #D10022;
   border-radius: 20px 20px 0px 0px;
-  font: 600 30px/40px "Rajdhani", Sans-serif;
+  font: 600 30px/40px "Rubik", Sans-serif;
   color: #FFF;
 }
 .plan-main-box .custom-product-price {
@@ -4026,7 +4025,7 @@ h2#empty-cart-heading {
   right: 0;
 }
 .plan-main-box .woocommerce-Price-amount bdi {
-  font: 600 20px/25px "Rajdhani", Sans-serif;
+  font: 600 20px/25px "Rubik", Sans-serif;
 }
 .plan-main-box .custom-product-price .p_class {
   font: 400 11px/20px "Rubik", Sans-serif;
@@ -4081,7 +4080,7 @@ h2#empty-cart-heading {
 /*======== Car Repair Car Listing Single Page CSS Start =========*/
 
 .car-discription-title {
-  font: 700 30px/38px "Rajdhani", Sans-serif;
+  font: 700 30px/38px "Rubik", Sans-serif;
   color: #000000;
 }
 .auto-listings-tabs {
@@ -4092,12 +4091,12 @@ h2#empty-cart-heading {
   font: 400 18px/35px "Rubik", Sans-serif;
 }
 .car-specification-title {
-  font: 600 24px/30px "Rajdhani", Sans-serif;
+  font: 600 24px/30px "Rubik", Sans-serif;
 }
 .book-your-car-btn {
   background-color: #000000;
   padding: 15px 25px;
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
   border-radius: 10px;
   border: unset;
 }
@@ -4113,14 +4112,14 @@ h2#empty-cart-heading {
 }
 .car-list-item-row h6 {
   color: #000000;
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
 }
 .car-list-item-row p {
   color: #504E4E;
   font: 400 16px/16px "Rubik", Sans-serif;
 }
 .car-features-title {
-  font: 600 24px/30px "Rajdhani", Sans-serif;
+  font: 600 24px/30px "Rubik", Sans-serif;
 }
 .car-features-lists ul li {
   color: #2C2C2C;
@@ -4134,14 +4133,14 @@ h2#empty-cart-heading {
   visibility: hidden;
 }
 .auto-listings .sidebar .price-amount {
-  font: 600 26px/30px "Rajdhani", Sans-serif;
+  font: 600 26px/30px "Rubik", Sans-serif;
   color: #000000;
 }
 .car-listing-page-right-side .listing-icon p{
   font: 400 16px/25 px "Rubik", Sans-serif;
 }
 .auto-listings-single .title {
-  font: 600 32px/35px "Rajdhani", Sans-serif;
+  font: 600 32px/35px "Rubik", Sans-serif;
 }
 button.rwmb-button {
   background: #000;
@@ -4149,10 +4148,10 @@ button.rwmb-button {
   padding: 15px 26px;
   border-radius: 8px;
   border: none;
-  font: 600 18px/20px "Rajdhani", Sans-serif;
+  font: 600 18px/20px "Rubik", Sans-serif;
 }
 .auto-listings-single .contact-form>h4 {
-  font: 500 20px/35px "Rajdhani", Sans-serif;
+  font: 500 20px/35px "Rubik", Sans-serif;
   color: #000000;
 }
 .car-listing-form {
@@ -4188,7 +4187,7 @@ button.rwmb-button {
   margin-bottom: -25px;
 }
 .car-listing-page-realted-car h2 {
-  font: 600 36px/45px "Rajdhani", Sans-serif;
+  font: 600 36px/45px "Rubik", Sans-serif;
   border-bottom: 1px solid #AFAFAF;
   padding-bottom: 45px;
 }
@@ -4197,7 +4196,7 @@ button.rwmb-button {
 }
 .releted-portfolio-title a {
   color: #000000;
-  font: 600 20px/20px "Rajdhani", Sans-serif;
+  font: 600 20px/20px "Rubik", Sans-serif;
 }
 .car-listing-brand-name {
   color: #000000;
@@ -4328,7 +4327,7 @@ div#image-gallerys-thumbnails {
   color: #000000;
 }
 span.single-auto-listing-page-title-name {
-  font: 700 35px/35px "Rajdhani";
+  font: 700 35px/35px "Rubik";
   color: #000000;
 }
 .single-auto-listing-page-price {
@@ -4394,20 +4393,20 @@ span.single-auto-listing-page-title-name {
 }
 .category-post_cat .wp-block-latest-posts__list li a {
   color: #000 !important;
-  font: 600 16px/18px "Rajdhani";
+  font: 600 16px/18px "Rubik";
 }
 .category-post_cat .bradcrumbs a {
   color: #000 !important;
 }
 .category-post_cat .post-categories li a {
-  font: 600 20px/40px "Rajdhani";
+  font: 600 20px/40px "Rubik";
   color: #242424;
 }
 .category-post_cat .container h1 {
   padding: 30px 0;
 }
 .category-post_cat .postbox .post-content .search-post-readmore {
-  font: 600 20px/40px "Rajdhani";
+  font: 600 20px/40px "Rubik";
   color: #FFF;
   background-color: #000;
   padding: 12px 15px;
@@ -4420,7 +4419,7 @@ span.single-auto-listing-page-title-name {
   vertical-align: -5px;
 }
 .category-post_cat .postbox h4 {
-  font: 600 20px/28px "Rajdhani";
+  font: 600 20px/28px "Rubik";
   color: #000000;
   padding: 15px 0;
 }
@@ -4465,11 +4464,11 @@ span.single-auto-listing-page-title-name {
 }
 .wpe-car-appointment-page form p label {
   color: #000;
-  font: 600 20px/26px Rajdhani;
+  font: 600 20px/26px Rubik;
 }
 .wpe-car-appointment-page .app-name label {
   color: #000;
-  font: 600 20px/26px Rajdhani;
+  font: 600 20px/26px Rubik;
 }
 .app-name .wpcf7-form-control-wrap .wpcf7-not-valid{
   margin-bottom: 20px;
