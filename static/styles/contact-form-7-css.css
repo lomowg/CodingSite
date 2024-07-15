@@ -175,3 +175,17 @@ form.submitting .wpcf7-spinner {
     color: rgba(0, 0, 0, 0);
     margin-right: 5px;
 }
+
+.elementskit-menu-container {
+        display: flex;
+}
+.elementskit-navbar-nav {
+    margin-right: 20px;
+}
+.menu-right-text {
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 400 17px/17px "Rubik", Sans-serif !important;
+    color: white;
+    margin-top: 6px;
+}
