@@ -54,12 +54,15 @@
                   <div id="ekit-megamenu-menu-left" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                     <ul id="menu-menu-left" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
                       <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-28 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Главная</a></li>
-                                            <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+                                            <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
+                                            <!-- надо фиксить стрелочку <i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i> -->
+                                            </a>
+
                                               <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Кодирование функций</a>
+                                                <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Кодирование скрытых функций</a>
                                                   <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Диагностика</a>
-                                                    <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Активация карплей</a>
-                                                      <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Активация my bmw</a>
+                                                    <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Активация Apple CarPlay</a>
+                                                      <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Активация MYBMW</a>
                                               </li>
                       <!--                        <li id="menu-item-30" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
                       <!--                          <ul class="elementskit-dropdown elementskit-submenu-panel">-->
@@ -100,9 +103,9 @@
                                     <div id="ekit-megamenu-menu-right" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                                       <ul id="menu-menu-right" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
                                         <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Контакты</a></li>
-                                        <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Кодирование опций</a></li>
+                                        <!-- <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Кодирование опций</a></li> -->
                                       </ul>
-                                      <div class="menu-right-text">+7 (930) 369 16 01</div>
+                                        <div class="menu-right-text" ><b>+7 (930) 369 16 01</b></div>
                                       <div class="elementskit-nav-identity-panel">
                                         <div class="elementskit-site-title">
                                           <a class="elementskit-nav-logo" href="{{ url_for('index') }}" target="_self" rel="">
@@ -125,7 +128,7 @@
             <div class="elementor-element elementor-element-2af4f03f elementor-widget elementor-widget-image" data-id="2af4f03f" data-element_type="widget" data-widget_type="image.default">
               <div class="elementor-widget-container">
                 <a href="{{ url_for('index') }}">
-                  <img src="{{ url_for('static', filename='images/logo5.png') }}" class="attachment-full size-full wp-image-986" alt="" /> </a>
+                  <img src="{{ url_for('static', filename='images/logo4.png') }}" class="attachment-full size-full wp-image-986" alt="" /> </a>
               </div>
             </div>
           </div>
@@ -1170,7 +1173,7 @@
                     <div class="elementor-element elementor-element-ad82c98 elementor-widget elementor-widget-image" data-id="ad82c98" data-element_type="widget" data-widget_type="image.default">
                       <div class="elementor-widget-container">
                         <a href="{{ url_for('index') }}">
-                          <img width="340" height="65" src="{{ url_for('static', filename='images/logo3.png') }}" class="attachment-full size-full wp-image-1034" alt="" /> </a>
+                          <img width="340" height="65" src="{{ url_for('static', filename='images/logo4.png') }}" class="attachment-full size-full wp-image-1034" alt="" /> </a>
                       </div>
                     </div>
                     <div class="elementor-element elementor-element-168a063b elementor-widget elementor-widget-text-editor" data-id="168a063b" data-element_type="widget" data-widget_type="text-editor.default">
