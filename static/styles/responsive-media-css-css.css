@@ -177,7 +177,7 @@
   }
   .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
     color: #121212;
-    font: 600 16px/25px 'Rajdhani';
+    font: 600 16px/25px 'Open Sans';
   }
   .wpe-car-blog-leftsidebar-page .wp-block-search__input {
     padding: 5px 0px;
@@ -322,7 +322,7 @@
   }
   .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
     color: #121212;
-    font: 600 16px/25px 'Rajdhani';
+    font: 600 16px/25px 'Open Sans';
   }
   .wpe-car-blog-leftsidebar-page .wp-block-search__input {
     padding: 5px 0px;
@@ -464,7 +464,7 @@
   }
   .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
     color: #121212;
-    font: 600 16px/25px 'Rajdhani';
+    font: 600 16px/25px 'Open Sans';
   }
   .wpe-car-blog-leftsidebar-page .wp-block-search__button {
     margin-top: 15px;
@@ -721,7 +721,7 @@
   }
   .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
     color: #121212;
-    font: 600 16px/25px 'Rajdhani';
+    font: 600 16px/25px 'Open Sans';
   }
   .wpe-car-blog-leftsidebar-page .wp-block-search__button {
     margin-top: 15px;
@@ -1024,7 +1024,7 @@
     width: 80%;
   }
   .category-post_cat .postbox .post-content .search-post-readmore {
-    font: 600 18px/40px "Rajdhani";
+    font: 600 18px/40px "Open Sans";
     padding: 13px 13px;
     width: max-content;
   }
@@ -1037,7 +1037,7 @@
   }
   .category-post_cat .wp-block-latest-posts__list li a {
     color: #000 !important;
-    font: 600 16px/18px "Rajdhani";
+    font: 600 16px/18px "Open Sans";
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -1193,16 +1193,16 @@
     text-transform: capitalize;
   }
   .single-page-title {
-    font: 600 28px/40px "Rajdhani", Sans-serif;
+    font: 600 28px/40px "Open Sans", Sans-serif;
     color: #121212;
     padding: 0px !important;
     margin-top: 0px;
   }
   .single-author-image a {
-    font: 600 18px/30px "Rajdhani", Sans-serif;
+    font: 600 18px/30px "Open Sans", Sans-serif;
   }
   span.entry-date, span.entry-comments {
-    font: normal 18px/30px "Rajdhani", Sans-serif;
+    font: normal 18px/30px "Open Sans", Sans-serif;
   }
   .single-page-metabox {
     align-items: center;
@@ -1298,7 +1298,7 @@
     width: max-content;
   }
   .featured-services-sec .top-nav .nav-link {
-    font: 600 16px/19px "Rajdhani", Sans-serif;
+    font: 600 16px/19px "Open Sans", Sans-serif;
     padding: 6px 6px 6px 6px;
   }
   .featured-services-sec .nav-item button img {
@@ -1401,7 +1401,7 @@
     margin-top: 0px !important;
   }
   .category-post_cat .postbox .post-content .search-post-readmore {
-    font: 600 18px/40px "Rajdhani";
+    font: 600 18px/40px "Open Sans";
     padding: 13px 13px;
     width: max-content;
   }
@@ -1702,10 +1702,10 @@
     transform: translateY(-1%);
   }
   .single-page-title {
-    font: 600 25px/38px "Rajdhani", Sans-serif;
+    font: 600 25px/38px "Open Sans", Sans-serif;
   }
   .meta-box-question {
-    font: 600 25px/38px "Rajdhani", Sans-serif;
+    font: 600 25px/38px "Open Sans", Sans-serif;
   }
   .single-post-comment {
     margin-top: 2em;
@@ -1785,7 +1785,7 @@
     padding: 0px 20px;
   }
   span.single-auto-listing-page-title-name {
-    font: 700 30px/35px "Rajdhani";
+    font: 700 30px/35px "Open Sans";
   }
   .single-auto-listing-page-price {
     font: 400 26px/30px "Rubik";
@@ -1811,7 +1811,7 @@
   }
   .wpe-car-blog-leftsidebar-page ul.wp-block-latest-posts__list.wp-block-latest-posts li a {
     color: #121212;
-    font: 600 16px/25px 'Rajdhani';
+    font: 600 16px/25px 'Open Sans';
   }
   .single-auto-listing div#image-gallerys-thumbnails {
     position: unset;
@@ -2364,7 +2364,7 @@
     margin-left: 0px !important;
   }
   .car-list-item-row h6 {
-    font: 600 16px/16px "Rajdhani", Sans-serif;
+    font: 600 16px/16px "Open Sans", Sans-serif;
   }
   .car-list-item-row p {
     font: 400 15px/16px "Rubik", Sans-serif;
@@ -2471,16 +2471,16 @@
     transform: translateY(-3%);
   }
   .single-page-title {
-    font: 600 28px/40px "Rajdhani", Sans-serif;
+    font: 600 28px/40px "Open Sans", Sans-serif;
     color: #121212;
     padding: 0px !important;
     margin-top: 0px;
   }
   .single-author-image a {
-    font: 600 18px/30px "Rajdhani", Sans-serif;
+    font: 600 18px/30px "Open Sans", Sans-serif;
   }
   span.entry-date, span.entry-comments {
-    font: normal 18px/30px "Rajdhani", Sans-serif;
+    font: normal 18px/30px "Open Sans", Sans-serif;
   }
   .single-page-metabox {
     align-items: center;
@@ -2532,16 +2532,16 @@
     transform: translateY(-3%);
   }
   .single-page-title {
-    font: 600 28px/40px "Rajdhani", Sans-serif;
+    font: 600 28px/40px "Open Sans", Sans-serif;
     color: #121212;
     padding: 0px !important;
     margin-top: 0px;
   }
   .single-author-image a {
-    font: 600 18px/30px "Rajdhani", Sans-serif;
+    font: 600 18px/30px "Open Sans", Sans-serif;
   }
   span.entry-date, span.entry-comments {
-    font: normal 18px/30px "Rajdhani", Sans-serif;
+    font: normal 18px/30px "Open Sans", Sans-serif;
   }
   .single-page-metabox {
     align-items: center;
@@ -3047,7 +3047,7 @@
     font-size: 18px;
   }
   #product-slider-section .variations tr:nth-child(2) li.variable-item{
-    font: 600 18px/38px Rajdhani;
+    font: 600 18px/38px Open Sans;
     padding: 0 3px;
   }
   .banner-slider .slider.slider-for {
