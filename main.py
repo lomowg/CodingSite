@@ -23,5 +23,16 @@ def carplay():
 def mybmw():
     return render_template('mybmw.html')
 
+@app.route('/navi')
+def navi():
+    return render_template('navi.html')
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
+@app.route('/contacts')
+def contacts():
+    return render_template('contacts.html')
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
