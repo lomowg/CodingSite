@@ -1,0 +1,107 @@
+.elementor-603 .elementor-element.elementor-element-519dd609 {
+	--display: flex;
+	--min-height: 250px;
+	--flex-direction: column;
+	--container-widget-width: 100%;
+	--container-widget-height: initial;
+	--container-widget-flex-grow: 0;
+	--container-widget-align-self: initial;
+	--justify-content: flex-end;
+	--background-transition: 0.3s;
+	--padding-top: 0px;
+	--padding-bottom: 0px;
+	--padding-left: 0px;
+	--padding-right: 0px;
+}
+
+.elementor-603 .elementor-element.elementor-element-519dd609:not(.elementor-motion-effects-element-type-background),
+.elementor-603 .elementor-element.elementor-element-519dd609>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+	background-image: url("https://preview.wpelemento.com/auto-car-repair/wp-content/uploads/sites/11/2024/06/banner-1.png");
+	background-position: center center;
+}
+
+.elementor-603 .elementor-element.elementor-element-519dd609,
+.elementor-603 .elementor-element.elementor-element-519dd609::before {
+	--border-transition: 0.3s;
+}
+
+.elementor-603 .elementor-element.elementor-element-65837ea2 {
+	--display: flex;
+	--background-transition: 0.3s;
+	--margin-top: 0px;
+	--margin-bottom: 30px;
+	--margin-left: 0px;
+	--margin-right: 0px;
+}
+
+.elementor-603 .elementor-element.elementor-element-5a8c37a1 .hfe-page-title-wrapper {
+	text-align: center;
+}
+
+.elementor-603 .elementor-element.elementor-element-5a8c37a1 .elementor-heading-title,
+.elementor-603 .elementor-element.elementor-element-5a8c37a1 .hfe-page-title a {
+	font-family: "Rajdhani", Sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.elementor-603 .elementor-element.elementor-element-5a8c37a1 .hfe-page-title-icon i {
+	color: #FFFFFF;
+}
+
+.elementor-603 .elementor-element.elementor-element-5a8c37a1 .hfe-page-title-icon svg {
+	fill: #FFFFFF;
+}
+
+.elementor-603 .elementor-element.elementor-element-1ea11262 {
+	--display: flex;
+	--justify-content: center;
+	--align-items: center;
+	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+	--gap: 0px 0px;
+	--background-transition: 0.3s;
+	--padding-top: 0px;
+	--padding-bottom: 0px;
+	--padding-left: 0px;
+	--padding-right: 0px;
+}
+
+.fbc-page .fbc-wrap .fbc-items {
+    background-color: #edeff0;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 15px;
+}
+
+
+.fbc-page .fbc-wrap .fbc-items li {
+    font-size: 16px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+
+.fbc-page .fbc-wrap .fbc-items li a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+.fbc-page .fbc-wrap .fbc-items li .fbc-separator {
+    color: #cccccc;
+}
+
+.fbc-page .fbc-wrap .fbc-items li.active span,
+.fbc-page .fbc-wrap .fbc-items li .fbc-end-text {
+    color: #27272a;
+    font-size: 16px;
+}
+
+
+
+
