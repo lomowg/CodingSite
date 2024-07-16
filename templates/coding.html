@@ -12,9 +12,11 @@
   <link rel='stylesheet' id='elementor-post-958-css' href="{{ url_for('static', filename='styles/elementor-post-958-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-990-css' href="{{ url_for('static', filename='styles/elementor-post-990-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='contact-form-7-css' href="{{ url_for('static', filename='styles/contact-form-7-css.css') }}" type='text/css' media='all' />
+  <link rel='stylesheet' id='responsive-media-css-css' href="{{ url_for('static', filename='styles/responsive-media-css-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='bootstrap-style-css' href="{{ url_for('static', filename='styles/bootstrap-style-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='auto-car-repair-pro-basic-style-css' href="{{ url_for('static', filename='styles/auto-car-repair-pro-basic-style-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='other-page-css-css' href="{{ url_for('static', filename='styles/other-page-css-css.css') }}" type='text/css' media='all' />
+  <link rel='stylesheet' id='header-footer-css-css' href="{{ url_for('static', filename='styles/header-footer-css-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='ekit-widget-styles-css' href="{{ url_for('static', filename='styles/ekit-widget-styles-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='wpr-addons-css-css' href="{{ url_for('static', filename='styles/wpr-addons-css-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;700;900&display=swap' type='text/css' media='all' />
@@ -47,12 +49,14 @@
                   </button>
                   <div id="ekit-megamenu-menu-left" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                     <ul id="menu-menu-left" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
-                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-28 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Главная</a></li>
-                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
-                                            </a>
+                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-28 nav-item elementskit-mobile-builder-content">
+                        <a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Главная</a>
+                      </li>
+                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content current-menu-item">
+                        <a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
 
                         <ul class="elementskit-dropdown elementskit-submenu-panel">
-                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('coding') }}" class=" dropdown-item">Кодирование скрытых функций</a>
+                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('coding') }}" class=" dropdown-item active">Кодирование скрытых функций</a>
                             <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Диагностика</a>
                               <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Активация Apple CarPlay</a>
                                 <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class=" dropdown-item">Активация MYBMW</a>
