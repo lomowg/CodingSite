@@ -635,10 +635,13 @@ span.elementskit-pricing-price {
 
 /*============= Car Repair Testimonial CSS Start ============*/
 
-
+img.bord {
+    	border-style: none;
+	border-radius: 15px 15px 15px 15px;
+}
 .wpe-car-testimonial-section .ea-testimonial-text {
   background-color: #FFF;
-  padding: 40px 40px 80px 40px;
+  padding: 40px 40px 40px 40px;
   border-radius: 20px;
 }
 .wpe-car-testimonial-content .ea-arrow-next {
@@ -669,8 +672,8 @@ span.elementskit-pricing-price {
   position: relative;
 }
 .wpe-car-testimonial-content .elementor-star-rating {
-  position: absolute;
-  top: 57%;
+
+  top: 0%;
   left: 6%;
 }
 .wpe-car-testimonial-content .ea-testimonial-cite {
