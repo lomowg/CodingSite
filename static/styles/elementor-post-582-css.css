@@ -97,9 +97,20 @@
 	padding: 130px 50px 50px 50px;
 }
 
-.elementor-582 .elementor-element.elementor-element-3a1fb54 .wpr-cv-inner {
-	vertical-align: top;
+@media (min-width: 1500px) {
+    .elementor-582 .elementor-element.elementor-element-3a1fb54 .wpr-cv-inner {
+	    vertical-align: top;
+    }
 }
+
+/* Стили для мобильных устройств */
+@media (max-width: 1000px) {
+	.elementor-582 .elementor-element.elementor-element-3a1fb54 .wpr-cv-inner {
+		vertical-align: center;
+	}
+}
+
+
 
 .elementor-582 .elementor-element.elementor-element-3a1fb54 .wpr-slider-title * {
 	color: #ffffff;

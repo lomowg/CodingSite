@@ -679,7 +679,6 @@
     padding-bottom: 20px;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
     top: 62%;
     left: 9%;
   }
@@ -933,7 +932,6 @@
     -webkit-line-clamp: 1!important;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
     top: 63%;
     left: 9%;
   }
@@ -1121,7 +1119,6 @@
     display: none;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
     top: 69%;
     left: 11%;
   }
@@ -1842,7 +1839,6 @@
     bottom: -12%;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
     top: 57%;
     left: 5%;
   }
@@ -1993,7 +1989,6 @@
     bottom: -12%;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
     top: 65%;
     left: 6%;
   }
@@ -2106,7 +2101,6 @@
     bottom: -12%;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
     top: 67%;
     left: 7%;
   }
@@ -2236,7 +2230,7 @@
     padding: 25px 25px 60px 25px;
   }
   .wpe-car-testimonial-content .elementor-star-rating {
-    position: absolute;
+
     top: 72%;
     left: 8%;
   }
