@@ -471,7 +471,7 @@
 }
 
 .elementor-958 .elementor-element.elementor-element-2af4f03f img {
-	width: 50%;
+	width: 100%;
 }
 
 .elementor-958 .elementor-element.elementor-element-5a14c5fc {
@@ -949,7 +949,8 @@
 	}
 
 	.elementor-958 .elementor-element.elementor-element-58f12c4d {
-		--width: 100%;
+		--width: 80%;
+
 	}
 
 	.elementor-958 .elementor-element.elementor-element-58f12c4d.e-con {
@@ -1139,7 +1140,7 @@
 
 @media(max-width:1024px) and (min-width:768px) {
 	.elementor-958 .elementor-element.elementor-element-58f12c4d {
-		--width: 40%;
+		--width: 100%;
 	}
 
 	.elementor-958 .elementor-element.elementor-element-5a14c5fc {

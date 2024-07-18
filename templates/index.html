@@ -64,7 +64,7 @@
 
   <script type="text/javascript" src="{{ url_for('static', filename='wp-customscripts.js') }}" id="wp-customscripts-js"></script>
   <!-- Меню следует за прокруткой -->
-
+  <script type="text/javascript" src="{{ url_for('static', filename='mobile-menu.js') }}" id="ekit-widget-scripts-js"></script>
 </head>
 
 <body link="white" class="home page-template-default page page-id-582 theme-auto-car-repair-pro woocommerce-no-js ehf-template-auto-car-repair-pro ehf-stylesheet-auto-car-repair-pro elementor-default elementor-kit-5 elementor-page elementor-page-582">
@@ -155,13 +155,38 @@
         <div class="e-con-inner">
           <div class="elementor-element elementor-element-58f12c4d e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="58f12c4d" data-element_type="container">
             <div class="elementor-element elementor-element-2af4f03f elementor-widget elementor-widget-image" data-id="2af4f03f" data-element_type="widget" data-widget_type="image.default">
-              <div class="elementor-widget-container">
+
                 <a href="{{ url_for('index') }}">
-                  <img src="{{ url_for('static', filename='images/logo4.png') }}" class="attachment-full size-full wp-image-986" alt="" /> </a>
-              </div>
+                  <p  align="center"><img src="{{ url_for('static', filename='images/logo4.png') }}" class="attachment-full size-full wp-image-986" alt="" /> </p></a>
+
             </div>
           </div>
-          
+          <div class="elementor-element elementor-element-5a14c5fc e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="5a14c5fc" data-element_type="container">
+				<div class="elementor-element elementor-element-cf0eaac wpe-car-header-hamburger elementor-widget elementor-widget-ekit-nav-menu" data-id="cf0eaac" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">            <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
+                <i aria-hidden="true" class="ekit-menu-icon icon icon-menu-button-of-three-horizontal-lines"></i>            </button>
+            <div id="ekit-megamenu-primary-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover" ekit-dom-added="yes"><ul id="menu-primary-menu" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon"><li id="menu-item-15" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/" class="ekit-menu-nav-link active">Home</a></li>
+<li id="menu-item-16" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-16 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a class="ekit-menu-nav-link">Services</a></li>
+<li id="menu-item-17" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px"><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-18" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/car-listing/" class="car-listing dropdown-item">Car Listing</a>	</li><li id="menu-item-19" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-19 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/about-us/" class="about-us dropdown-item">About Us</a>	</li><li id="menu-item-20" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-20 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/faq/" class="faq dropdown-item">FAQ</a>	</li><li id="menu-item-21" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-21 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/404-2/" class="404 dropdown-item">404</a></li></ul>
+</li>
+<li id="menu-item-22" class="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px"><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Blog<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-23" class="blog-with-no-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/blog-with-no-sidebar/" class="blog-with-no-sidebar dropdown-item">Blog With No Sidebar</a>	</li><li id="menu-item-24" class="blog-with-left-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/blog-with-left-sidebar/" class="blog-with-left-sidebar dropdown-item">Blog With Left Sidebar</a>	</li><li id="menu-item-25" class="blog-with-right-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-25 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/blog-with-right-sidebar/" class="blog-with-right-sidebar dropdown-item">Blog With Right Sidebar</a></li></ul>
+</li>
+<li id="menu-item-26" class="shop menu-item menu-item-type-custom menu-item-object-custom menu-item-26 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/shop/" class="ekit-menu-nav-link">Shop</a></li>
+<li id="menu-item-27" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-27 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/contact-us/" class="ekit-menu-nav-link">Contact Us</a></li>
+</ul><div class="elementskit-nav-identity-panel">
+				<div class="elementskit-site-title">
+					<a class="elementskit-nav-logo" href="https://preview.wpelemento.com/auto-car-repair" target="_self" rel="">
+						<img src="" title="" alt="">
+					</a>
+				</div><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div></div>		</div>
+				</div>
+				</div>
         </div>
 
       </div>
