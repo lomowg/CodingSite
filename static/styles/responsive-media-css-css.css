@@ -2747,6 +2747,7 @@
   }
   #blog-with-sidebar .post-contents .post-text-content > div {
     flex: 0 0 100%;
+    text
   }
   .efarm-feature-box-sec{
     position: static;
@@ -3106,36 +3107,51 @@
   }
 }
 
+h4.padd1 {
+    font-family: Rubik, Sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-
+p.padd2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
 @media (min-width: 768px) {
+    .mbgkl {
+    display: flex;
+  align-items: center;
+  color: #FFF;
+    width: 1400px;
+    height: 265px;
+}
   .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
+
 
   .services-text {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
-  .mb3 {
-      width: 100% !important;
-      background-color: #000000;
-  }
+
   .service-image {
+
     margin-left: 75px;
     margin-top: 0;
-    width: 575px;
-    height: 575px;
-    align-self: flex-end;
+    width: 600px;
+    height: 265px;
+
   }
 
   .text-content {
+  margin-left: auto;
     max-width: 50%;
   }
 

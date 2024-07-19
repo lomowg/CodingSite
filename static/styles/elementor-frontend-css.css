@@ -428,7 +428,6 @@
 }
 
 .elementor img {
-	height: auto;
 	max-width: 100%;
 	border: none;
 	border-radius: 0;
@@ -2364,15 +2363,6 @@ body.rtl .e-con {
 	align-items: var(--align-items)
 }
 
-.e-con>.e-con-inner {
-	gap: var(--gap);
-	width: 100%;
-	max-width: var(--content-width);
-	margin: 0 auto;
-	padding-inline-start: 0;
-	padding-inline-end: 0;
-	height: 100%
-}
 
 :is(.elementor-section-wrap, [data-elementor-id])>.e-con {
 	--margin-left: auto;
