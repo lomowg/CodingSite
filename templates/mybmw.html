@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel='stylesheet' id='elementor-post-603' href="{{ url_for('static', filename='styles/elementor-post-603.css') }}" type='text/css' media='all' />
 
+
   <script type="text/javascript" data-cfasync="false" src="{{ url_for('static', filename='jquery-core.js') }}" id="jquery-core-js"></script>
   <!-- Прокрутка картинок в начале -->
 
@@ -40,10 +41,10 @@
 
   <script type="text/javascript" src="{{ url_for('static', filename='wp-customscripts.js') }}" id="wp-customscripts-js"></script>
   <!-- Меню следует за прокруткой -->
-
+  <script type="text/javascript" src="{{ url_for('static', filename='mobile-menu.js') }}" id="ekit-widget-scripts-js"></script>
 </head>
 
-<body class="home page-template-default page page-id-582 theme-auto-car-repair-pro woocommerce-no-js ehf-template-auto-car-repair-pro ehf-stylesheet-auto-car-repair-pro elementor-default elementor-kit-5 elementor-page elementor-page-582">
+<body link="white" class="home page-template-default page page-id-582 theme-auto-car-repair-pro woocommerce-no-js ehf-template-auto-car-repair-pro ehf-stylesheet-auto-car-repair-pro elementor-default elementor-kit-5 elementor-page elementor-page-582">
   <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
     <div data-elementor-type="wp-post" data-elementor-id="958" class="elementor elementor-958">
       <div class="elementor-element elementor-element-1c394835 wpe-car-header-main-container elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="1c394835" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -57,21 +58,32 @@
                   </button>
                   <div id="ekit-megamenu-menu-left" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                     <ul id="menu-menu-left" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
-                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-28 nav-item elementskit-mobile-builder-content">
-                        <a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Главная</a>
-                      </li>
-                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content current-menu-item">
-                        <a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-28 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link">Главная</a></li>
+                                            <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content current-menu-item current_page_item active" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle active">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
+                                            </a>
 
-                        <ul class="elementskit-dropdown elementskit-submenu-panel">
-                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('coding') }}" class=" dropdown-item">Кодирование скрытых функций</a>
-                            <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('diagnostic') }}" class=" dropdown-item ">Диагностика</a>
-                              <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('carplay') }}" class=" dropdown-item ">Активация Apple CarPlay</a>
-                                <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('mybmw') }}" class=" dropdown-item active">Активация MYBMW</a>
-                                  <li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('navi') }}" class=" dropdown-item">Обновление карт навигации</a>
-                                    <li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('help') }}" class=" dropdown-item">Установка ПО для работы с BMW</a>
-                        </li>
-                        </ul>
+                                              <ul class="elementskit-dropdown elementskit-submenu-panel">
+                                                <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('coding') }}" class=" dropdown-item">Кодирование скрытых функций</a>
+                                                  <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('diagnostic') }}" class=" dropdown-item">Диагностика</a>
+                                                    <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('carplay') }}" class=" dropdown-item">Активация Apple CarPlay</a>
+                                                      <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('mybmw') }}" class=" dropdown-item">Активация MYBMW</a>
+                                                        <li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('navi') }}" class=" dropdown-item">Обновление карт навигации</a>
+                                                          <li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('help') }}" class=" dropdown-item">Установка ПО для работы с BMW</a>
+                                              </li>
+                      <!--                        <li id="menu-item-30" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
+                      <!--                          <ul class="elementskit-dropdown elementskit-submenu-panel">-->
+                      <!--                            <li id="menu-item-31" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-31 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="car-listing dropdown-item">Car Listing</a>-->
+                      <!--                              <li id="menu-item-32" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-32 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="about-us dropdown-item">About Us</a>-->
+                      <!--                                <li id="menu-item-33" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-33 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="faq dropdown-item">FAQ</a>-->
+                      <!--                                  <li id="menu-item-34" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-34 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="404 dropdown-item">404</a></ul>-->
+                      <!--                          </li>-->
+                      <!--                          <li id="menu-item-35" class="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Blog<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
+                      <!--                            <ul class="elementskit-dropdown elementskit-submenu-panel">-->
+                      <!--                              <li id="menu-item-36" class="blog-with-no-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-36 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-no-sidebar dropdown-item">Blog With No Sidebar</a>-->
+                      <!--                                <li id="menu-item-37" class="blog-with-left-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-left-sidebar dropdown-item">Blog With Left Sidebar</a>-->
+                      <!--                                  <li id="menu-item-38" class="blog-with-right-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-38 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-right-sidebar dropdown-item">Blog With Right Sidebar</a></ul>-->
+                      <!--                            </li>-->
+                    </ul>
                     </ul>
                   </div>
                   <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
@@ -83,7 +95,9 @@
             <div class="elementor-element elementor-element-5c6437ba elementor-widget elementor-widget-image" data-id="5c6437ba" data-element_type="widget" data-widget_type="image.default">
               <div class="elementor-widget-container">
                 <a href="{{ url_for('index') }}">
-                  <img width="2500" src="{{ url_for('static', filename='images/logo4.svg') }}"  alt="" /> </a>
+
+                  <img  src="{{ url_for('static', filename='images/logo4.svg') }}"  alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -94,21 +108,21 @@
                   <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
                     <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
                   </button>
-                  <div id="ekit-megamenu-menu-right" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
-                    <ul id="menu-menu-right" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
-                      <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">Контакты</a></li>
-                      <!-- <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Кодирование опций</a></li> -->
-                    </ul>
-                    <div class="menu-right-text" ><a class="text" href="tel:+79303691601"><b>+7 (930) 369 16 01</b></a></div>
-                    <div class="elementskit-nav-identity-panel">
-                      <div class="elementskit-site-title">
-                        <a class="elementskit-nav-logo" href="{{ url_for('index') }}" target="_self" rel="">
-                          <img src="" title="" alt="" />
-                        </a>
-                      </div>
-                      <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
-                    </div>
-                  </div>
+                                    <div id="ekit-megamenu-menu-right" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
+                                      <ul id="menu-menu-right" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
+                                        <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">Контакты</a></li>
+                                        <!-- <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Кодирование опций</a></li> -->
+                                      </ul>
+                                        <div class="menu-right-text" ><a class="text" href="tel:+79303691601"><b>+7 (930) 369 16 01</b></a></div>
+                                      <div class="elementskit-nav-identity-panel">
+                                        <div class="elementskit-site-title">
+                                          <a class="elementskit-nav-logo" href="{{ url_for('index') }}" target="_self" rel="">
+                                            <img src="" title="" alt="" />
+                                          </a>
+                                        </div>
+                                        <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
+                                      </div>
+                                    </div>
                   <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
                 </div>
               </div>
@@ -119,14 +133,56 @@
       <div class="elementor-element elementor-element-55bd91bc wpe-car-header-main-container elementor-hidden-desktop e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="55bd91bc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="e-con-inner">
           <div class="elementor-element elementor-element-58f12c4d e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="58f12c4d" data-element_type="container">
-            <div class="elementor-element elementor-element-2af4f03f elementor-widget elementor-widget-image" data-id="2af4f03f" data-element_type="widget" data-widget_type="image.default">
-              <div class="elementor-widget-container">
-                <a href="{{ url_for('index') }}">
-                  <img vertical-align="center" src="{{ url_for('static', filename='images/logo4.svg') }}" /> </a>
-              </div>
-            </div>
+
+
+
+                  <img vertical-align="center" src="{{ url_for('static', filename='images/logo4.svg') }}" />
+
+
           </div>
+          <div class="elementor-element elementor-element-5a14c5fc e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="5a14c5fc" data-element_type="container">
+				<div class="elementor-element elementor-element-cf0eaac wpe-car-header-hamburger elementor-widget elementor-widget-ekit-nav-menu" data-id="cf0eaac" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">            <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
+                <img src="{{ url_for('static', filename='images/hamb.svg') }}"></img>            </button>
+            <div id="ekit-megamenu-primary-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover" ekit-dom-added="yes"><ul id="menu-primary-menu" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
+              <li id="menu-item-15" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-15 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px">
+                <a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Главная</a>
+              </li>
+
+	<li id="menu-item-17" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-17 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+      <a href="{{ url_for('coding') }}" class="car-listing dropdown-item">Кодирование скрытых опций</a>
+    </li>
+  <li id="menu-item-18" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('diagnostic') }}" class="about-us dropdown-item">Диагностика</a>
+  </li>
+  <li id="menu-item-19" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-19 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('carplay') }}" class="faq dropdown-item">Активация AppleCarPlay</a>
+  </li>
+  <li id="menu-item-20" class="current-menu-item current_page_item 404 menu-item menu-item-type-custom menu-item-object-custom menu-item-20 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('mybmw') }}" class="404 dropdown-item">Активация MYBMW</a>
+  </li>
+  <li id="menu-item-21" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-21 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('navi') }}" >Обновление карт навигации</a>
+  </li>
+  <li id="menu-item-22" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-22 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('help') }}" >Установка ПО для работы с BMW</a>
+  </li>
+
+<li id="menu-item-23" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">Контакты</a></li>
+              <li id="menu-item-24" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-27 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="tel:+79303691601" class="ekit-menu-nav-link">+7 (930) 369 16 01</a></li>
+
+</ul><div class="elementskit-nav-identity-panel">
+				<div class="elementskit-site-title">
+					<a class="elementskit-nav-logo" href="https://bmwforce.ru/" target="_self" rel="">
+						<img src="" title="" alt="">
+					</a>
+				</div><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div></div>		</div>
+				</div>
+				</div>
         </div>
+
       </div>
     </div>
   </div>
@@ -227,13 +283,14 @@
                   <div class="elementor-element elementor-element-33fee273 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="33fee273" data-element_type="container">
                     <div class="elementor-element elementor-element-ae35ab4 elementor-widget elementor-widget-image" data-id="ae35ab4" data-element_type="widget" data-widget_type="image.default">
                       <div class="elementor-widget-container">
+                        <div class="elementor-hidden-mobile">
                         <br>
                         <br>
                         <br>
                         <br>
                         <br>
                         <br>
-                        <br>
+                        <br> </div>
                         <img width="2000"  src="{{ url_for('static', filename='images/footer-car.webp') }}" class="attachment-full size-full wp-image-1035" alt="" srcset="{{ url_for('static', filename='images/footer-car.webp') }} 242w, {{ url_for('static', filename='images/footer-car.webp') }} 238w" sizes="(max-width: 242px) 100vw, 242px" /> </div>
                     </div>
                   </div>
@@ -280,6 +337,7 @@
                       <div class="elementor-widget-container">
                         <a href="{{ url_for('index') }}">
                           <img src="{{ url_for('static', filename='images/logo4.svg') }}" /> </a>
+                        <div class="elementor-hidden-desktop"><br></div>
                       </div>
                     </div>
                     <div class="elementor-element elementor-element-168a063b elementor-widget elementor-widget-text-editor" data-id="168a063b" data-element_type="widget" data-widget_type="text-editor.default">

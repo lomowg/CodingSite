@@ -1912,9 +1912,10 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 }
 .tab-pane.fade.active.show .services-right-content .nav-link.active img{
   /* background-color: #D10022 !important; */
-  /* filter: invert(100%); */
+  /* filter: invert(100%); z
 }
 .featured-services-sec #pills-tabContent button.nav-link.active img {
+
   background-color: #D10022 !important;
 }
 .featured-services-sec .tab-pane.fade.active.show .services-right-content .nav-link.active {
@@ -1991,7 +1992,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   filter: invert(1);
 }
 .featured-services-sec .nav-pills li button.nav-link:not(.active) img {
-  filter: invert(1);
+  /* filter: invert(1); */
 }
 .featured-services-sec .top-nav .nav-item .nav-link {
   /* background-color: #000; */
@@ -2003,7 +2004,6 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
   margin-right: 4px;
 }
 .featured-services-sec .nav-item button img {
-  background-color: #000000;
   padding: 6px;
   border-radius: 6px;
   width: 38px;
@@ -2012,12 +2012,28 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 .featured-services-sec .nav li:nth-child(2) img{
   height: 38px;
 }
+
 .featured-services-sec .top-nav .nav-link {
-  color: #FFF;
-  font: 600 19px/19px "Rubik", Sans-serif;
-  padding: 8px 10px 8px 10px;
-  border-radius: 10px
+    color: #FFF;
+    font: 600 19px/19px "Rubik", Sans-serif;
+    padding: 8px 30px 8px 25px;
+    border-radius: 25px 10px 25px 10px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(-25deg);
 }
+
+.featured-services-sec .top-nav .nav-link .button-content {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-22deg);
+    transform: skew(25deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .featured-services-sec .services-text p {
   font: 400 16px/29px "Rubik", Sans-serif;
 }
@@ -2053,7 +2069,6 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover{
 .featured-services-sec .nav-pills .nav-link.active img {
   /* filter: grayscale(100%) !important;
   filter: brightness(0.25); */
-  filter: invert(1);
 }
 
 /*=========== Car Repair Services Tab Section Shortcode CSS End ============*/

@@ -85,5 +85,9 @@ def mstile310x150():
 def mstile310x310():
     return send_from_directory(directory='.', path='mstile-310x310.png')
 
+@app.route('/footer-bg.png')
+def footerbg():
+    return send_from_directory(directory='.', path='footer-bg.png')
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)

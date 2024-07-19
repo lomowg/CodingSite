@@ -176,21 +176,36 @@
 				<div class="elementor-widget-container">
 			<div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">            <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
                 <img src="{{ url_for('static', filename='images/hamb.svg') }}"></img>            </button>
-            <div id="ekit-megamenu-primary-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover" ekit-dom-added="yes"><ul id="menu-primary-menu" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon"><li id="menu-item-15" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/" class="ekit-menu-nav-link active">Home</a></li>
-<li id="menu-item-16" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-16 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a class="ekit-menu-nav-link">Services</a></li>
-<li id="menu-item-17" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px"><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-<ul class="elementskit-dropdown elementskit-submenu-panel">
-	<li id="menu-item-18" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/car-listing/" class="car-listing dropdown-item">Car Listing</a>	</li><li id="menu-item-19" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-19 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/about-us/" class="about-us dropdown-item">About Us</a>	</li><li id="menu-item-20" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-20 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/faq/" class="faq dropdown-item">FAQ</a>	</li><li id="menu-item-21" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-21 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/404-2/" class="404 dropdown-item">404</a></li></ul>
-</li>
-<li id="menu-item-22" class="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px"><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Blog<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-<ul class="elementskit-dropdown elementskit-submenu-panel">
-	<li id="menu-item-23" class="blog-with-no-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/blog-with-no-sidebar/" class="blog-with-no-sidebar dropdown-item">Blog With No Sidebar</a>	</li><li id="menu-item-24" class="blog-with-left-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/blog-with-left-sidebar/" class="blog-with-left-sidebar dropdown-item">Blog With Left Sidebar</a>	</li><li id="menu-item-25" class="blog-with-right-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-25 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/blog-with-right-sidebar/" class="blog-with-right-sidebar dropdown-item">Blog With Right Sidebar</a></li></ul>
-</li>
-<li id="menu-item-26" class="shop menu-item menu-item-type-custom menu-item-object-custom menu-item-26 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/shop/" class="ekit-menu-nav-link">Shop</a></li>
-<li id="menu-item-27" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-27 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="https://preview.wpelemento.com/auto-car-repair/contact-us/" class="ekit-menu-nav-link">Contact Us</a></li>
+            <div id="ekit-megamenu-primary-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover" ekit-dom-added="yes"><ul id="menu-primary-menu" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
+              <li id="menu-item-15" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px">
+                <a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Главная</a>
+              </li>
+
+	<li id="menu-item-17" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-17 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+      <a href="{{ url_for('coding') }}" class="car-listing dropdown-item">Кодирование скрытых опций</a>
+    </li>
+  <li id="menu-item-18" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('diagnostic') }}" class="about-us dropdown-item">Диагностика</a>
+  </li>
+  <li id="menu-item-19" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-19 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('carplay') }}" class="faq dropdown-item">Активация AppleCarPlay</a>
+  </li>
+  <li id="menu-item-20" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-20 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('mybmw') }}" class="404 dropdown-item">Активация MYBMW</a>
+  </li>
+  <li id="menu-item-21" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-21 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('navi') }}" >Обновление карт навигации</a>
+  </li>
+  <li id="menu-item-22" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-22 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+    <a href="{{ url_for('help') }}" >Установка ПО для работы с BMW</a>
+  </li>
+
+<li id="menu-item-23" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">Контакты</a></li>
+              <li id="menu-item-24" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-27 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="tel:+79303691601" class="ekit-menu-nav-link">+7 (930) 369 16 01</a></li>
+
 </ul><div class="elementskit-nav-identity-panel">
 				<div class="elementskit-site-title">
-					<a class="elementskit-nav-logo" href="https://preview.wpelemento.com/auto-car-repair" target="_self" rel="">
+					<a class="elementskit-nav-logo" href="https://bmwforce.ru/" target="_self" rel="">
 						<img src="" title="" alt="">
 					</a>
 				</div><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>
@@ -317,34 +332,57 @@
                   <div class="elementor-widget-container">
                     <div class="elementor-shortcode">
                       <div class="container-fluid featured-services-sec">
-
-                        <div class="container mt-1">
-                          <div class="product-cat">
-                            <ul class="nav top-nav nav-pills mb-3 justify-content-center align-items-center d-flex gx-lg-5 gx-5" id="pills-tab" role="tablist">
+    <div class="container mt-1">
+        <div class="product-cat">
+            <ul class="nav top-nav nav-pills mb-3 justify-content-center align-items-center d-flex gx-lg-5 gx-5" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills2-0-tab" data-bs-toggle="pill" data-bs-target="#pills2-0" type="button" role="tab" aria-controls="pills2-0" aria-selected="true">
+                        <div class="button-content">
+                            <img decoding="async" src="{{ url_for('static', filename='images/diagnostic.webp') }}">
+                            Диагностика
+                        </div>
+                    </button>
+                </li>
                               <li class="nav-item" role="presentation">
-                                <button class="nav-link active " id="pills2-0-tab" data-bs-toggle="pill" data-bs-target="#pills2-0" type="button" role="tab" aria-controls="pills2-0" aria-selected="true">
-                                  <img decoding="async" src="{{ url_for('static', filename='images/diagnostic.webp') }}">Диагностика</button>
-                              </li>
+                    <button class="nav-link" id="pills2-1-tab" data-bs-toggle="pill" data-bs-target="#pills2-1" type="button" role="tab" aria-controls="pills2-1" aria-selected="true">
+                        <div class="button-content">
+                            <img decoding="async" src="{{ url_for('static', filename='images/engine-repair.webp') }}">
+                            Кодирование скрытых функций
+                        </div>
+                    </button>
+                </li>
                               <li class="nav-item" role="presentation">
-                                <button class="nav-link  " id="pills2-1-tab" data-bs-toggle="pill" data-bs-target="#pills2-1" type="button" role="tab" aria-controls="pills2-1" aria-selected="true">
-                                  <img decoding="async" src="{{ url_for('static', filename='images/engine-repair.webp') }}"> Кодирование скрытых функций </button>
-                              </li>
+                    <button class="nav-link" id="pills2-2-tab" data-bs-toggle="pill" data-bs-target="#pills2-2" type="button" role="tab" aria-controls="pills2-2" aria-selected="true">
+                        <div class="button-content">
+                            <img decoding="async" src="{{ url_for('static', filename='images/oil-filter.webp') }}">
+                            Активация Apple CarPlay
+                        </div>
+                    </button>
+                </li>
                               <li class="nav-item" role="presentation">
-                                <button class="nav-link  " id="pills2-2-tab" data-bs-toggle="pill" data-bs-target="#pills2-2" type="button" role="tab" aria-controls="pills2-2" aria-selected="true">
-                                  <img decoding="async" src="{{ url_for('static', filename='images/oil-filter.webp') }}"> Активация Apple CarPlay </button>
-                              </li>
+                    <button class="nav-link" id="pills2-3-tab" data-bs-toggle="pill" data-bs-target="#pills2-3" type="button" role="tab" aria-controls="pills2-3" aria-selected="true">
+                        <div class="button-content">
+                            <img decoding="async" src="{{ url_for('static', filename='images/tires.webp') }}">
+                            Обновление карт навигации
+                        </div>
+                    </button>
+                </li>
                               <li class="nav-item" role="presentation">
-                                <button class="nav-link  " id="pills2-3-tab" data-bs-toggle="pill" data-bs-target="#pills2-3" type="button" role="tab" aria-controls="pills2-3" aria-selected="true">
-                                  <img decoding="async" src="{{ url_for('static', filename='images/tires.webp') }}"> Обновление карт навигации </button>
-                              </li>
+                    <button class="nav-link" id="pills2-4-tab" data-bs-toggle="pill" data-bs-target="#pills2-4" type="button" role="tab" aria-controls="pills2-4" aria-selected="true">
+                        <div class="button-content">
+                            <img decoding="async" src="{{ url_for('static', filename='images/transmition.webp') }}">
+                            Активация приложения MYBMW
+                        </div>
+                    </button>
+                </li>
                               <li class="nav-item" role="presentation">
-                                <button class="nav-link  " id="pills2-4-tab" data-bs-toggle="pill" data-bs-target="#pills2-4" type="button" role="tab" aria-controls="pills2-4" aria-selected="true">
-                                  <img decoding="async" src="{{ url_for('static', filename='images/transmition.webp') }}">Активация приложения MYBMW </button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link  " id="pills2-5-tab" data-bs-toggle="pill" data-bs-target="#pills2-5" type="button" role="tab" aria-controls="pills2-5" aria-selected="true">
-                                  <img decoding="async" src="{{ url_for('static', filename='images/batteries.webp') }}"> Установка ПО для работы с BMW </button>
-                              </li>
+                    <button class="nav-link" id="pills2-5-tab" data-bs-toggle="pill" data-bs-target="#pills2-5" type="button" role="tab" aria-controls="pills2-5" aria-selected="true">
+                        <div class="button-content">
+                            <img decoding="async" src="{{ url_for('static', filename='images/batteries.webp') }}">
+                            Установка ПО для работы с BMW
+                        </div>
+                    </button>
+                </li>
                             </ul>
                           </div>
                           <div class="tab-content mt-xxl-5 mt-lg-4 mt-5" id="pills-tabContent">
@@ -1191,13 +1229,13 @@
                   <div class="elementor-element elementor-element-33fee273 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="33fee273" data-element_type="container">
                     <div class="elementor-element elementor-element-ae35ab4 elementor-widget elementor-widget-image" data-id="ae35ab4" data-element_type="widget" data-widget_type="image.default">
                       <div class="elementor-widget-container">
+                      <div class="elementor-hidden-mobile"><br>
                         <br>
                         <br>
                         <br>
                         <br>
                         <br>
-                        <br>
-                        <br>
+                        <br> </div>
                         <img width="2000"  src="{{ url_for('static', filename='images/footer-car.webp') }}" class="attachment-full size-full wp-image-1035" alt="" srcset="{{ url_for('static', filename='images/footer-car.webp') }} 242w, {{ url_for('static', filename='images/footer-car.webp') }} 238w" sizes="(max-width: 242px) 100vw, 242px" /> </div>
                     </div>
                   </div>
@@ -1244,6 +1282,7 @@
                       <div class="elementor-widget-container">
                         <a href="{{ url_for('index') }}">
                           <img src="{{ url_for('static', filename='images/logo4.svg') }}" /> </a>
+                          <div class="elementor-hidden-desktop"><br></div>
                       </div>
                     </div>
                     <div class="elementor-element elementor-element-168a063b elementor-widget elementor-widget-text-editor" data-id="168a063b" data-element_type="widget" data-widget_type="text-editor.default">
