@@ -2747,7 +2747,6 @@
   }
   #blog-with-sidebar .post-contents .post-text-content > div {
     flex: 0 0 100%;
-    text
   }
   .efarm-feature-box-sec{
     position: static;
@@ -3130,7 +3129,7 @@ p.padd2 {
   .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 
 
@@ -3151,7 +3150,7 @@ p.padd2 {
   }
 
   .text-content {
-  margin-left: auto;
+
     max-width: 50%;
   }
 
