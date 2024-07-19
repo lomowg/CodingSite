@@ -162,11 +162,12 @@
   background: #D10022;
   top: 55px;
 }
-tbody tr td {
-  color: #FFF;
+@media(min-width:768px) {
+tbody tr td   {
+    color: #FFF;
   border-bottom: unset;
 }
-
+}
 
 /*================== Car Repair Footer CSS End ================*/
 

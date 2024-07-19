@@ -3120,15 +3120,18 @@
   .services-text {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
   }
-
+  .mb3 {
+      width: 100% !important;
+      background-color: #000000;
+  }
   .service-image {
-    margin-left: 150px;
+    margin-left: 75px;
     margin-top: 0;
-    max-width: 10%;
-    max-height: 300px;
+    width: 575px;
+    height: 575px;
     align-self: flex-end;
   }
 
