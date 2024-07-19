@@ -250,128 +250,137 @@
     </div>
     <div class="container">
       <div class="content_page col-lg-12 col-md-12 col-sm-12 mx-auto">
-        <div class="content-box-services text-lg-start text-md-start text-center text-sm-start mx-sm-5 mx-3 pt-4 px-sm-3 px-2">
+        <div class="content-box-services text-lg-start text-md-start text-center text-sm-start mx-sm-5  px-sm-3 ">
           <article class="container px-sm-0 px-col-0 px-sm-1 px-0" id="post-103">
-            <div class="row">
-              <h4 class="centered-heading">Кодирование скрытых функций вашего BMW</h4>
+    <table style="width: 100%; height: 100%; text-align: center; top: 50px">
+      <tr>
+        <td>
 
-              <div class="services-item product-content-box col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Отключение системы START/STOP</h4>
-                      <p>Активация запоминания последнего положения системы START/STOP или полное ее отключение</p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/startstop.webp') }}" alt="Single Services Image">
-                </div>
+          <div class="services-item product-content-box col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
 
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Включение M стиля приборной панели</h4>
-                      <p>Изменение обложки для штатной приборной панели (только G серия) на М стиль или Alpina</p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/kombi.webp') }}" alt="Single Services Image">
-                </div>
+            <div class="services-text mb3">
+              <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the computed styles of .e-con-inner
+            const econInner = document.querySelector('.e-con-inner');
+            const computedStyle = getComputedStyle(econInner);
 
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Активация M анимации при запуске авто</h4>
-                      <p>При каждом запуске автомобиля будет воспроизводится вместо стандартной надписи BMW красивая анимация M заставки</p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/animation.gif') }}" alt="Single Services Image">
-                </div>
+            // Extract the margin-left and margin-right values
+            const marginLeftValue = computedStyle.marginLeft;
+            const marginRightValue = computedStyle.marginRight;
 
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Добавление режимов Sport+, Comfort+, Eco Pro</h4>
-                      <p>
-                        <b>Режим Sport+:</b>
-                        <br><b>·</b> Не полное отключение стабилизации (режим Traction), позволяет пусть авто в занос, но вовремя выведет из него
-                        <br><b>·</b> Агрессивное переключение передач (не влияет на ресурс АКПП)
-                        <b>Режим Comfort+:</b>
-                        <br><b>·</b> Смягчает подвеску (если в авто есть адаптивная подвеска)
-                        <br><b>·</b> Старт со светофора осуществляется со второй передачи, избавляет АКПП от лишних переключений.
-                      </p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/sportplus.webp') }}" alt="Single Services Image">
-                </div>
+            // Select all .mb3 elements
+            const mb3Elements = document.querySelectorAll('.mb3');
 
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Активация режима стробоскопов</h4>
-                      <p>Передние противотуманные фары гаснут при включении дальнего света, что создает эффект стробоскопов</p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/strobo.gif') }}" alt="Single Services Image">
-                </div>
-
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Добавление/изменение цветов штатной Ambient подсветки</h4>
-                      <p>Возможность добавить цвета, которых не было с завода на ваш выбор</p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/ambient.webp') }}" alt="Single Services Image">
-                </div>
-
-                <div class="services-text mb-2">
-                  <div class="text-content">
-                    <div class="text-wrapper">
-                      <h4 style="font-family: Rubik, Sans-serif">Добавление профилей звучания Bowers & Wilkins</h4>
-                      <p>Активация аудиосистемы Bowers & Wilkins позволяет улучшить качество звука в автомобиле и добавить выбор профилей звука для более профессиональной настройки (концертный зал, лаундж, студия)</p>
-                    </div>
-                  </div>
-                  <img class="service-image" src="{{ url_for('static', filename='images/bw.webp') }}" alt="Single Services Image">
+            // Apply the negative margins to all .mb3 elements
+            mb3Elements.forEach(function(mb3) {
+                mb3.style.marginLeft = `calc(-1 * ${marginLeftValue})`;
+                mb3.style.marginRight = `calc(-1 * ${marginRightValue})`;
+            });
+        });
+    </script>
+            <div class="mbgkl">
+              <div class="text-content">
+                <div class="text-wrapper">
+                  <h4 class="padd1">Отключение системы START/STOP</h4>
+                  <p class="padd2" >Активация запоминания последнего положения системы START/STOP или полное ее отключение</p>
                 </div>
               </div>
+              <img  class="service-image" src="{{ url_for('static', filename='images/startstop.webp') }}" alt="Single Services Image">
+              </div>
             </div>
-            <h4 style="font-family: Rubik , Sans-serif "> Остальные кодировки для автомобилей BMW: </h4>
-            <br>
-            <br>
-            <p style="font-family: Rubik, Sans-serif; font-size:20px ">
-              ✅ отключение звука гонга не пристёгнутых ремней и индикации на приборной панели
-              <br> ✅ активация видео в движении и с USВ;
-              <br> ✅ изменение угла опускания правого зеркала при движении задним ходом;
-              <br> ✅ изменение звука системных уведомлений (от Мini, ВМW i8, Rоlls-Rоyсе, новые ВМW ID8);
-              <br> ✅ багажник закрывается из салона разовым нажатием кнопки (пропадает необходимость удерживать кнопку до полного закрытия багажника)
-              <br> ✅ плавное закрытие багажника (без рывков и удара);
-              <br> ✅ отключение/настройка омывателей фар;
-              <br> ✅ подъем стекла не прекращается при открытии двери;
-              <br> ✅ подсветка ручек при движении задним ходом;
-              <br> ✅ изменение режима по умолчанию при запуске (Sроrt, Есо рrо, Соmfоrt и тд);
-              <br> ✅ активация спорт-коробки 2ТВ, лепестков на руле;
-              <br> ✅ активация Lаunсh Соntrоl;
-              <br> ✅ добавление/изменение спортивных приборов;
-              <br> ✅ белая подсветка приборной панели 6WА ночью;
-              <br> ✅ комфортная посадка (отъезжает сидение при открытии двери);
-              <br> ✅ зеркала складываются/раскладываются при закрытии/открытии авто; (отключение данной функции тоже возможно)
-              <br> ✅ изменение яркости колец, ДХО, режимов работы света во всех режимах, добавить галочку отключения ДХО, отключить постоянный ближний ночью в 0;
-              <br> ✅ активация кнопки LIМ на руле;
-              <br> ✅ память последнего положения климата, обогревов;
-              <br> ✅ изменить количество взмахов дворника после полива;
-              <br> ✅ звук при постановке на охрану;
-              <br> ✅ кондиционер не активируется при нажатии кнопки АUТО.
-              <br>
-              <br>
-              <br>
-            </p>
+            <div class="services-text mb3 mb5">
+               <div class="mbgkl">
+              <div class="text-content">
+                <div class="text-wrapper">
+                  <h4 class="padd1" style="color: #000000">Включение M стиля приборной панели</h4>
+                  <p class="padd2" style="color: #000000">Изменение обложки для штатной приборной панели (только G серия) на М стиль или Alpina</p>
+                </div>
+              </div>
+              <img  class="service-image" src="{{ url_for('static', filename='images/kombi.webp') }}" alt="Single Services Image">
+            </div>
+            </div>
+            <div class="services-text mb3 element">
+              <div class="mbgkl">
+              <div class="text-content">
+                <div class="text-wrapper">
+                  <h4 class="padd1">Активация M анимации при запуске авто</h4>
+                  <p class="padd2" >При каждом запуске автомобиля будет воспроизводится вместо стандартной надписи BMW красивая анимация M заставки</p>
+                </div>
+              </div>
+              <img class="service-image" src="{{ url_for('static', filename='images/animation.gif') }}" alt="Single Services Image">
+            </div>
+              </div>
+
+            <div class="services-text mb3 mb5">
+              <div class="mbgkl">
+              <div class="text-content ">
+                <div class="text-wrapper">
+                  <h4 class="padd1" style="color: #000000">Добавление режимов Sport+, Comfort+</h4>
+                  <p class="padd2" style="color: #000000; font-size: 16px ">
+                    <b>Режим Sport+:</b> <b>·</b> Не полное отключение стабилизации (режим Traction), позволяет пусть авто в занос, но вовремя выведет из него
+                    <br><b>·</b> Агрессивное переключение передач (не влияет на ресурс АКПП) <br>
+                    <b>Режим Comfort+:</b> <b>·</b> Смягчает подвеску (если в авто есть адаптивная подвеска)
+                    <br><b>·</b> Старт со светофора осуществляется со второй передачи, избавляет АКПП от лишних переключений.
+                  </p>
+                </div>
+              </div>
+              <img class="service-image" src="{{ url_for('static', filename='images/sportplus.webp') }}" alt="Single Services Image">
+            </div>
+              </div>
+
+            <div class="services-text mb3">
+              <div class="mbgkl">
+              <div class="text-content">
+                <div class="text-wrapper">
+                  <h4 class="padd1">Активация режима стробоскопов</h4>
+                  <p class="padd2" >Передние противотуманные фары гаснут при включении дальнего света, что создает эффект стробоскопов</p>
+                </div>
+              </div>
+              <img class="service-image" src="{{ url_for('static', filename='images/strobo.gif') }}" alt="Single Services Image">
+            </div>
+              </div>
+
+            <div class="services-text mb3 mb5">
+              <div class="mbgkl">
+              <div class="text-content">
+                <div class="text-wrapper">
+                  <h4 class="padd1" style="color: #000000">Добавление/изменение цветов штатной Ambient подсветки</h4>
+                  <p class="padd2" style="color: #000000">Возможность добавить цвета, которых не было с завода на ваш выбор</p>
+                </div>
+              </div>
+              <img class="service-image" src="{{ url_for('static', filename='images/ambient.webp') }}" alt="Single Services Image">
+            </div>
+              </div>
+
+            <div class="services-text mb3">
+              <div class="mbgkl">
+              <div class="text-content">
+                <div class="text-wrapper">
+                  <h4 class="padd1">Добавление профилей звучания Bowers & Wilkins</h4>
+                  <p class="padd2" >Активация аудиосистемы Bowers & Wilkins позволяет улучшить качество <br>звука в автомобиле и добавить выбор профилей звука для более профессиональной настройки <br>(концертный зал, лаундж, студия)</p>
+                </div>
+              </div>
+              <img class="service-image" src="{{ url_for('static', filename='images/bw.webp') }}" alt="Single Services Image">
+            </div>
+              </div>
+  <br>
+
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
             </article>
         </div>
       </div>
     </div>
   </div>
   <div class="clearfix"></div>
+
   <div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
-    <div data-elementor-type="wp-post" data-elementor-id="990" class="elementor elementor-990">
+    <div data-elementor-type="wp-post" data-elementor-id="990" class="elementor elementor-990"><div class="dkfalw">
       <div class="elementor-element elementor-element-55088482 e-con-full wpe-car-footer-main-container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="55088482" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="elementor-element elementor-element-f1a8405 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="f1a8405" data-element_type="container">
           <div class="e-con-inner">
@@ -535,6 +544,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </body>
 

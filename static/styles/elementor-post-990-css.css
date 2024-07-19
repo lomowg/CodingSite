@@ -10,6 +10,15 @@
 
 .elementor-990 .elementor-element.elementor-element-55088482:not(.elementor-motion-effects-element-type-background),
 .elementor-990 .elementor-element.elementor-element-55088482>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+	background-color: #FFF;
+	background-image: url("https://bmwforce.ru/footer-bg.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.elementor-991 .elementor-element.elementor-element-55088483:not(.elementor-motion-effects-element-type-background),
+.elementor-991 .elementor-element.elementor-element-55088483>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 	background-color: #F3F3F3;
 	background-image: url("https://bmwforce.ru/footer-bg.png");
 	background-position: center center;
