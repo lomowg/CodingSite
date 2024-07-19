@@ -34,10 +34,56 @@ def help():
 def contacts():
     return render_template('contacts.html')
 
-@app.route('/favicon.png')
+@app.route('/favicon.ico')
 def favicon():
-    return send_from_directory(directory='.', path='favicon.png')
+    return send_from_directory(directory='.', path='favicon.ico')
 
+@app.route('/apple-touch-icon.png')
+def faviconapple():
+    return send_from_directory(directory='.', path='apple-touch-icon.png')
+
+@app.route('/favicon-32x32.png')
+def favicon32x32():
+    return send_from_directory(directory='.', path='favicon-32x32.png')
+
+@app.route('/favicon-32x32.png')
+def favicon16x16():
+    return send_from_directory(directory='.', path='favicon-16x16.png')
+
+@app.route('/site.webmanifest')
+def webmanifest():
+    return send_from_directory(directory='.', path='site.webmanifest')
+
+@app.route('/browserconfig.xml')
+def browserconfig():
+    return send_from_directory(directory='.', path='browserconfig.xml')
+@app.route('/safari-pinned-tab.svg')
+def safaritab():
+    return send_from_directory(directory='.', path='safari-pinned-tab.svg')
+
+@app.route('/android-chrome-192x192.png')
+def android192x192():
+    return send_from_directory(directory='.', path='android-chrome-192x192.png')
+
+@app.route('/android-chrome-512x512.png')
+def android512x512():
+    return send_from_directory(directory='.', path='android-chrome-512x512.png')
+
+@app.route('/mstile-70x70.png')
+def mstile70x70():
+    return send_from_directory(directory='.', path='mstile-70x70.png')
+@app.route('/mstile-144x144.png')
+def mstile144x144():
+    return send_from_directory(directory='.', path='mstile-144x144.png')
+@app.route('/mstile-150x150.png')
+def mstile150x150():
+    return send_from_directory(directory='.', path='mstile-150x150.png')
+@app.route('/mstile-310x150.png')
+def mstile310x150():
+    return send_from_directory(directory='.', path='mstile-310x150.png')
+@app.route('/mstile-310x310.png')
+def mstile310x310():
+    return send_from_directory(directory='.', path='mstile-310x310.png')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
