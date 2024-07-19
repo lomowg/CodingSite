@@ -3105,3 +3105,66 @@
     background: unset !important;
   }
 }
+
+
+
+
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .services-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .service-image {
+    margin-left: 150px;
+    margin-top: 0;
+    max-width: 10%;
+    max-height: 300px;
+    align-self: flex-end;
+  }
+
+  .text-content {
+    max-width: 50%;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .services-item, .services-right-content {
+    width: 100%;
+  }
+
+  .service-image {
+    width: 100%;
+    margin: 20px auto 0;
+    object-fit: contain; /* Сохраняет соотношение сторон на мобильных устройствах */
+    align-self: flex-end; /* Выравнивание по правому краю */
+  }
+
+  .text-content {
+    width: 100%;
+  }
+}
+
+.centered-heading {
+  width: 100%;
+  text-align: center;
+  font-family: Rubik, Sans-serif;
+  margin-bottom: 20px;
+}
+
+
