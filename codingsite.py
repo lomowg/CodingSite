@@ -85,26 +85,30 @@ def mstile310x150():
 def mstile310x310():
     return send_from_directory(directory='.', path='mstile-310x310.png')
 
-@app.route('/footer-bg.png')
+@app.route('/footer-bg.webp')
 def footerbg():
-    return send_from_directory(directory='.', path='footer-bg.png')
-@app.route('/bg1.png')
+    return send_from_directory(directory='.', path='footer-bg.webp')
+@app.route('/bg1.webp')
 def bg1():
-    return send_from_directory(directory='.', path='bg1.png')
-@app.route('/bg2.png')
+    return send_from_directory(directory='.', path='bg1.webp')
+@app.route('/bg2.webp')
 def bg2():
-    return send_from_directory(directory='.', path='bg2.png')
+    return send_from_directory(directory='.', path='bg2.webp')
 
-@app.route('/bg3.png')
+@app.route('/bg3.webp')
 def bg3():
-    return send_from_directory(directory='.', path='bg3.png')
-@app.route('/bg4.png')
+    return send_from_directory(directory='.', path='bg3.webp')
+@app.route('/bg4.webp')
 def bg4():
-    return send_from_directory(directory='.', path='bg4.png')
+    return send_from_directory(directory='.', path='bg4.webp')
 
-@app.route('/bg5.png')
+@app.route('/bg5.webp')
 def bg5():
-    return send_from_directory(directory='.', path='bg5.png')
+    return send_from_directory(directory='.', path='bg5.webp')
+
+@app.route('/menu.webp')
+def menu1():
+    return send_from_directory(directory='.', path='menu.webp')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
