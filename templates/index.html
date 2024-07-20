@@ -22,7 +22,6 @@
   <link rel='stylesheet' id='elementor-post-958-css' href="{{ url_for('static', filename='styles/elementor-post-958-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-990-css' href="{{ url_for('static', filename='styles/elementor-post-990-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='contact-form-7-css' href="{{ url_for('static', filename='styles/contact-form-7-css.css') }}" type='text/css' media='all' />
-  <link rel='stylesheet' id='swiper-css' href="{{ url_for('static', filename='styles/swiper-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-addons-frontend-css' href="{{ url_for('static', filename='styles/elementor-addons-frontend-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-582-css' href="{{ url_for('static', filename='styles/elementor-post-582-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='bootstrap-style-css' href="{{ url_for('static', filename='styles/bootstrap-style-css.css') }}" type='text/css' media='all' />
@@ -30,14 +29,12 @@
   <link rel='stylesheet' id='other-page-css-css' href="{{ url_for('static', filename='styles/other-page-css-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='responsive-media-css-css' href="{{ url_for('static', filename='styles/responsive-media-css-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='header-footer-css-css' href="{{ url_for('static', filename='styles/header-footer-css-css.css') }}" type='text/css' media='all' />
-  <link rel='stylesheet' id='elementor-icons-ekiticons-css' href="{{ url_for('static', filename='styles/elementor-addons-frontend-css.css') }}" type='text/css' media='all' />
-  <link rel='stylesheet' id='wqpmb-style-css' href="{{ url_for('static', filename='styles/wqpmb-style-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='ekit-widget-styles-css' href="{{ url_for('static', filename='styles/ekit-widget-styles-css.css') }}" type='text/css' media='all' />
   <link rel='stylesheet' id='wpr-addons-css-css' href="{{ url_for('static', filename='styles/wpr-addons-css-css.css') }}" type='text/css' media='all' />
-  <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;700;900&display=swap' type='text/css' media='all' />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel='stylesheet' id='google-fonts-1-css' href="{{ url_for('static', filename='styles/font1.css') }}" type='text/css' media='all' />
   <meta name="description" content="Диагностика, кодирование, активация скрытых опций, Apple CarPlay, MYBMW в автомобилях BMW.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <meta property="og:image" content="https://i.ibb.co/Sc8K682/x10.webp">
   <meta name="robots" content="max-image-preview:large">
   <meta property="og:image:width" content="1920">
@@ -48,6 +45,7 @@
   <meta name="twitter:image" content="https://i.ibb.co/Sc8K682/x10.webp" />
   <meta property="twitter:url" content="https://bmwforce.ru/">
   <meta property="twitter:description" content="Диагностика, кодирование, активация скрытых опций, Apple CarPlay, MYBMW в автомобилях BMW.">
+
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
     (function(m, e, t, r, i, k, a) {
@@ -84,8 +82,11 @@
   <script type="text/javascript" src="{{ url_for('static', filename='wp-customscripts.js') }}" id="wp-customscripts-js"></script>
   <!-- Меню следует за прокруткой -->
   <script type="text/javascript" src="{{ url_for('static', filename='mobile-menu.js') }}" id="ekit-widget-scripts-js"></script>
+  <!-- Мобильное меню -->
+
 </head>
 
+<!-- Desktop Menu -->
 <body link="white" class="home page-template-default page page-id-582 theme-auto-car-repair-pro woocommerce-no-js ehf-template-auto-car-repair-pro ehf-stylesheet-auto-car-repair-pro elementor-default elementor-kit-5 elementor-page elementor-page-582">
   <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
     <div data-elementor-type="wp-post" data-elementor-id="958" class="elementor elementor-958">
@@ -96,35 +97,46 @@
               <div class="elementor-widget-container">
                 <div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
                   <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
-                    <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
+                    <span class="elementskit-menu-hamburger-icon"></span>
+                    <span class="elementskit-menu-hamburger-icon"></span>
+                    <span class="elementskit-menu-hamburger-icon"></span>
                   </button>
                   <div id="ekit-megamenu-menu-left" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                     <ul id="menu-menu-left" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
-                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-28 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Главная</a></li>
-                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Услуги<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
-                                            </a>
-
+                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-28 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px>
+                        <a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">
+                          Главная
+                        </a>
+                      </li>
+                      <li id="menu-item-29" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
+                        <a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">
+                          Услуги
+                        </a>
                         <ul class="elementskit-dropdown elementskit-submenu-panel">
-                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('coding') }}" class=" dropdown-item">Кодирование скрытых функций</a>
-                            <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('diagnostic') }}" class=" dropdown-item">Диагностика</a>
-                              <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('carplay') }}" class=" dropdown-item">Активация Apple CarPlay</a>
-                                <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('mybmw') }}" class=" dropdown-item">Активация MYBMW</a>
-                                  <li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('navi') }}" class=" dropdown-item">Обновление карт навигации</a>
-                                    <li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('help') }}" class=" dropdown-item">Установка ПО для работы с BMW</a>
-                                    </li>
-                                    <!--                        <li id="menu-item-30" class="pages menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
-                                    <!--                          <ul class="elementskit-dropdown elementskit-submenu-panel">-->
-                                    <!--                            <li id="menu-item-31" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-31 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="car-listing dropdown-item">Car Listing</a>-->
-                                    <!--                              <li id="menu-item-32" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-32 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="about-us dropdown-item">About Us</a>-->
-                                    <!--                                <li id="menu-item-33" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-33 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="faq dropdown-item">FAQ</a>-->
-                                    <!--                                  <li id="menu-item-34" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-34 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="404 dropdown-item">404</a></ul>-->
-                                    <!--                          </li>-->
-                                    <!--                          <li id="menu-item-35" class="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Blog<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>-->
-                                    <!--                            <ul class="elementskit-dropdown elementskit-submenu-panel">-->
-                                    <!--                              <li id="menu-item-36" class="blog-with-no-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-36 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-no-sidebar dropdown-item">Blog With No Sidebar</a>-->
-                                    <!--                                <li id="menu-item-37" class="blog-with-left-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-left-sidebar dropdown-item">Blog With Left Sidebar</a>-->
-                                    <!--                                  <li id="menu-item-38" class="blog-with-right-sidebar menu-item menu-item-type-custom menu-item-object-custom menu-item-38 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('index') }}" class="blog-with-right-sidebar dropdown-item">Blog With Right Sidebar</a></ul>-->
-                                    <!--                            </li>-->
+                          <li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                            <a href="{{ url_for('coding') }}" class=" dropdown-item">
+                              Кодирование скрытых функций
+                            </a>
+                          <li id="menu-item-1139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                            <a href="{{ url_for('diagnostic') }}" class=" dropdown-item">
+                              Диагностика
+                            </a>
+                          <li id="menu-item-1140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1140 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                            <a href="{{ url_for('carplay') }}" class=" dropdown-item">
+                              Активация Apple CarPlay
+                            </a>
+                          <li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                            <a href="{{ url_for('mybmw') }}" class=" dropdown-item">
+                              Активация MYBMW
+                            </a>
+                          <li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                            <a href="{{ url_for('navi') }}" class=" dropdown-item">
+                              Обновление карт навигации
+                            </a>
+                          <li id="menu-item-1143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                            <a href="{{ url_for('help') }}" class=" dropdown-item">
+                              Установка ПО для работы с BMW
+                            </a>
                         </ul>
                     </ul>
                   </div>
@@ -137,7 +149,6 @@
             <div class="elementor-element elementor-element-5c6437ba elementor-widget elementor-widget-image" data-id="5c6437ba" data-element_type="widget" data-widget_type="image.default">
               <div class="elementor-widget-container">
                 <a href="{{ url_for('index') }}">
-
                   <img src="{{ url_for('static', filename='images/logo4.svg') }}" alt="" />
                 </a>
               </div>
@@ -146,83 +157,89 @@
           <div class="elementor-element elementor-element-54a2dfb e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="54a2dfb" data-element_type="container">
             <div class="elementor-element elementor-element-10fe08fb elementor-widget elementor-widget-ekit-nav-menu" data-id="10fe08fb" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
               <div class="elementor-widget-container">
-                <div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
-                  <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
-                    <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
-                  </button>
                   <div id="ekit-megamenu-menu-right" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                     <ul id="menu-menu-right" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
-                      <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">Контакты</a></li>
-                      <!-- <li id="menu-item-1128" class="header-buy-now menu-item menu-item-type-custom menu-item-object-custom menu-item-1128 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="{{ url_for('index') }}" class="ekit-menu-nav-link">Кодирование опций</a></li> -->
-                    </ul>
-                    <div class="menu-right-text"><a class="text" href="tel:+79303691601"><b>+7 (930) 369 16 01</b></a></div>
-                    <div class="elementskit-nav-identity-panel">
-                      <div class="elementskit-site-title">
-                        <a class="elementskit-nav-logo" href="{{ url_for('index') }}" target="_self" rel="">
-                          <img src="" title="" alt="" />
+                      <li id="menu-item-40" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                        <a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">
+                          Контакты
                         </a>
-                      </div>
-                      <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
+                      </li>
+                    </ul>
+                    <div class="menu-right-text">
+                      <a class="text" href="tel:+79303691601">
+                        <b>
+                          +7 (930) 369 16 01
+                        </b>
+                      </a>
                     </div>
                   </div>
                   <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Mobile Menu -->
       <div class="elementor-element elementor-element-55bd91bc wpe-car-header-main-container elementor-hidden-desktop e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="55bd91bc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="e-con-inner">
           <div class="elementor-element elementor-element-58f12c4d e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="58f12c4d" data-element_type="container">
-
             <img vertical-align="center" src="{{ url_for('static', filename='images/logo4.svg') }}" />
-
           </div>
           <div class="elementor-element elementor-element-5a14c5fc e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="5a14c5fc" data-element_type="container">
             <div class="elementor-element elementor-element-cf0eaac wpe-car-header-hamburger elementor-widget elementor-widget-ekit-nav-menu" data-id="cf0eaac" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
               <div class="elementor-widget-container">
                 <div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
                   <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
-                    <img src="{{ url_for('static', filename='images/hamb.svg') }}"></img>
+                    <img src="{{ url_for('static', filename='images/hamb.svg') }}">
                   </button>
                   <div id="ekit-megamenu-primary-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover" ekit-dom-added="yes">
                     <ul id="menu-primary-menu" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
                       <li id="menu-item-15" class="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px">
-                        <a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">Главная</a>
+                        <a href="{{ url_for('index') }}" class="ekit-menu-nav-link active">
+                          Главная
+                        </a>
                       </li>
-
                       <li id="menu-item-17" class="car-listing menu-item menu-item-type-custom menu-item-object-custom menu-item-17 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-                        <a href="{{ url_for('coding') }}" class="car-listing dropdown-item">Кодирование скрытых опций</a>
+                        <a href="{{ url_for('coding') }}" class="car-listing dropdown-item">
+                          Кодирование скрытых опций
+                        </a>
                       </li>
                       <li id="menu-item-18" class="about-us menu-item menu-item-type-custom menu-item-object-custom menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-                        <a href="{{ url_for('diagnostic') }}" class="about-us dropdown-item">Диагностика</a>
+                        <a href="{{ url_for('diagnostic') }}" class="about-us dropdown-item">
+                          Диагностика
+                        </a>
                       </li>
                       <li id="menu-item-19" class="faq menu-item menu-item-type-custom menu-item-object-custom menu-item-19 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-                        <a href="{{ url_for('carplay') }}" class="faq dropdown-item">Активация AppleCarPlay</a>
+                        <a href="{{ url_for('carplay') }}" class="faq dropdown-item">
+                          Активация AppleCarPlay
+                        </a>
                       </li>
                       <li id="menu-item-20" class="404 menu-item menu-item-type-custom menu-item-object-custom menu-item-20 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-                        <a href="{{ url_for('mybmw') }}" class="404 dropdown-item">Активация MYBMW</a>
+                        <a href="{{ url_for('mybmw') }}" class="404 dropdown-item">
+                          Активация MYBMW
+                        </a>
                       </li>
                       <li id="menu-item-21" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-21 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-                        <a href="{{ url_for('navi') }}">Обновление карт навигации</a>
+                        <a href="{{ url_for('navi') }}">
+                          Обновление карт навигации
+                        </a>
                       </li>
                       <li id="menu-item-22" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-22 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
-                        <a href="{{ url_for('help') }}">Установка ПО для работы с BMW</a>
-                      </li>
-
-                      <li id="menu-item-23" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">Контакты</a></li>
-                      <li id="menu-item-24" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-27 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="tel:+79303691601" class="ekit-menu-nav-link">+7 (930) 369 16 01</a></li>
-
-                    </ul>
-                    <div class="elementskit-nav-identity-panel">
-                      <div class="elementskit-site-title">
-                        <a class="elementskit-nav-logo" href="https://bmwforce.ru/" target="_self" rel="">
-                          <img src="" title="" alt="">
+                        <a href="{{ url_for('help') }}">
+                          Установка ПО для работы с BMW
                         </a>
-                      </div>
-                      <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
-                    </div>
+                      </li>
+                      <li id="menu-item-23" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+                        <a href="{{ url_for('contacts') }}" class="ekit-menu-nav-link">
+                          Контакты
+                        </a>
+                      </li>
+                      <li id="menu-item-24" class="contact-us menu-item menu-item-type-custom menu-item-object-custom menu-item-27 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px">
+                        <a href="tel:+79303691601" class="ekit-menu-nav-link">
+                          +7 (930) 369 16 01
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                   <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>
                 </div>
@@ -230,20 +247,15 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
+  <!-- Main Photo -->
   <div data-elementor-type="wp-page" data-elementor-id="582" class="elementor elementor-582">
     <div class="elementor-element elementor-element-10fbad0d e-con-full wpe-car-slider-section e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="10fbad0d" data-element_type="container">
       <div class="elementor-element elementor-element-3a1fb54 wpr-adv-slider-columns-1 wpr-adv-slider-columns--tablet1 wpr-adv-slider-columns--mobile1 wpr-adv-slides-to-scroll-1 wpr-slider-dots-horizontal elementor-widget elementor-widget-wpr-advanced-slider" data-id="3a1fb54" data-element_type="widget" data-settings="{&quot;slider_amount&quot;:&quot;1&quot;,&quot;slider_amount_tablet&quot;:1,&quot;slider_amount_mobile&quot;:1,&quot;slides_to_scroll&quot;:1,&quot;slider_loop&quot;:&quot;yes&quot;,&quot;slider_video_btn_size&quot;:&quot;medium&quot;}" data-widget_type="wpr-advanced-slider.default">
         <div class="elementor-widget-container">
-
-          <!-- Advanced Slider -->
-          <div class="wpr-advanced-slider-wrap">
-
-            <div class="wpr-advanced-slider" dir="ltr" data-slick="{&quot;rtl&quot;:false,&quot;infinite&quot;:true,&quot;speed&quot;:700,&quot;arrows&quot;:true,&quot;dots&quot;:true,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:0,&quot;pauseOnHover&quot;:&quot;&quot;,&quot;prevArrow&quot;:&quot;#wpr-slider-prev-3a1fb54&quot;,&quot;nextArrow&quot;:&quot;#wpr-slider-next-3a1fb54&quot;,&quot;vertical&quot;:false,&quot;adaptiveHeight&quot;:true}" data-video-btn-size="{&quot;widescreen&quot;:&quot;medium&quot;,&quot;desktop&quot;:&quot;medium&quot;,&quot;laptop&quot;:&quot;medium&quot;,&quot;tablet_extra&quot;:&quot;medium&quot;,&quot;tablet&quot;:&quot;medium&quot;,&quot;mobile_extra&quot;:&quot;medium&quot;,&quot;mobile&quot;:&quot;medium&quot;}" data-slide-effect="slide">
+          <div class="wpr-advanced-slider" dir="ltr" data-slick="{&quot;rtl&quot;:false,&quot;infinite&quot;:true,&quot;speed&quot;:700,&quot;arrows&quot;:true,&quot;dots&quot;:true,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:0,&quot;pauseOnHover&quot;:&quot;&quot;,&quot;prevArrow&quot;:&quot;#wpr-slider-prev-3a1fb54&quot;,&quot;nextArrow&quot;:&quot;#wpr-slider-next-3a1fb54&quot;,&quot;vertical&quot;:false,&quot;adaptiveHeight&quot;:true}" data-video-btn-size="{&quot;widescreen&quot;:&quot;medium&quot;,&quot;desktop&quot;:&quot;medium&quot;,&quot;laptop&quot;:&quot;medium&quot;,&quot;tablet_extra&quot;:&quot;medium&quot;,&quot;tablet&quot;:&quot;medium&quot;,&quot;mobile_extra&quot;:&quot;medium&quot;,&quot;mobile&quot;:&quot;medium&quot;}" data-slide-effect="slide">
               <div class="wpr-slider-item elementor-repeater-item-69713dc"><img decoding="async" class="wpr-slider-img" src="{{ url_for('static', filename='images/55.webp') }}" />
                 <div class="wpr-slider-item-overlay"></div>
                 <div class="wpr-cv-container">
@@ -261,71 +273,8 @@
                   </div>
                 </div>
               </div>
-              <div class="wpr-slider-item elementor-repeater-item-66fd24e"><img decoding="async" class="wpr-slider-img" src="{{ url_for('static', filename='images/55.webp') }}" />
-                <div class="wpr-slider-item-overlay"></div>
-                <div class="wpr-cv-container">
-                  <div class="wpr-cv-outer">
-                    <div class="wpr-cv-inner">
-                      <div class="wpr-slider-content">
-                        <div class="wpr-slider-title">
-                          <h1>Изменяем Ваш BMW до неузнаваемости, применяя только заводские технологии</h1></div>
-                        <div class="wpr-slider-sub-title">
-                          <h2>BMW FORCE - Кодирование, Диагностика вашего BMW</h2></div>
-                        <div class="wpr-slider-description">
-                          <p>Активируем скрытые функции в Вашем авто, AppleCarplay, MYBMW, сделаем профильную диагностику удаленно или с выездом по Москве</p>
-                        </div>
-                        <div class="wpr-slider-btns"><a class="wpr-slider-primary-btn" href="{{ url_for('coding') }}">Услуги<svg aria-hidden="true" class="e-font-icon-svg e-far-arrow-alt-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg></a><a class="wpr-slider-secondary-btn" href="tel:+79303691601" target="_blank">Связаться с нами<svg aria-hidden="true" class="e-font-icon-svg e-far-arrow-alt-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg></a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="wpr-slider-item elementor-repeater-item-907a9dd"><img decoding="async" class="wpr-slider-img" src="{{ url_for('static', filename='images/55.webp') }}" />
-                <div class="wpr-slider-item-overlay"></div>
-                <div class="wpr-cv-container">
-                  <div class="wpr-cv-outer">
-                    <div class="wpr-cv-inner">
-                      <div class="wpr-slider-content">
-                        <div class="wpr-slider-title">
-                          <h1>Изменяем Ваш BMW до неузнаваемости, применяя только заводские технологии</h1></div>
-                        <div class="wpr-slider-sub-title">
-                          <h2>BMW FORCE - Кодирование, Диагностика вашего BMW</h2></div>
-                        <div class="wpr-slider-description">
-                          <p>Активируем скрытые функции в Вашем авто, AppleCarplay, MYBMW, сделаем профильную диагностику удаленно или с выездом по Москве</p>
-                        </div>
-                        <div class="wpr-slider-btns"><a class="wpr-slider-primary-btn" href="{{ url_for('coding') }}">Услуги<svg aria-hidden="true" class="e-font-icon-svg e-far-arrow-alt-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg></a><a class="wpr-slider-secondary-btn" href="tel:+79303691601" target="_blank">Связаться с нами<svg aria-hidden="true" class="e-font-icon-svg e-far-arrow-alt-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg></a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="wpr-slider-controls">
-              <div class="wpr-slider-dots"></div>
-            </div>
-
-            <div class="wpr-slider-arrow-container">
-              <div class="wpr-slider-prev-arrow wpr-slider-arrow" id="wpr-slider-prev-3a1fb54">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 283.4 512" style="enable-background:new 0 0 283.4 512;" xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="54.5,256.3 283.4,485.1 256.1,512.5 0,256.3 0,256.3 27.2,229 256.1,0 283.4,27.4 " />
-                  </g>
-                </svg>
-              </div>
-              <div class="wpr-slider-next-arrow wpr-slider-arrow" id="wpr-slider-next-3a1fb54">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 283.4 512" style="enable-background:new 0 0 283.4 512;" xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="54.5,256.3 283.4,485.1 256.1,512.5 0,256.3 0,256.3 27.2,229 256.1,0 283.4,27.4 " />
-                  </g>
-                </svg>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
+          <!-- Featured Service -->
     <div class="elementor-element elementor-element-27a4fb63 wpe-car-services-section e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="27a4fb63" data-element_type="container" id="wpe-car-featured-services" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div class="e-con-inner">
         <div class="elementor-element elementor-element-4cb78881 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4cb78881" data-element_type="container">
@@ -334,11 +283,16 @@
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-52087fde elementor-widget elementor-widget-heading" data-id="52087fde" data-element_type="widget" data-widget_type="heading.default">
                   <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">Наши основные услуги</h2> </div>
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      Наши основные услуги
+                    </h2>
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-16d07e25 elementor-widget elementor-widget-text-editor" data-id="16d07e25" data-element_type="widget" data-widget_type="text-editor.default">
                   <div class="elementor-widget-container">
-                    <p>Изменяем Ваш BMW до неузнаваемости, применяя только заводские технологии!</p>
+                    <p>
+                      Изменяем Ваш BMW до неузнаваемости, применяя только заводские технологии!
+                    </p>
                   </div>
                 </div>
               </div>
@@ -355,42 +309,48 @@
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills2-0-tab" data-bs-toggle="pill" data-bs-target="#pills2-0" type="button" role="tab" aria-controls="pills2-0" aria-selected="true">
                                   <div class="button-content">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/diagnostic.webp') }}"> Диагностика
+                                    <img decoding="async" src="{{ url_for('static', filename='images/diagnostic.webp') }}">
+                                    Диагностика
                                   </div>
                                 </button>
                               </li>
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills2-1-tab" data-bs-toggle="pill" data-bs-target="#pills2-1" type="button" role="tab" aria-controls="pills2-1" aria-selected="true">
                                   <div class="button-content">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/engine-repair.webp') }}"> Кодирование скрытых функций
+                                    <img decoding="async" src="{{ url_for('static', filename='images/engine-repair.webp') }}">
+                                    Кодирование скрытых функций
                                   </div>
                                 </button>
                               </li>
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills2-2-tab" data-bs-toggle="pill" data-bs-target="#pills2-2" type="button" role="tab" aria-controls="pills2-2" aria-selected="true">
                                   <div class="button-content">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/oil-filter.webp') }}"> Активация Apple CarPlay
+                                    <img decoding="async" src="{{ url_for('static', filename='images/oil-filter.webp') }}">
+                                    Активация Apple CarPlay
                                   </div>
                                 </button>
                               </li>
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills2-3-tab" data-bs-toggle="pill" data-bs-target="#pills2-3" type="button" role="tab" aria-controls="pills2-3" aria-selected="true">
                                   <div class="button-content">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/tires.webp') }}"> Обновление карт навигации
+                                    <img decoding="async" src="{{ url_for('static', filename='images/tires.webp') }}">
+                                    Обновление карт навигации
                                   </div>
                                 </button>
                               </li>
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills2-4-tab" data-bs-toggle="pill" data-bs-target="#pills2-4" type="button" role="tab" aria-controls="pills2-4" aria-selected="true">
                                   <div class="button-content">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/transmition.webp') }}"> Активация приложения MYBMW
+                                    <img decoding="async" src="{{ url_for('static', filename='images/transmition.webp') }}">
+                                    Активация приложения MYBMW
                                   </div>
                                 </button>
                               </li>
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills2-5-tab" data-bs-toggle="pill" data-bs-target="#pills2-5" type="button" role="tab" aria-controls="pills2-5" aria-selected="true">
                                   <div class="button-content">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/batteries.webp') }}"> Установка ПО для работы с BMW
+                                    <img decoding="async" src="{{ url_for('static', filename='images/batteries.webp') }}">
+                                    Установка ПО для работы с BMW
                                   </div>
                                 </button>
                               </li>
@@ -401,32 +361,30 @@
                               <div class="row">
                                 <div class="services-item product-content-box col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
                                   <div class="pro-services">
-                                    <h4 style="font-family: Rubik , Sans-serif">Компьютерная диагностика вашего BMW</h4>
+                                    <h4 style="font-family: Rubik , Sans-serif">
+                                      Компьютерная диагностика вашего BMW
+                                    </h4>
                                   </div>
-                                  <div>
                                     <div class="services-text mb-2">
-                                      <p>
                                         <p>
                                           <b>·</b> Просмотр накопившихся ошибок с просмотром подробной информации:
                                           <br> &nbsp;&nbsp;&nbsp;&nbsp;📊 Километраж в момент ошибки
-                                          <br> &nbsp;&nbsp;&nbsp; 🌡️ Температура узлов в момомент ошибки
+                                          <br> &nbsp;&nbsp;&nbsp; 🌡️ Температура узлов в момент ошибки
                                           <br> &nbsp;&nbsp;&nbsp; 🔥 рекомендации по устранению ошибки
                                           <br>
-                                          <b>·</b> Просмотр всевозможных датчиков автомобиля:
+                                          <b>·</b> Просмотр всевозможных датчиков автомобиля (зависит от ситуации, указано не все):
                                           <br> &nbsp;&nbsp;&nbsp;🔨 Пропуски зажигания по цилиндрам
-                                          <br> &nbsp;&nbsp;&nbsp;⚙️ Корекции работы АКПП
-                                          <br> &nbsp;&nbsp;&nbsp;🔋 История заряда акб в последние 5 дней
+                                          <br> &nbsp;&nbsp;&nbsp;⚙️ Коррекции работы АКПП
+                                          <br> &nbsp;&nbsp;&nbsp;🔋 История заряда АКБ в последние 5 дней
                                           <br> &nbsp;&nbsp;&nbsp;📕 история качества топлива
-                                          <br> &nbsp;&nbsp;&nbsp;📈 График работы выхревых заслонок
+                                          <br> &nbsp;&nbsp;&nbsp;📈 График работы вихревых заслонок
                                           <br> &nbsp;&nbsp;&nbsp;💨 Остаток сажевого фильтра (в км)
                                           <br> &nbsp;&nbsp;&nbsp;🚘 Сброс ТО автомобиля
                                           <br> &nbsp;&nbsp;&nbsp;📔 Работа форсунок автомобиля
-                                          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;и так далее
+                                          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                           <br>
-
                                         </p>
                                     </div>
-                                  </div>
                                   <div class="service-btn">
                                     <div class="service-button">
                                       <a href="{{ url_for('contacts') }}">
@@ -447,135 +405,163 @@
                               </div>
                             </div>
                             <div class="tab-pane fade" id="pills2-1" role="tabpanel" aria-labelledby="pills-1-tab">
-  <div class="row">
-    <table style="width: 100%; height: 100%; text-align: center; top: 50px">
-      <tr>
-        <td>
+                              <div class="row">
+                                <table style="width: 100%; height: 100%; text-align: center; top: 50px">
+                                  <tr>
+                                    <td>
+                                      <div class="services-item product-content-box col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="services-text mb3">
+                                          <script>
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        // Get the computed styles of .e-con-inner
+                                        const econInner = document.querySelector('.e-con-inner');
+                                        const computedStyle = getComputedStyle(econInner);
 
-          <div class="services-item product-content-box col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        // Extract the margin-left and margin-right values
+                                        const marginLeftValue = computedStyle.marginLeft;
+                                        const marginRightValue = computedStyle.marginRight;
 
-            <div class="services-text mb3">
-              <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Get the computed styles of .e-con-inner
-            const econInner = document.querySelector('.e-con-inner');
-            const computedStyle = getComputedStyle(econInner);
+                                        // Select all .mb3 elements
+                                        const mb3Elements = document.querySelectorAll('.mb3');
 
-            // Extract the margin-left and margin-right values
-            const marginLeftValue = computedStyle.marginLeft;
-            const marginRightValue = computedStyle.marginRight;
-
-            // Select all .mb3 elements
-            const mb3Elements = document.querySelectorAll('.mb3');
-
-            // Apply the negative margins to all .mb3 elements
-            mb3Elements.forEach(function(mb3) {
-                mb3.style.marginLeft = `calc(-1 * ${marginLeftValue})`;
-                mb3.style.marginRight = `calc(-1 * ${marginRightValue})`;
-            });
-        });
-    </script>
-            <div class="mbgkl">
-              <div class="text-content">
-                <div class="text-wrapper">
-                  <h4 class="padd1">Отключение системы START/STOP</h4>
-                  <p class="padd2" >Активация запоминания последнего положения системы START/STOP или полное ее отключение</p>
-                </div>
-              </div>
-              <img  class="service-image" src="{{ url_for('static', filename='images/startstop.webp') }}" alt="Single Services Image">
-              </div>
-            </div>
-            <div class="services-text mb3 mb5">
-               <div class="mbgkl">
-              <div class="text-content">
-                <div class="text-wrapper">
-                  <h4 class="padd1" style="color: #000000">Включение M стиля приборной панели</h4>
-                  <p style="color: #000000">Изменение обложки для штатной приборной панели (только G серия) на М стиль или Alpina</p>
-                </div>
-              </div>
-              <img  class="service-image" src="{{ url_for('static', filename='images/kombi.webp') }}" alt="Single Services Image">
-            </div>
-            </div>
-            <div class="services-text mb3 element">
-              <div class="mbgkl">
-              <div class="text-content">
-                <div class="text-wrapper">
-                  <h4 class="padd1">Активация M анимации при запуске авто</h4>
-                  <p class="padd2" >При каждом запуске автомобиля будет воспроизводится вместо стандартной надписи BMW красивая анимация M заставки</p>
-                </div>
-              </div>
-              <img class="service-image" src="{{ url_for('static', filename='images/animation.gif') }}" alt="Single Services Image">
-            </div>
-              </div>
-
-            <div class="services-text mb3 mb5">
-              <div class="mbgkl">
-              <div class="text-content ">
-                <div class="text-wrapper">
-                  <h4 class="padd1" style="color: #000000">Добавление режимов Sport+, Comfort+</h4>
-                  <p class="padd2" style="color: #000000; font-size: 16px ">
-                    <b>Режим Sport+:</b> <b>·</b> Не полное отключение стабилизации (режим Traction), позволяет пусть авто в занос, но вовремя выведет из него
-                    <br><b>·</b> Агрессивное переключение передач (не влияет на ресурс АКПП) <br>
-                    <b>Режим Comfort+:</b> <b>·</b> Смягчает подвеску (если в авто есть адаптивная подвеска)
-                    <br><b>·</b> Старт со светофора осуществляется со второй передачи, избавляет АКПП от лишних переключений.
-                  </p>
-                </div>
-              </div>
-              <img class="service-image" src="{{ url_for('static', filename='images/sportplus.webp') }}" alt="Single Services Image">
-            </div>
-              </div>
-
-            <div class="services-text mb3">
-              <div class="mbgkl">
-              <div class="text-content">
-                <div class="text-wrapper">
-                  <h4 class="padd1">Активация режима стробоскопов</h4>
-                  <p class="padd2" >Передние противотуманные фары гаснут при включении дальнего света, что создает эффект стробоскопов</p>
-                </div>
-              </div>
-              <img class="service-image" src="{{ url_for('static', filename='images/strobo.gif') }}" alt="Single Services Image">
-            </div>
-              </div>
-
-            <div class="services-text mb3 mb5">
-              <div class="mbgkl">
-              <div class="text-content">
-                <div class="text-wrapper">
-                  <h4 class="padd1" style="color: #000000">Добавление/изменение цветов штатной Ambient подсветки</h4>
-                  <p class="padd2" style="color: #000000">Возможность добавить цвета, которых не было с завода на ваш выбор</p>
-                </div>
-              </div>
-              <img class="service-image" src="{{ url_for('static', filename='images/ambient.webp') }}" alt="Single Services Image">
-            </div>
-              </div>
-
-            <div class="services-text mb3">
-              <div class="mbgkl">
-              <div class="text-content">
-                <div class="text-wrapper">
-                  <h4 class="padd1">Добавление профилей звучания Bowers & Wilkins</h4>
-                  <p class="padd2" >Активация аудиосистемы Bowers & Wilkins позволяет улучшить качество <br>звука в автомобиле и добавить выбор профилей звука для более профессиональной настройки <br>(концертный зал, лаундж, студия)</p>
-                </div>
-              </div>
-              <img class="service-image" src="{{ url_for('static', filename='images/bw.webp') }}" alt="Single Services Image">
-            </div>
-              </div>
-            <div class="service-btn">
-              <div class="service-button">
-                <a href="{{ url_for('coding') }}">
-                  Посмотреть дальше <span class="ms-1"><i class="far fa-arrow-alt-circle-right"></i></span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-
+                                        // Apply the negative margins to all .mb3 elements
+                                        mb3Elements.forEach(function(mb3) {
+                                            mb3.style.marginLeft = `calc(-1 * ${marginLeftValue})`;
+                                            mb3.style.marginRight = `calc(-1 * ${marginRightValue})`;
+                                        });
+                                    });
+                                </script> <!-- margin auto parsing for resolution -->
+                                        <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1">
+                                                Отключение системы START/STOP
+                                              </h4>
+                                              <p class="padd2">
+                                                Активация запоминания последнего положения системы START/STOP или полное ее отключение
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img  class="service-image" src="{{ url_for('static', filename='images/startstop.webp') }}" alt="Single Services Image">
+                                          </div>
+                                        </div>
+                                        <div class="services-text mb3 mb5">
+                                           <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1" style="color: #000000">
+                                                Включение M стиля приборной панели
+                                              </h4>
+                                              <p style="color: #000000">
+                                                Изменение обложки для штатной приборной панели (только G серия) на М стиль или Alpina
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img  class="service-image" src="{{ url_for('static', filename='images/kombi.webp') }}" alt="Single Services Image">
+                                        </div>
+                                        </div>
+                                        <div class="services-text mb3 element">
+                                          <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1">
+                                                Активация M анимации при запуске авто
+                                              </h4>
+                                              <p class="padd2">
+                                                При каждом запуске автомобиля будет воспроизводится вместо стандартной надписи BMW красивая анимация M заставки
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img class="service-image" src="{{ url_for('static', filename='images/animation.gif') }}" alt="Single Services Image">
+                                        </div>
+                                          </div>
+                                        <div class="services-text mb3 mb5">
+                                          <div class="mbgkl">
+                                          <div class="text-content ">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1" style="color: #000000">
+                                                Добавление режимов Sport+, Comfort+
+                                              </h4>
+                                              <p class="padd2" style="color: #000000; font-size: 16px ">
+                                                <b>Режим Sport+:</b>
+                                                <b>·</b> Не полное отключение стабилизации (режим Traction), позволяет пусть авто в занос, но вовремя выведет из него
+                                                <br>
+                                                <b>·</b> Агрессивное переключение передач (не влияет на ресурс АКПП)
+                                                <br>
+                                                <b>Режим Comfort+:</b>
+                                                <b>·</b> Смягчает подвеску (если в авто есть адаптивная подвеска)
+                                                <br>
+                                                <b>·</b> Старт со светофора осуществляется со второй передачи, избавляет АКПП от лишних переключений.
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img class="service-image" src="{{ url_for('static', filename='images/sportplus.webp') }}" alt="Single Services Image">
+                                        </div>
+                                          </div>
+                                        <div class="services-text mb3">
+                                          <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1">
+                                                Активация режима стробоскопов
+                                              </h4>
+                                              <p class="padd2" >
+                                                Передние противотуманные фары гаснут при включении дальнего света, что создает эффект стробоскопов
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img class="service-image" src="{{ url_for('static', filename='images/strobo.gif') }}" alt="Single Services Image">
+                                        </div>
+                                          </div>
+                                        <div class="services-text mb3 mb5">
+                                          <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1" style="color: #000000">
+                                                Добавление/изменение цветов штатной Ambient подсветки
+                                              </h4>
+                                              <p class="padd2" style="color: #000000">
+                                                Возможность добавить цвета, которых не было с завода на ваш выбор
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img class="service-image" src="{{ url_for('static', filename='images/ambient.webp') }}" alt="Single Services Image">
+                                        </div>
+                                          </div>
+                                        <div class="services-text mb3">
+                                          <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1">
+                                                Добавление профилей звучания Bowers & Wilkins
+                                              </h4>
+                                              <p class="padd2" >
+                                                Активация аудиосистемы Bowers & Wilkins позволяет улучшить качество
+                                                <br>
+                                                звука в автомобиле и добавить выбор профилей звука для более профессиональной настройки
+                                                <br>(концертный зал, лаундж, студия)
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img class="service-image" src="{{ url_for('static', filename='images/bw.webp') }}" alt="Single Services Image">
+                                        </div>
+                                          </div>
+                                        <div class="service-btn">
+                                          <div class="service-button">
+                                            <a href="{{ url_for('coding') }}">
+                                              Посмотреть дальше
+                                              <span class="ms-1">
+                                                <i class="far fa-arrow-alt-circle-right"></i>
+                                              </span>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </div>
                             <div class="tab-pane fade " id="pills2-2" role="tabpanel" aria-labelledby="pills-2-tab">
                               <div class="row">
                                 <div class="services-item product-content-box col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
@@ -585,18 +571,24 @@
                                     <br>
                                     <br>
                                     <br>
-                                    <h4 style="font-family: Rubik , Sans-serif">Активация Apple CarPlay</h4>
+                                    <h4 style="font-family: Rubik , Sans-serif">
+                                      Активация Apple CarPlay
+                                    </h4>
                                   </div>
                                   <div>
                                     <div class="services-text mb-2">
                                       <p>
-                                        <p>Поможем активировать опцию Apple Carplay в вашем автомобиле с мультимедией ENTRYNAV2, NBT EVO и MGU. Позволит использовать Яндекс Навигатор, Google Maps, Яндекс Музыку и другие приложения с Вашего IPhone в Вашем авто</p>
+                                      Поможем активировать опцию Apple Carplay в вашем автомобиле с мультимедией ENTRYNAV2, NBT EVO и MGU. Позволит использовать Яндекс Навигатор, Google Maps, Яндекс Музыку и другие приложения с Вашего IPhone в Вашем авто
+                                      </p>
                                     </div>
                                   </div>
                                   <div class="service-btn">
                                     <div class="service-button">
                                       <a href="{{ url_for('contacts') }}">
-                                        Активировать Apple CarPlay <span class="ms-1"><i class="far fa-arrow-alt-circle-right"></i></span>
+                                        Активировать Apple CarPlay
+                                        <span class="ms-1">
+                                          <i class="far fa-arrow-alt-circle-right"></i>
+                                        </span>
                                       </a>
                                     </div>
                                   </div>
@@ -604,7 +596,6 @@
                                 <div class="services-right-content col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
                                   <div class="pro-img">
                                     <img decoding="async" src="{{ url_for('static', filename='images/carplay.webp') }}" alt="Single Services Image">
-
                                   </div>
                                 </div>
                               </div>
@@ -613,18 +604,24 @@
                               <div class="row">
                                 <div class="services-item product-content-box col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
                                   <div class="pro-services">
-                                    <h4 style="font-family: Rubik , Sans-serif">Обновление карт навигации</h4>
+                                    <h4 style="font-family: Rubik , Sans-serif">
+                                      Обновление карт навигации
+                                    </h4>
                                   </div>
                                   <div>
                                     <div class="services-text mb-2">
-                                      <p>
-                                        <p>Без проблем обновим ваши карты навигации на автомобиле, а также поможем сменить регион карт, язык мультимедии и приборной панели!</p>
+                                        <p>
+                                          Без проблем обновим ваши карты навигации на автомобиле, а также поможем сменить регион карт, язык мультимедии и приборной панели!
+                                        </p>
                                     </div>
                                   </div>
                                   <div class="service-btn">
                                     <div class="service-button">
                                       <a href="{{ url_for('contacts') }}">
-                                        Обновить карты <span class="ms-1"><i class="far fa-arrow-alt-circle-right"></i></span>
+                                        Обновить карты
+                                        <span class="ms-1">
+                                          <i class="far fa-arrow-alt-circle-right"></i>
+                                        </span>
                                       </a>
                                     </div>
                                   </div>
@@ -632,7 +629,6 @@
                                 <div class="services-right-content col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
                                   <div class="pro-img">
                                     <img decoding="async" src="{{ url_for('static', filename='images/maps.webp') }}" alt="Single Services Image">
-
                                   </div>
                                 </div>
                               </div>
@@ -644,18 +640,24 @@
                                     <br>
                                     <br>
                                     <br>
-                                    <h4 style="font-family: Rubik , Sans-serif">Установка и активация приложения MYBMW</h4>
+                                    <h4 style="font-family: Rubik , Sans-serif">
+                                      Установка и активация приложения MYBMW
+                                    </h4>
                                   </div>
                                   <div>
                                     <div class="services-text mb-2">
                                       <p>
-                                        <p>Поможем создать аккаунт в ConnectedDrive, привязать его к автомобилю другого региона (не америка). Позволит закрывать автомобиль с мобильного приложения, смотреть остаток топлива, температуру в салоне</p>
+                                        Поможем создать аккаунт в ConnectedDrive, привязать его к автомобилю другого региона (не америка). Позволит закрывать автомобиль с мобильного приложения, смотреть остаток топлива, температуру в салоне
+                                      </p>
                                     </div>
                                   </div>
                                   <div class="service-btn">
                                     <div class="service-button">
                                       <a href="{{ url_for('contacts') }}">
-                                        Дополнить свой авто <span class="ms-1"><i class="far fa-arrow-alt-circle-right"></i></span>
+                                        Дополнить свой авто
+                                        <span class="ms-1">
+                                          <i class="far fa-arrow-alt-circle-right"></i>
+                                        </span>
                                       </a>
                                     </div>
                                   </div>
@@ -663,7 +665,6 @@
                                 <div class="services-right-content col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
                                   <div class="pro-img">
                                     <img decoding="async" src="{{ url_for('static', filename='images/mybmw.webp') }}" alt="Single Services Image">
-
                                   </div>
                                 </div>
                               </div>
@@ -672,18 +673,24 @@
                               <div class="row">
                                 <div class="services-item product-content-box col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
                                   <div class="pro-services">
-                                    <h4 style="font-family: Rubik , Sans-serif">Установка оригинального, дилерского программного обеспечения для работы с Вашим BMW F и G серии</h4>
+                                    <h4 style="font-family: Rubik , Sans-serif">
+                                      Установка оригинального, дилерского программного обеспечения для работы с Вашим BMW F и G серии
+                                    </h4>
                                   </div>
                                   <div>
                                     <div class="services-text mb-2">
                                       <p>
-                                        <p>В наши услуги входит установка ПО для диагностики и программирования всех автомобилей BMW до 2023 года, а также по запросу клиента программы ESYS для кодирования всех автомобилей с системой NCD 1.0. Также возможно обучение диагностике и кодированию по запросу клиента</p>
+                                        В наши услуги входит установка ПО для диагностики и программирования всех автомобилей BMW до 2023 года, а также по запросу клиента программы ESYS для кодирования всех автомобилей с системой NCD 1.0. Также возможно обучение диагностике и кодированию по запросу клиента
+                                      </p>
                                     </div>
                                   </div>
                                   <div class="service-btn">
                                     <div class="service-button">
                                       <a href="{{ url_for('contacts') }}">
-                                        Стать диагностом <span class="ms-1"><i class="far fa-arrow-alt-circle-right"></i></span>
+                                        Стать диагностом
+                                        <span class="ms-1">
+                                          <i class="far fa-arrow-alt-circle-right"></i>
+                                        </span>
                                       </a>
                                     </div>
                                   </div>
@@ -694,16 +701,13 @@
                                     <br>
                                     <br>
                                     <img decoding="async" src="{{ url_for('static', filename='images/esys.webp') }}" alt="Single Services Image">
-
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -713,31 +717,41 @@
         </div>
       </div>
     </div>
+          <!-- Black Screen -->
     <div class="elementor-element elementor-element-6a462964 wpe-car-discount-section e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="6a462964" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div class="e-con-inner">
         <div class="elementor-element elementor-element-6c8209b8 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="6c8209b8" data-element_type="container">
           <div class="e-con-inner">
             <div class="elementor-element elementor-element-6e811afe elementor-widget elementor-widget-heading" data-id="6e811afe" data-element_type="widget" data-widget_type="heading.default">
               <div class="elementor-widget-container">
-                <h2 class="elementor-heading-title elementor-size-default">ВАШ BMW МОЖЕТ ГОРАЗДО БОЛЬШЕ, ЧЕМ ВЫ СЕБЕ ПРЕДСТАВЛЯЕТЕ. РАБОТАЕМ С ВЫЕЗДОМ ПО МОСКВЕ И ОБЛАСТИ, УДАЛЕННО ПО ВСЕЙ ПЛАНЕТЕ</h2> </div>
+                <h2 class="elementor-heading-title elementor-size-default">
+                  ВАШ BMW МОЖЕТ ГОРАЗДО БОЛЬШЕ, ЧЕМ ВЫ СЕБЕ ПРЕДСТАВЛЯЕТЕ. РАБОТАЕМ С ВЫЕЗДОМ ПО МОСКВЕ И ОБЛАСТИ, УДАЛЕННО ПО ВСЕЙ ПЛАНЕТЕ
+                </h2>
+              </div>
             </div>
             <div class="elementor-element elementor-element-4535e170 wpe-car-about-us-btn elementor-widget elementor-widget-elementskit-button" data-id="4535e170" data-element_type="widget" data-widget_type="elementskit-button.default">
               <div class="elementor-widget-container">
                 <div class="ekit-wid-con">
                   <div class="ekit-btn-wraper">
                     <a href="{{ url_for('contacts') }}" class="elementskit-btn  whitespace--normal" id="1">
-					Позвонить и записаться<svg aria-hidden="true" class="e-font-icon-svg e-far-arrow-alt-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg>				</a>
+					  Позвонить и записаться
+                      <svg aria-hidden="true" class="e-font-icon-svg e-far-arrow-alt-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- Remote Coding Space -->
         <div class="elementor-element elementor-element-41e0b42d e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="41e0b42d" data-element_type="container">
           <div class="e-con-inner">
             <div class="elementor-element elementor-element-15117601 wpe-car-discount-section-car elementor-widget elementor-widget-image" data-id="15117601" data-element_type="widget" data-widget_type="image.default">
               <div class="elementor-widget-container">
-                <img loading="lazy" decoding="async" width="541" src="{{ url_for('static', filename='images/services-single-right-img.webp') }}" class="attachment-full size-full wp-image-1049" alt="" srcset="{{ url_for('static', filename='images/3111.webp') }} 541w, {{ url_for('static', filename='images/discount-right-img-300x235.webp') }} 300w" sizes="(max-width: 541px) 100vw, 541px" /> </div>
+                <img loading="lazy" decoding="async" width="541" src="{{ url_for('static', filename='images/services-single-right-img.webp') }}" class="attachment-full size-full wp-image-1049" alt="" srcset="{{ url_for('static', filename='images/3111.webp') }} 541w, {{ url_for('static', filename='images/discount-right-img-300x235.webp') }} 300w" sizes="(max-width: 541px) 100vw, 541px" />
+              </div>
             </div>
           </div>
         </div>
@@ -751,11 +765,16 @@
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-7dbf691f elementor-widget elementor-widget-heading" data-id="7dbf691f" data-element_type="widget" data-widget_type="heading.default">
                   <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">Что делать, если я в другом регионе или стране?</h2> </div>
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      Что делать, если я в другом регионе или стране?
+                    </h2>
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-9171281 elementor-widget elementor-widget-text-editor" data-id="9171281" data-element_type="widget" data-widget_type="text-editor.default">
                   <div class="elementor-widget-container">
-                    <p>Простая инструкция, как подключить свой автомобиль к нам удаленно</p>
+                    <p>
+                      Простая инструкция, как подключить свой автомобиль к нам удаленно
+                    </p>
                   </div>
                 </div>
               </div>
@@ -825,11 +844,18 @@
                           }
                         </style>
                         <div class="elementor-image-box-wrapper">
-                          <figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work1.webp') }}" class="attachment-full size-full wp-image-1050" alt="" /></figure>
+                          <figure class="elementor-image-box-img">
+                            <img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work1.webp') }}" class="attachment-full size-full wp-image-1050" alt="" />
+                          </figure>
                           <div class="elementor-image-box-content">
-                            <h3 class="elementor-image-box-title">Какой ноутбук понадобится?</h3>
-                            <p class="elementor-image-box-description">Ноутбук с системой Windows 7/8/10/11, либо Macbook с виртуальной системой Windows.
-                              <br> Стабильное интернет соединение (можно раздать с телефона)</p>
+                            <h3 class="elementor-image-box-title">
+                              Какой ноутбук понадобится?
+                            </h3>
+                            <p class="elementor-image-box-description">
+                              Ноутбук с системой Windows 7/8/10/11, либо Macbook с виртуальной системой Windows.
+                              <br>
+                              Стабильное интернет соединение (можно раздать с телефона)
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -841,10 +867,16 @@
                     <div class="elementor-element elementor-element-38a9e36d wpe-car-work-box2 elementor-position-top elementor-widget elementor-widget-image-box" data-id="38a9e36d" data-element_type="widget" data-widget_type="image-box.default">
                       <div class="elementor-widget-container">
                         <div class="elementor-image-box-wrapper">
-                          <figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work2.webp') }}" class="attachment-full size-full wp-image-1051" alt="" /></figure>
+                          <figure class="elementor-image-box-img">
+                            <img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work2.webp') }}" class="attachment-full size-full wp-image-1051" alt="" />
+                          </figure>
                           <div class="elementor-image-box-content">
-                            <h3 class="elementor-image-box-title">Как подключиться к авто?</h3>
-                            <p class="elementor-image-box-description">Вам понадобится диагностический кабель ENET (стоимость на маркетплейсах с доставкой за 1 день около 1000 рублей)</p>
+                            <h3 class="elementor-image-box-title">
+                              Как подключиться к авто?
+                            </h3>
+                            <p class="elementor-image-box-description">
+                              Вам понадобится диагностический кабель ENET (стоимость на маркетплейсах с доставкой за 1 день около 1000 рублей)
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -856,10 +888,16 @@
                     <div class="elementor-element elementor-element-78e8aee7 wpe-car-work-box3 elementor-position-top elementor-widget elementor-widget-image-box" data-id="78e8aee7" data-element_type="widget" data-widget_type="image-box.default">
                       <div class="elementor-widget-container">
                         <div class="elementor-image-box-wrapper">
-                          <figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work3.webp') }}" class="attachment-full size-full wp-image-1052" alt="" /></figure>
+                          <figure class="elementor-image-box-img">
+                            <img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work3.webp') }}" class="attachment-full size-full wp-image-1052" alt="" />
+                          </figure>
                           <div class="elementor-image-box-content">
-                            <h3 class="elementor-image-box-title">Я подключился, что дальше?</h3>
-                            <p class="elementor-image-box-description">Скачиваете приложение AnyDesk для удаленного подключения к ноутбуку и присылаете нам 10-ти значный код</p>
+                            <h3 class="elementor-image-box-title">
+                              Я подключился, что дальше?
+                            </h3>
+                            <p class="elementor-image-box-description">
+                              Скачиваете приложение AnyDesk для удаленного подключения к ноутбуку и присылаете нам 10-ти значный код
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -871,10 +909,16 @@
                     <div class="elementor-element elementor-element-31b3c6cb wpe-car-work-box4 elementor-position-top elementor-widget elementor-widget-image-box" data-id="31b3c6cb" data-element_type="widget" data-widget_type="image-box.default">
                       <div class="elementor-widget-container">
                         <div class="elementor-image-box-wrapper">
-                          <figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work4.webp') }}" class="attachment-full size-full wp-image-1053" alt="" /></figure>
+                          <figure class="elementor-image-box-img">
+                            <img loading="lazy" decoding="async" width="80" height="80" src="{{ url_for('static', filename='images/work4.webp') }}" class="attachment-full size-full wp-image-1053" alt="" />
+                          </figure>
                           <div class="elementor-image-box-content">
-                            <h3 class="elementor-image-box-title">Работа</h3>
-                            <p class="elementor-image-box-description">Дальше мы подключаемся из любой точки планеты к Вашему автомобилю и качественно делаем свою работу</p>
+                            <h3 class="elementor-image-box-title">
+                              Работа
+                            </h3>
+                            <p class="elementor-image-box-description">
+                              Дальше мы подключаемся из любой точки планеты к Вашему автомобилю и качественно делаем свою работу
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -887,7 +931,7 @@
         </div>
       </div>
     </div>
-
+        <!-- Photos -->
     <div class="elementor-element elementor-element-134d5b78 wpe-car-gallery-section e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="134d5b78" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div class="elementor-element elementor-element-9129c10 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="9129c10" data-element_type="container">
         <div class="e-con-inner">
@@ -895,11 +939,16 @@
             <div class="e-con-inner">
               <div class="elementor-element elementor-element-37b38b7e elementor-widget elementor-widget-heading" data-id="37b38b7e" data-element_type="widget" data-widget_type="heading.default">
                 <div class="elementor-widget-container">
-                  <h2 class="elementor-heading-title elementor-size-default">Наши работы</h2> </div>
+                  <h2 class="elementor-heading-title elementor-size-default">
+                    Наши работы
+                  </h2>
+                </div>
               </div>
               <div class="elementor-element elementor-element-388261a7 elementor-widget elementor-widget-text-editor" data-id="388261a7" data-element_type="widget" data-widget_type="text-editor.default">
                 <div class="elementor-widget-container">
-                  <p>Перед работой у каждой машины сохраняется заводская прошивка, для возврата в любой момент!</p>
+                  <p>
+                    Перед работой у каждой машины сохраняется заводская прошивка, для возврата в любой момент!
+                  </p>
                 </div>
               </div>
             </div>
@@ -999,7 +1048,6 @@
                     }
                   </style>
                   <div class="elementor-image-gallery">
-
                     <style type="text/css">
                       #gallery-1 {
                         margin: auto;
@@ -1024,29 +1072,47 @@
                     <div id='gallery-1' class='gallery galleryid-582 gallery-columns-4 gallery-size-full'>
                       <dl class='gallery-item'>
                         <dt class='gallery-icon portrait'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Добавление/изменение штатной Ambient подсветки в BMW G05 (добавлены бирюзовый, красный, фиолетовый)" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA2OCwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTEucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p1.webp') }}"><img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/p1.webp') }}" class="attachment-full size-full" alt="" /></a>
-			</dt></dl>
+                          <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Добавление/изменение штатной Ambient подсветки в BMW G05 (добавлены бирюзовый, красный, фиолетовый)" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA2OCwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTEucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p1.webp') }}">
+                            <img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/p1.webp') }}" class="attachment-full size-full" alt="" />
+                          </a>
+                        </dt>
+                      </dl>
                       <dl class='gallery-item'>
                         <dt class='gallery-icon portrait'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация M заставки при включении авто на BMW G30 LCI" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA2OSwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTIucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p2.webp') }}"><img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/p2.webp') }}" class="attachment-full size-full" alt="" /></a>
-			</dt></dl>
+                          <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация M заставки при включении авто на BMW G30 LCI" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA2OSwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTIucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p2.webp') }}">
+                            <img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/p2.webp') }}" class="attachment-full size-full" alt="" />
+                          </a>
+                        </dt>
+                      </dl>
                       <dl class='gallery-item'>
                         <dt class='gallery-icon portrait'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация спорт приборов и M меню для BMW G20 LCI" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MCwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTMucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/pg3.webp') }}"><img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/pg3.webp') }}" class="attachment-full size-full" alt="" /></a>
-			</dt></dl>
+                          <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация спорт приборов и M меню для BMW G20 LCI" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MCwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTMucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/pg3.webp') }}">
+                            <img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/pg3.webp') }}" class="attachment-full size-full" alt="" />
+                          </a>
+                        </dt>
+                      </dl>
                       <dl class='gallery-item'>
                         <dt class='gallery-icon portrait'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Кодирование приборной панели от BMW M4 F82 в BMW F30 LCI" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MSwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTQucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p5.webp') }}"><img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/p5.webp') }}" class="attachment-full size-full" alt="" /></a>
-			</dt></dl>
+                          <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Кодирование приборной панели от BMW M4 F82 в BMW F30 LCI" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MSwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTQucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p5.webp') }}">
+                            <img loading="lazy" decoding="async" width="235" height="245" src="{{ url_for('static', filename='images/p5.webp') }}" class="attachment-full size-full" alt="" />
+                          </a>
+                        </dt>
+                      </dl>
                       <br style="clear: both" />
                       <dl class='gallery-item'>
                         <dt class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация М стиля приборной панели, визуального отображения потока на приборной панели, м логотипа" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MiwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTUucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p3.webp') }}"><img loading="lazy" decoding="async" width="510" height="510" src="{{ url_for('static', filename='images/p3.webp') }}" class="attachment-full size-full" alt="" srcset="{{ url_for('static', filename='images/p3.webp') }} 510w, {{ url_for('static', filename='images/p3.webp') }} 300w, {{ url_for('static', filename='images/p3.webp') }} 150w, {{ url_for('static', filename='images/p3.webp') }} 100w" sizes="(max-width: 510px) 100vw, 510px" /></a>
-			</dt></dl>
+                          <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация М стиля приборной панели, визуального отображения потока на приборной панели, м логотипа" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MiwidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTUucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p3.webp') }}">
+                            <img loading="lazy" decoding="async" width="510" height="510" src="{{ url_for('static', filename='images/p3.webp') }}" class="attachment-full size-full" alt="" srcset="{{ url_for('static', filename='images/p3.webp') }} 510w, {{ url_for('static', filename='images/p3.webp') }} 300w, {{ url_for('static', filename='images/p3.webp') }} 150w, {{ url_for('static', filename='images/p3.webp') }} 100w" sizes="(max-width: 510px) 100vw, 510px" />
+                          </a>
+                        </dt>
+                      </dl>
                       <dl class='gallery-item'>
                         <dt class='gallery-icon portrait'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация М меню в MGU и М проекции над лобовым стеклом с изменяемым видом" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MywidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTYucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p4.webp') }}"><img loading="lazy" decoding="async" width="280" height="510" src="{{ url_for('static', filename='images/p4.webp') }}" class="attachment-full size-full" alt="" srcset="{{ url_for('static', filename='images/p4.webp') }} 280w, {{ url_for('static', filename='images/p4.webp') }} 165w" sizes="(max-width: 280px) 100vw, 280px" /></a>
-			</dt></dl>
+                          <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="26cc7c37" data-elementor-lightbox-title="Активация М меню в MGU и М проекции над лобовым стеклом с изменяемым видом" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3MywidXJsIjoiaHR0cHM6XC9cL3ByZXZpZXcud3BlbGVtZW50by5jb21cL2F1dG8tY2FyLXJlcGFpclwvd3AtY29udGVudFwvdXBsb2Fkc1wvc2l0ZXNcLzExXC8yMDI0XC8wNlwvZ2FsbGVyeTYucG5nIiwic2xpZGVzaG93IjoiMjZjYzdjMzcifQ%3D%3D" href="{{ url_for('static', filename='images/p4.webp') }}">
+                            <img loading="lazy" decoding="async" width="280" height="510" src="{{ url_for('static', filename='images/p4.webp') }}" class="attachment-full size-full" alt="" srcset="{{ url_for('static', filename='images/p4.webp') }} 280w, {{ url_for('static', filename='images/p4.webp') }} 165w" sizes="(max-width: 280px) 100vw, 280px" />
+                          </a>
+                        </dt>
+                      </dl>
                       <br style='clear: both' />
                     </div>
                   </div>
@@ -1057,121 +1123,7 @@
         </div>
       </div>
     </div>
-
-    <div class="elementor-element elementor-element-519a3d79 wpe-car-testimonial-section e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="519a3d79" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-      <div class="e-con-inner">
-        <div class="elementor-element elementor-element-69fd9b4a e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="69fd9b4a" data-element_type="container">
-          <div class="e-con-inner">
-            <div class="elementor-element elementor-element-65f13ad9 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="65f13ad9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-              <div class="e-con-inner">
-                <div class="elementor-element elementor-element-62de7c9f elementor-widget elementor-widget-heading" data-id="62de7c9f" data-element_type="widget" data-widget_type="heading.default">
-                  <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">Отзывы наших клиентов</h2> </div>
-                </div>
-                <div class="elementor-element elementor-element-765df7f1 elementor-widget elementor-widget-text-editor" data-id="765df7f1" data-element_type="widget" data-widget_type="text-editor.default">
-                  <div class="elementor-widget-container">
-                    <p>Вы также всегда можете посмотреть наш рейтинг и отзывы на Авито</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="elementor-element elementor-element-75b6eb20 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="75b6eb20" data-element_type="container">
-              <div class="e-con-inner">
-                <div class="elementor-element elementor-element-5f3619b9 ea-testimonials-h-align-left wpe-car-testimonial-content  ea-testimonials-content-default elementor--star-style-star_fontawesome elementor-widget elementor-widget-ea-testimonials" data-id="5f3619b9" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:&quot;2&quot;,&quot;slides_per_view_tablet&quot;:&quot;2&quot;,&quot;slides_per_view_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;animation_speed&quot;:600}" data-widget_type="ea-testimonials.default">
-                  <div class="elementor-widget-container">
-                    <svg class="e-font-icon-svg e-fas-angle-right" viewBox="0 0 256 512" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                    </svg>
-                    <svg class="e-font-icon-svg e-fas-angle-left" viewBox="0 0 256 512" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path>
-                    </svg>
-                    <div class="ea-testimonials-wrap">
-                      <div class="ea-testimonials ea-testimonials-carousel ea-testimonials-image-inline ea-slick-slider" data-layout="carousel" data-slider-settings="{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:1,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:3000,&quot;speed&quot;:600,&quot;fade&quot;:false,&quot;vertical&quot;:false,&quot;adaptiveHeight&quot;:false,&quot;loop&quot;:true,&quot;rtl&quot;:false,&quot;arrows&quot;:true,&quot;prevArrow&quot;:&quot;&lt;div class=\&quot;ea-slider-arrow ea-arrow ea-arrow-prev\&quot;&gt;1&lt;\/div&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;div class=\&quot;ea-slider-arrow ea-arrow ea-arrow-next\&quot;&gt;1&lt;\/div&gt;&quot;,&quot;dots&quot;:false,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1025,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:1,&quot;centerMode&quot;:false,&quot;centerPadding&quot;:&quot;0px&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1,&quot;centerMode&quot;:false,&quot;centerPadding&quot;:&quot;0px&quot;}}]}">
-                        <div class="ea-testimonial-slide">
-                          <div class="ea-testimonial-outer">
-                            <div class="ea-testimonial ea-testimonial-skin-1">
-                              <div class="ea-testimonial-content">
-                                <div class="ea-testimonial-text">
-                                  Глеб профессионал своего дела, на G02 сделал цифровой спидометр, М анимацию, память кнопки старт/стоп, угол бокового зеркала. Рекомендую!
-
-                                  <img class="bord" width="200" decoding="async" src="{{ url_for('static', filename='images/r1.webp') }}" alt="Single Services Image">
-
-                                </div>
-                              </div>
-
-                              <div class="ea-testimonial-footer">
-                                <div class="ea-testimonial-footer-inner">
-
-                                  <div class="ea-testimonial-image">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/people.webp') }}" alt="testi-img1.webp"> </div>
-                                  <div class="ea-testimonial-cite">
-                                    <div class="ea-testimonial-name">Алексей</div>
-                                    <div class="elementor-star-rating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i></div>
-                                    <div class="ea-testimonial-position">BMW X4 G02</div>
-
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="ea-testimonial-slide">
-                          <div class="ea-testimonial-outer">
-                            <div class="ea-testimonial ea-testimonial-skin-1">
-                              <div class="ea-testimonial-content">
-                                <div class="ea-testimonial-text">
-                                  Выражаю огромную благодарность. Обращался с нестандартной проблемой, решить которую никто не брался (остальные специалисты на Авито и два сервиса в Москве). Было уделено внимание к вопросу, и найдено решение. Заодно закодировал пару опций.
-                                  <img class="bord" width="200" decoding="async" src="{{ url_for('static', filename='images/r2.webp') }}" alt="Single Services Image">
-                                </div>
-                              </div>
-                              <div class="ea-testimonial-footer">
-                                <div class="ea-testimonial-footer-inner">
-                                  <div class="ea-testimonial-image">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/people.webp') }}" alt="testi-img2.webp"> </div>
-                                  <div class="ea-testimonial-cite">
-                                    <div class="ea-testimonial-name">Александр</div>
-                                    <div class="elementor-star-rating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i></div>
-
-                                    <div class="ea-testimonial-position">BMW 3-er F30</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="ea-testimonial-slide">
-                          <div class="ea-testimonial-outer">
-                            <div class="ea-testimonial ea-testimonial-skin-1">
-                              <div class="ea-testimonial-content">
-                                <div class="ea-testimonial-text">
-                                  Встал на заправке Газпромнефть , заглючила BMW f10. Позвонил , приехал очень быстро . Все продиагностировал и помимо этого почистил ошибки и кое что обновил . Рекомендую! 👍</div>
-                              </div>
-                              <div class="ea-testimonial-footer">
-                                <div class="ea-testimonial-footer-inner">
-                                  <div class="ea-testimonial-image">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/people.webp') }}" alt="testi-img2.webp"> </div>
-                                  <div class="ea-testimonial-cite">
-                                    <div class="ea-testimonial-name">Алексей</div>
-                                    <div class="elementor-star-rating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i></div>
-
-                                    <div class="ea-testimonial-position">BMW 5-er F10</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+          <!-- Counters -->
     <div class="elementor-element elementor-element-20dc2ef8 wpe-car-why-counter-section e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="20dc2ef8" data-element_type="container">
       <div class="e-con-inner">
         <div class="elementor-element elementor-element-262e4515 wpe-car-counter-row e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="262e4515" data-element_type="container">
@@ -1179,16 +1131,19 @@
             <div class="elementor-element elementor-element-28a7ad4c wpe-car-why-counter-box1 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="28a7ad4c" data-element_type="container">
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-63d9ac49 elementor-widget elementor-widget-image" data-id="63d9ac49" data-element_type="widget" data-widget_type="image.default">
-
-                  <img loading="lazy" decoding="async" width="87" height="87" src="{{ url_for('static', filename='images/counter1-1.webp') }}" class="attachment-full size-full wp-image-1064" alt="" /> </div>
-
+                  <img loading="lazy" decoding="async" width="87" height="87" src="{{ url_for('static', filename='images/counter1-1.webp') }}" class="attachment-full size-full wp-image-1064" alt="" />
+                </div>
                 <div class="elementor-element elementor-element-12e782e1 elementor-widget elementor-widget-counter" data-id="12e782e1" data-element_type="widget" data-widget_type="counter.default">
                   <div class="elementor-widget-container">
                     <div class="elementor-counter">
-                      <div class="elementor-counter-title">Счастливых клиентов</div>
+                      <div class="elementor-counter-title">
+                        Счастливых клиентов
+                      </div>
                       <div class="elementor-counter-number-wrapper">
                         <span class="elementor-counter-number-prefix"></span>
-                        <span class="elementor-counter-number" data-duration="2000" data-to-value="200" data-from-value="0" data-delimiter=",">0</span>
+                        <span class="elementor-counter-number" data-duration="2000" data-to-value="200" data-from-value="0" data-delimiter=",">
+                          0
+                        </span>
                         <span class="elementor-counter-number-suffix"></span>
                       </div>
                     </div>
@@ -1200,15 +1155,20 @@
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-548d0a06 elementor-widget elementor-widget-image" data-id="548d0a06" data-element_type="widget" data-widget_type="image.default">
                   <div class="elementor-widget-container">
-                    <img loading="lazy" decoding="async" width="85" height="87" src="{{ url_for('static', filename='images/counter2-1.webp') }}" class="attachment-full size-full wp-image-1065" alt="" /> </div>
+                    <img loading="lazy" decoding="async" width="85" height="87" src="{{ url_for('static', filename='images/counter2-1.webp') }}" class="attachment-full size-full wp-image-1065" alt="" />
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-14382c89 elementor-widget elementor-widget-counter" data-id="14382c89" data-element_type="widget" data-widget_type="counter.default">
                   <div class="elementor-widget-container">
                     <div class="elementor-counter">
-                      <div class="elementor-counter-title">Машин отремонтировано</div>
+                      <div class="elementor-counter-title">
+                        Машин отремонтировано
+                      </div>
                       <div class="elementor-counter-number-wrapper">
                         <span class="elementor-counter-number-prefix"></span>
-                        <span class="elementor-counter-number" data-duration="2000" data-to-value="250" data-from-value="0" data-delimiter=",">0</span>
+                        <span class="elementor-counter-number" data-duration="2000" data-to-value="250" data-from-value="0" data-delimiter=",">
+                          0
+                        </span>
                         <span class="elementor-counter-number-suffix"></span>
                       </div>
                     </div>
@@ -1220,15 +1180,20 @@
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-6492ace elementor-widget elementor-widget-image" data-id="6492ace" data-element_type="widget" data-widget_type="image.default">
                   <div class="elementor-widget-container">
-                    <img loading="lazy" decoding="async" width="79" height="87" src="{{ url_for('static', filename='images/counter3-1.webp') }}" class="attachment-full size-full wp-image-1066" alt="" /> </div>
+                    <img loading="lazy" decoding="async" width="79" height="87" src="{{ url_for('static', filename='images/counter3-1.webp') }}" class="attachment-full size-full wp-image-1066" alt="" />
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-2ba8317a elementor-widget elementor-widget-counter" data-id="2ba8317a" data-element_type="widget" data-widget_type="counter.default">
                   <div class="elementor-widget-container">
                     <div class="elementor-counter">
-                      <div class="elementor-counter-title">Благодарственных отзывов</div>
+                      <div class="elementor-counter-title">
+                        Благодарственных отзывов
+                      </div>
                       <div class="elementor-counter-number-wrapper">
                         <span class="elementor-counter-number-prefix"></span>
-                        <span class="elementor-counter-number" data-duration="2000" data-to-value="100" data-from-value="0" data-delimiter=",">0</span>
+                        <span class="elementor-counter-number" data-duration="2000" data-to-value="100" data-from-value="0" data-delimiter=",">
+                          0
+                        </span>
                         <span class="elementor-counter-number-suffix"></span>
                       </div>
                     </div>
@@ -1240,15 +1205,20 @@
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-6d82b16d elementor-widget elementor-widget-image" data-id="6d82b16d" data-element_type="widget" data-widget_type="image.default">
                   <div class="elementor-widget-container">
-                    <img loading="lazy" decoding="async" width="87" height="87" src="{{ url_for('static', filename='images/counter4-1.webp') }}" class="attachment-full size-full wp-image-1067" alt="" /> </div>
+                    <img loading="lazy" decoding="async" width="87" height="87" src="{{ url_for('static', filename='images/counter4-1.webp') }}" class="attachment-full size-full wp-image-1067" alt="" />
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-12b1941 elementor-widget elementor-widget-counter" data-id="12b1941" data-element_type="widget" data-widget_type="counter.default">
                   <div class="elementor-widget-container">
                     <div class="elementor-counter">
-                      <div class="elementor-counter-title">Всего проектов</div>
+                      <div class="elementor-counter-title">
+                        Всего проектов
+                      </div>
                       <div class="elementor-counter-number-wrapper">
                         <span class="elementor-counter-number-prefix"></span>
-                        <span class="elementor-counter-number" data-duration="2000" data-to-value="300" data-from-value="0" data-delimiter=",">0</span>
+                        <span class="elementor-counter-number" data-duration="2000" data-to-value="300" data-from-value="0" data-delimiter=",">
+                          0
+                        </span>
                         <span class="elementor-counter-number-suffix"></span>
                       </div>
                     </div>
@@ -1260,7 +1230,7 @@
         </div>
       </div>
     </div>
-
+<!-- Footer -->
     <div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
       <div data-elementor-type="wp-post" data-elementor-id="990" class="elementor elementor-990">
         <div class="elementor-element elementor-element-55088482 e-con-full wpe-car-footer-main-container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="55088482" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1278,41 +1248,25 @@
                           <br>
                           <br>
                           <br>
-                          <br> </div>
-                        <img width="2000" src="{{ url_for('static', filename='images/footer-car.webp') }}" class="attachment-full size-full wp-image-1035" alt="" srcset="{{ url_for('static', filename='images/footer-car.webp') }} 242w, {{ url_for('static', filename='images/footer-car.webp') }} 238w" sizes="(max-width: 242px) 100vw, 242px" /> </div>
+                          <br>
+                        </div>
+                        <img width="2000" src="{{ url_for('static', filename='images/footer-car.webp') }}" class="attachment-full size-full wp-image-1035" alt="" srcset="{{ url_for('static', filename='images/footer-car.webp') }} 242w, {{ url_for('static', filename='images/footer-car.webp') }} 238w" sizes="(max-width: 242px) 100vw, 242px" />
+                      </div>
                     </div>
                   </div>
                   <div class="elementor-element elementor-element-5c1c9c52 e-con-full wpe-car-footer-newsletter-container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="5c1c9c52" data-element_type="container">
                     <div class="elementor-element elementor-element-36adb314 elementor-widget elementor-widget-heading" data-id="36adb314" data-element_type="widget" data-widget_type="heading.default">
                       <div class="elementor-widget-container">
-                        <h3 class="elementor-heading-title elementor-size-default">Записывайтесь к нам</h3> </div>
+                        <h3 class="elementor-heading-title elementor-size-default">
+                          Записывайтесь к нам
+                        </h3>
+                      </div>
                     </div>
                     <div class="elementor-element elementor-element-733dce7 wpe-car-footer-newsletter-container-text elementor-widget elementor-widget-text-editor" data-id="733dce7" data-element_type="widget" data-widget_type="text-editor.default">
                       <div class="elementor-widget-container">
-                        <p>Сделаем Вашу машину день в день</p>
-                      </div>
-                    </div>
-                    <div class="elementor-element elementor-element-191db4d3 wpe-car-footer-newsletter elementor-widget elementor-widget-shortcode" data-id="191db4d3" data-element_type="widget" data-widget_type="shortcode.default">
-                      <div class="elementor-widget-container">
-                        <div class="elementor-shortcode">
-                          <div class="wpcf7 js" id="wpcf7-f134-o1" lang="" dir="ltr">
-                            <div class="screen-reader-response">
-                              <p role="status" aria-live="polite" aria-atomic="true"></p>
-                              <ul></ul>
-                            </div>
-                            <form action="/auto-car-repair/#wpcf7-f134-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-                              <div style="display: none;">
-                                <input type="hidden" name="_wpcf7" value="134">
-                                <input type="hidden" name="_wpcf7_version" value="5.9.5">
-                                <input type="hidden" name="_wpcf7_locale" value="">
-                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f134-o1">
-                                <input type="hidden" name="_wpcf7_container_post" value="0">
-                                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-                              </div>
-                              <div class="wpcf7-response-output" aria-hidden="true"></div>
-                            </form>
-                          </div>
-                        </div>
+                        <p>
+                          Сделаем Вашу машину день в день
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1324,7 +1278,8 @@
                     <div class="elementor-element elementor-element-ad82c98 elementor-widget elementor-widget-image" data-id="ad82c98" data-element_type="widget" data-widget_type="image.default">
                       <div class="elementor-widget-container">
                         <a href="{{ url_for('index') }}">
-                          <img src="{{ url_for('static', filename='images/logo4.svg') }}" /> </a>
+                          <img src="{{ url_for('static', filename='images/logo4.svg') }}" />
+                        </a>
                         <div class="elementor-hidden-desktop">
                           <br>
                         </div>
@@ -1333,14 +1288,19 @@
                     <div class="elementor-element elementor-element-168a063b elementor-widget elementor-widget-text-editor" data-id="168a063b" data-element_type="widget" data-widget_type="text-editor.default">
                       <div class="elementor-widget-container">
                         Работаем каждый день без выходных с 8:00 до 0:00.
-                        <br> Вы также можете всегда написать в Telegram: @okmydream</div>
+                        <br>
+                        Вы также можете всегда написать в Telegram: @okmydream
+                      </div>
                     </div>
                   </div>
 
                   <div class="elementor-element elementor-element-649c951f e-con-full wpe-car-footer-contact-link e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="649c951f" data-element_type="container" id="wpe-car-footer-box3">
                     <div class="elementor-element elementor-element-166f30df elementor-widget elementor-widget-heading" data-id="166f30df" data-element_type="widget" data-widget_type="heading.default">
                       <div class="elementor-widget-container">
-                        <h4 class="elementor-heading-title elementor-size-default">Наши контакты</h4> </div>
+                        <h4 class="elementor-heading-title elementor-size-default">
+                          Наши контакты
+                        </h4>
+                      </div>
                     </div>
                     <div class="elementor-element elementor-element-3299e57c elementor-widget elementor-widget-elementskit-header-info" data-id="3299e57c" data-element_type="widget" data-widget_type="elementskit-header-info.default">
                       <div class="elementor-widget-container">
@@ -1350,9 +1310,10 @@
                               <a href="https://yandex.ru/maps/213/moscow/house/ulitsa_moskvorechye_4k6/Z04YcAJkTkIFQFtvfXp1cnhjbQ" target="_blank" rel="nofollow">
                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
-                                </svg> г. Москва, ул. Москворечье 4к6, метро Каширское </a>
+                                </svg>
+                                г. Москва, ул. Москворечье 4к6, метро Каширское
+                              </a>
                             </li>
-
                           </ul>
                         </div>
                       </div>
@@ -1365,9 +1326,9 @@
                               <a href="tel:+79303691601">
                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path>
-                                </svg> + 7 (930) 369 16 01 </a>
+                                </svg> + 7 (930) 369 16 01
+                              </a>
                             </li>
-
                           </ul>
                         </div>
                       </div>
@@ -1380,25 +1341,15 @@
                               <a href="mailto:g-makc@bk.ru">
                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
-                                </svg> g-makc@bk.ru </a>
+                                </svg>
+                                g-makc@bk.ru
+                              </a>
                             </li>
-
                           </ul>
                         </div>
                       </div>
                     </div>
-                    <!--                    <div class="elementor-element elementor-element-5fb02c4 elementor-widget elementor-widget-elementskit-button" data-id="5fb02c4" data-element_type="widget" data-widget_type="elementskit-button.default">-->
-                    <!--                      <div class="elementor-widget-container">-->
-                    <!--                        <div class="ekit-wid-con">-->
-                    <!--                          <div class="ekit-btn-wraper">-->
-                    <!--                            <a href="{{ url_for('index') }}" target="_blank" class="elementskit-btn  whitespace&#45;&#45;normal" id="">-->
-                    <!--					Buy Now				</a>-->
-                    <!--                          </div>-->
-                    <!--                        </div>-->
-                    <!--                      </div>-->
-                    <!--                    </div>-->
                   </div>
-
                 </div>
               </div>
               <div class="elementor-element elementor-element-74be1d8b e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="74be1d8b" data-element_type="container">
@@ -1406,10 +1357,10 @@
                   <div class="elementor-element elementor-element-4bf8506b e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4bf8506b" data-element_type="container">
                     <div class="elementor-element elementor-element-49f3c500 wpe-car-footer-bottom-link elementor-widget elementor-widget-text-editor" data-id="49f3c500" data-element_type="widget" data-widget_type="text-editor.default">
                       <div class="elementor-widget-container">
-                        Copyright © 2024 All Right Reserved. </div>
+                        Copyright © 2024 All Right Reserved.
+                      </div>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class="elementor-element elementor-element-6a37c0b8 elementor-view-default elementor-widget elementor-widget-icon" data-id="6a37c0b8" data-element_type="widget" id="return-to-top" data-widget_type="icon.default">
@@ -1434,9 +1385,6 @@
 
     <script type="text/javascript" src="{{ url_for('static', filename='elementor-addons-slick.js') }}" id="elementor-addons-slick-js"></script>
     <!-- Картинки в начале -->
-
-    <script type="text/javascript" src="{{ url_for('static', filename='elementor-addons-frontend.js') }}" id="elementor-addons-frontend-js"></script>
-    <!-- Отзывы -->
 
     <script type="text/javascript" src="{{ url_for('static', filename='elementor-webpack-runtime.js') }}" id="elementor-webpack-runtime-js"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='elementor-frontend-modules.js') }}" id="elementor-frontend-modules-js"></script>

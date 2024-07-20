@@ -1055,6 +1055,7 @@
     left: unset;
   }
 }
+
 @media screen and (min-width:768px) and (max-width:991px) {
   .elementskit-menu-container {
     box-shadow: 0 2px 6px #ccbabaf2 !important;
@@ -1291,10 +1292,7 @@
   .wpe-car-about-us-emg-box {
     width: 26%;
   }
-  .featured-services-sec .top-nav {
-    gap: 6px;
-    width: max-content;
-  }
+
   .featured-services-sec .top-nav .nav-link {
     font: 600 16px/19px "Open Sans", Sans-serif;
     padding: 6px 6px 6px 6px;
