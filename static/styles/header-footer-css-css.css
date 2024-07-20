@@ -1,15 +1,4 @@
 /*================== Car Repair Header CSS Start ================*/
-
-.wpe-car-header-cart-btn .hfe-menu-cart__toggle .elementor-button-icon[data-counter]:before {
-  top: -9px;
-  right: -9px;
-}
-.wpe-car-header-cart-btn .elementor-button-icon i:before {
-  content: '\f217' !important;
-  font-family: 'font awesome 5 free' !important;
-  font-weight: 800 !important;
-  font-style: normal;
-}
 .wpe-car-header-hamburger .elementskit-menu-hamburger {
   line-height: 18px !important;
 }
@@ -31,9 +20,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.sticky .ekit-menu-nav-link.active:before {
-  opacity: 0;
 }
 #menu-menu-right a.ekit-menu-nav-link.active:before {
   content: " ";
@@ -60,9 +46,6 @@
   align-items: center;
   text-align: center;
 } */
-.sticky #menu-menu-left a.ekit-menu-nav-link.active:before {
-  display: none !important;
-}
 
 /*================== Car Repair Header CSS End ================*/
 
@@ -85,17 +68,6 @@
 .wpe-car-footer-newsletter-container {
   padding-bottom: 20px;
 }
-.wpe-car-footer-time-table .elementor-widget-container {
-  display: flex;
-  justify-content: end;
-}
-.wpe-car-footer-time-table tr td:nth-child(2) {
-  padding-left: 30px;
-}
-.f-sun td {
-  color: #D10022;
-  font-weight: 500;
-}
 .wpe-car-footer-newsletter input[type=email] {
   padding: 13px;
   border-radius: 10px;
@@ -106,51 +78,14 @@
 .wpe-car-footer-newsletter form p {
   position: relative;
 }
-.subscribe-btn button {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  background-color: #D10022;
-  border: unset;
-  border-radius: 0px 8px 8px 0px;
-}
-.subscribe-btn button svg path {
-  fill: #FFF;
-}
 .wpe-car-footer-newsletter .wpcf7 form .wpcf7-response-output {
   margin: 0px 0 0 0;
   padding: 2px 10px;
   border: 1px solid #FFF;
   color: #FFF;
 }
-.wpe-car-footer-box2, .wpe-car-footer-box4 {
-  position: relative;
-}
 #wpe-car-footer-box3 {
   position: relative;
-}
-.wpe-car-footer-box2 h4.elementor-heading-title:after {
-  content: '';
-  height: 2px;
-  width: 50px;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  background: #D10022;
-  top: 55px;
-}
-.wpe-car-footer-box4 h4.elementor-heading-title:after {
-  content: '';
-  height: 2px;
-  width: 50px;
-  position: absolute;
-  bottom: 0px;
-  left: 10px;
-  background: #D10022;
-  top: 55px;
 }
 #wpe-car-footer-box3 h4.elementor-heading-title:after {
   content: '';
@@ -161,12 +96,6 @@
   left: 0;
   background: #D10022;
   top: 55px;
-}
-@media(min-width:768px) {
-tbody tr td   {
-    color: #FFF;
-  border-bottom: unset;
-}
 }
 
 /*================== Car Repair Footer CSS End ================*/

@@ -14,8 +14,7 @@
 	--padding-right: 0px;
 }
 
-.elementor-603 .elementor-element.elementor-element-519dd609:not(.elementor-motion-effects-element-type-background),
-.elementor-603 .elementor-element.elementor-element-519dd609>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+.elementor-603 .elementor-element.elementor-element-519dd609:not(.elementor-motion-effects-element-type-background) {
 	background-image: url("https://bmwforce.ru/bg5.png");
 	background-position: center center;
 }
@@ -44,14 +43,6 @@
 	font-size: 30px;
 	font-weight: 600;
 	color: #FFFFFF;
-}
-
-.elementor-603 .elementor-element.elementor-element-5a8c37a1 .hfe-page-title-icon i {
-	color: #FFFFFF;
-}
-
-.elementor-603 .elementor-element.elementor-element-5a8c37a1 .hfe-page-title-icon svg {
-	fill: #FFFFFF;
 }
 
 .elementor-603 .elementor-element.elementor-element-1ea11262 {
@@ -96,8 +87,7 @@
     color: #cccccc;
 }
 
-.fbc-page .fbc-wrap .fbc-items li.active span,
-.fbc-page .fbc-wrap .fbc-items li .fbc-end-text {
+.fbc-page .fbc-wrap .fbc-items li.active span {
     color: #27272a;
     font-size: 16px;
 }

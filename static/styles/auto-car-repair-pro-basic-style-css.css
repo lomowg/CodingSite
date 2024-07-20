@@ -40,19 +40,6 @@ ul, ol{
 img{
   max-width: 100% !important;
 }
-.sticky {
-  position: fixed;
-  width: 100%;
-  z-index: 999 !important;
-  top: 0px;
-  height: 95px;
-  left: 0;
-  padding: 0px 0px ;
-  background: #000;
-  border-bottom: 1px solid #CCBABAF2 !important;
-  box-shadow: 0px 2px 6px #CCBABAF2;
-  animation: slideDown 0.35s ease-out;
-}
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -62,30 +49,6 @@ img{
   }
 }
 /* loader */
-.spinner-loading-box {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  cursor: pointer;
-  z-index: 999999;
-  background: #CCBABAF2;
-}
-.spinner-loading-box img, .ets-theme-header-section :is(.ets-topabr-address, .ets-topabr-email) li{
-  width: 100%;
-}
-.ht-products .ht-product .ht-product-inner .ht-product-content {
-  padding: 25px 12px;
-}
-.wpe-sneakers-page-head .elementor-widget-wrap {
-  margin: -20px 0;
-}
-.woolentor-breadcrumb a {
-  color: #121212;
-}
 
 
 /*============= Car Repair CSS Start ============*/
@@ -95,48 +58,11 @@ img{
 .wpr-slider-primary-btn svg, .wpr-slider-secondary-btn svg {
   margin-left: 7px;
 }
-.wpe-car-slider-section .wpr-slider-prev-arrow {
-
-  left: 8%;
-  top: 25%;
-}
-.wpe-car-slider-section .wpr-slider-next-arrow {
-  right: 8%;
-  top: 25%;
-}
 
 
 /*============= Car Repair Slider CSS End ============*/
 
 /*============= Car Repair Social Icon CSS Start ============*/
-
-.wpe-car-social-icon-section {
-  position: relative;
-}
-.wpe-car-social-icon {
-  position: absolute;
-  top: -370px;
-  left: 6%;
-}
-.wpe-car-social-icon-text {
-  position: absolute;
-  top: -172px;
-  left: 6%;
-  transform: rotate(270deg);
-}
-.wpe-car-social-icon-text .elementor-widget-container {
-  position: relative;
-}
-.wpe-car-social-icon-text .elementor-widget-container::before {
-  content: '';
-  width: 50px;
-  background-color: #FFF;
-  height: 1px;
-  position: absolute;
-  bottom: 0px;
-  left: -64px;
-  top: 12px;
-}
 
 /*============= Car Repair Social Icon CSS End ============*/
 
@@ -144,52 +70,6 @@ img{
 
 .wpe-car-about-us-btn .ekit-btn-wraper a {
   display: inline;
-}
-.wpe-car-about-us-list .elementor-icon-list-icon svg path {
-  fill: #D10022 !important;
-}
-.wpe-car-about-us-rating-box .ekit-wid-con .ekit-header-info, .wpe-car-about-us-rating-box .ekit-wid-con .ekit-header-info a {
-  display: block !important;
-}
-.wpe-car-about-us-rating-box-img .elementor-widget-container {
-  background: #000000;
-  padding: 10px;
-  border-radius: 50px;
-}
-.wpe-car-about-us-rating-box .elementor-widget-elementskit-header-info .ekit-header-info li a svg {
-  margin-top: -5px;
-}
-.wpe-car-about-us-left {
-  position: relative;
-}
-.wpe-car-about-us-rating-box {
-  position: absolute;
-  z-index: 2;
-  left: 2%;
-  background: #FFF;
-}
-.wpe-car-about-us-counter-box {
-  position: absolute;
-  bottom: 12%;
-}
-.wpe-car-about-us-right-emergency .elementor-widget-container {
-  background: #D10022;
-  padding: 10px;
-  border-radius: 50px;
-  width: 50px
-}
-.wpe-car-about-us-emg-box {
-  height: 85%;
-}
-.wpe-car-about-us-counter-box .elementor-counter-title {
-  display: inline;
-  position: relative;
-  left: 20%;
-}
-.wpe-car-about-us-counter-box .elementor-counter-number-wrapper {
-  display: block !important;
-  position: relative;
-  left: 20%;
 }
 
 /*============= Car Repair About Us CSS End ============*/
@@ -302,89 +182,9 @@ img{
 
 /*============= Car Repair Why Choose CSS Start ============*/
 
-.wpe-car-why-choose-left-section {
-  position: relative;
-}
-.wpe-car-why-choose-left-icon-box {
-  position: absolute;
-  top: 20%;
-  z-index: 2;
-}
-.wpe-car-why-choose-box1 figure img {
-  position: relative;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-.wpe-car-why-choose-box1 figure img:hover {
-  /* transform: rotateY(180deg);
-  cursor: pointer; */
-}
-.wpe-car-why-choose-left-icon-box .elementor-image-box-title {
-  margin-bottom: 0;
-}
-
 /*============= Car Repair Why Choose CSS End ============*/
 
 /*============= Car Repair pricing Plan CSS Start ============*/
-
-.wpe-car-price-plan-right-box .elementskit-pricing-content  {
-  background-color: #FFF;
-}
-.wpe-car-price-plan-right-box .elementskit-pricing-header {
-  background-color: #D10022;
-  margin-bottom: 0px !important;
-  padding-top: 45px;
-}
-.wpe-car-price-plan-right-box .elementskit-pricing-price-wraper {
-  background-color: #D10022;
-  padding-bottom: 0px !important;
-  text-align: center;
-}
-.wpe-car-price-plan-right-box .ekit-wid-con .elementskit-pricing-tag {
-  background-color: unset !important;
-}
-.wpe-car-price-plan-right-box ul.elementskit-pricing-lists {
-  margin: 0 auto !important;
-  padding: 50px 70px 0 70px !important;
-}
-.wpe-car-price-plan-right-box .elementskit-pricing-lists li svg {
-  padding-right: 8px;
-}
-.wpe-car-price-plan-right-box .elementskit-pricing-btn-wraper {
-  padding-bottom: 35px;
-  text-align: center;
-}
-.elementskit-single-pricing a.elementskit-pricing-btn {
-  color: #FFFFFF;
-  background-color: #000000;
-  width: -webkit-fill-available !important;
-  display: initial !important;
-}
-span.elementskit-pricing-price {
-  text-align: center;
-  top: 38px;
-  border: 4px solid #D10022;
-  width: 90px;
-  height: 90px;
-  display: flex !important;
-  flex-direction: column;
-  margin: 0 auto;
-  border-radius: 50%;
-  background-color: #FFF;
-}
-.ekit-wid-con .elementskit-single-pricing .elementskit-pricing-price>sup {
-  left: 15px !important;
-  position: absolute;
-  top: 37px !important;
-  padding-right: 21px !important;
-}
-.elementskit-pricing-price span {
-  margin-top: 17px;
-  margin-left: 6px;
-}
-.ekit-wid-con .elementskit-single-pricing .elementskit-pricing-btn svg {
-  max-width: 18px !important;
-}
 
 /*============= Car Repair pricing Plan CSS End ============*/
 
@@ -622,340 +422,21 @@ span.elementskit-pricing-price {
 
 /*============= Car Repair Brand CSS Start ============*/
 
-.wpe-car-brand-section figure img {
-  position: relative;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-.wpe-car-brand-section figure img:hover {
-  /* transform: rotateY(180deg);
-  cursor: pointer; */
-}
-
 /*============= Car Repair Brand CSS End ============*/
 
 /*============= Car Repair Testimonial CSS Start ============*/
-
-img.bord {
-    	border-style: none;
-	border-radius: 15px 15px 15px 15px;
-}
-.wpe-car-testimonial-section .ea-testimonial-text {
-  background-color: #FFF;
-  padding: 40px 40px 40px 40px;
-  border-radius: 20px;
-}
-.wpe-car-testimonial-content .ea-arrow-next {
-  position: absolute;
-  right: 0% !important;
-}
-.wpe-car-testimonial-content .ea-arrow-prev {
-  left: unset !important;
-  right: 5% !important;
-}
-.wpe-car-testimonial-content .ea-testimonial-content {
-  position: relative;
-}
-.wpe-car-testimonial-content .ea-testimonial-content::after {
-  content: '';
-  position: absolute;
-  left: 7%;
-  top: 100%;
-  width: 0;
-  height: 0;
-  border-left: 0 solid transparent;
-  border-right: 70px solid transparent;
-  border-top: 50px solid #fff;
-  clear: both;
-  filter: drop-shadow(0px 3px 2px rgba(0,0,0,.1));
-}
-.wpe-car-testimonial-content .ea-testimonial-skin-1 {
-  position: relative;
-}
-.wpe-car-testimonial-content .elementor-star-rating {
-
-  top: 0%;
-  left: 6%;
-}
-.wpe-car-testimonial-content .ea-testimonial-cite {
-  margin-left: 10px;
-}
-.wpe-car-testimonial-content .ea-testimonial-content .ea-testimonial-text {
-  background-image: url("../images/quote.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.wpe-car-testimonial-content .ea-testimonial:hover .ea-testimonial-image img {
-  border-style: solid !important;
-  border-width: 3px!important;
-  border-color: #D10022 !important;
-}
-.wpe-car-testimonial-section .wpe-car-testimonial-content svg {
-    display: none;
-}
 
 /*============= Car Repair Testimonial CSS End ============*/
 
 /*============= Car Repair Team Section CSS Start ============*/
 
-.wpe-car-team-section .ea-tm-social-links-wrap .ea-tm-social-links li:last-child:after {
-  /* font-family: "font awesome 5 free";
-  content: "\f1e0";
-  font-weight: 900;
-  color: #fff;
-  font-size: 14px;
-  background: #D10022;
-  padding: 8px;
-  border-radius: 6px 6px 0 6px;
-  cursor: pointer;
-  position: absolute;
-  right: 0;
-  top: -31px; */
-}
-.wpe-car-team-section .ea-tm-content {
-  background-color: #FFF;
-  margin: 0 20px;
-  margin-top: -60px;
-  box-shadow: 0px 3px 6px #00000029;
-  border-radius: 15px 0px 15px 15px;
-  padding: 20px;
-}
-.wpe-car-team-section .ea-tm-content {
-  position: relative;
-}
-.wpe-car-team-section ul.ea-tm-social-links {
-  position: absolute;
-  top: 0;
-  right: -4px;
-}
-.wpe-car-team-section .ea-tm-wrapper {
-  overflow-x: clip;
-}
-.wpe-car-team-section .swiper-button-prev  {
-  position: absolute;
-  left: -45%;
-  top: 78%;
-  width: 37px;
-  height: 37px
-}
-.wpe-car-team-section .swiper-button-next  {
-  position: absolute;
-  left: -39%;
-  top: 78%;
-  width: 37px;
-  height: 37px
-}
-.wpe-car-team-section .swiper-button-prev:after, .wpe-car-team-section.swiper-rtl .swiper-button-next:after {
-  display: none;
-}
-.wpe-car-team-section .swiper-button-next:after, .wpe-car-team-section .swiper-rtl .swiper-button-prev:after {
-  display: none;
-}
-.wpe-car-team-section .ea-tm-social-links {
-  display: none;
-}
-.wpe-car-team-section .ea-tm-content .tm-icon-span::before {
-  content: "\f1e0";
-  font: 800 18px/27px "font awesome 5 free";
-  position: absolute;
-  color: #fff;
-  right: 0px;
-  top: -43px;
-  background: #D10022;
-  border-radius: 6px 6px 0 6px;
-  cursor: pointer;
-  padding: 8px 13px;
-}
-.wpe-car-team-section .ea-tm-social-links-wrap {
-  position: absolute;
-  right: 3%;
-  transform: rotate(360deg);
-  top: -190px;
-}
-.wpe-car-team-section .ea-tm-wrapper .ea-tm-social-links li {
-  padding: 7px 0;
-}
-.wpe-car-team-section .ea-tm-position::before {
-  content: "\f005" !important;
-  color: #FFDA1D;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 800;
-  font-size: 15px;
-  padding-right: 2px;
-}
-
 /*============= Car Repair Team Section CSS End ============*/
 
 /*============= Car Repair Instagram Section CSS Starts ============*/
 
-.sb_instagram_header {
-  display: none;
-}
-#sbi_images {
-  display: flex;
-  padding: 35px 0 !important;
-}
-#sbi_images .sbi_photo_wrap a {
-  width: 190px !important;
-  height: 130px !important;
-  border-radius: 10px;
-}
-#sbi_load {
-  display: none;
-}
-#sb_instagram #sbi_images .sbi_item .sbi_photo_wrap a {
-  position: relative;
-}
-#sb_instagram #sbi_images .sbi_item .sbi_photo_wrap:hover a:after {
-  opacity: 1;
-}
-#sb_instagram #sbi_images .sbi_item .sbi_photo_wrap a:after {
-  content: '\f16d';
-  font-family: 'FontAwesome';
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  font-size: 20px;
-  opacity: 0;
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  background-color:transparent;
-  background-color: #D10022 !important;
-  padding: 20px 10px !important;
-  border-radius: 15px;
-}
-
 /*============= Car Repair Instagram Section CSS End ============*/
 
 /*=========== Car Repair Blog Section CSS Start ============*/
-
-.wpe-car-blog-section .ea-amox-carousel {
-  overflow-x: clip;
-}
-.wpe-car-blog-section [class*=ea-arrows-align-bottom] .ea-arrows-container {
-  transform: translateY(85px);
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-navigation-prev i, .ea-amox-carousel .ea-navigation-next i {
-  line-height: 25px;
-  text-align: center;
-  justify-content: center;
-  display: block;
-  font-weight: 600;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-item:hover .ea-img-wrap .ea-img {
-  transform: unset;
-}
-.wpe-car-blog-section .ea-text p {
-  color: #3B3B3B;
-  font: 300 16px/24px 'Rubik';
-}
-.wpe-car-blog-section .ea-readmore-icon span {
-  font: 500 16px/19px 'Rubik';
-  text-transform: capitalize;
-  border-radius: 10px;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-button-wrap {
-  margin-bottom: calc(0px * 2) !important;
-  margin-top: 30px;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-comments {
-  margin-left: 5px;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-date {
-  margin-left: 5px;
-}
-.wpe-car-blog-section .ea-author a {
-  color: #000000;
-  pointer-events: none;
-}
-.wpe-car-blog-section .ea-button-wrap .ea-readmore-icon {
-  position: relative;
-}
-.wpe-car-blog-section .ea-button-wrap .ea-readmore-icon svg {
-  padding: 7px 7px;
-  border-radius: 6px;
-  color: #FFF !important;
-  position: absolute;
-  margin-left: 6px;
-  bottom: -4px;
-}
-.wpe-car-blog-section .ea-button-wrap .ea-readmore-icon svg path {
-  fill: #FFF;
-}
-.wpe-car-blog-section .ea-button-wrap a.ea-readmore:hover {
-  background: #D10022 !important;
-}
-.wpe-car-blog-section {
-  box-shadow: 0 0 200px 0 #FDF4F4 !important;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-date::before {
-  content: "\f073";
-  font-family: 'Font Awesome 5 Free';
-  font-size: 12px;
-  color: #D10022;
-  padding-right: 4px;
-}
-.wpe-car-blog-section .ea-author:before {
-  content: "\f007" !important;
-  color: #D10022;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 800;
-  font-size: 12px;
-  padding-right: 4px;
-}
-.wpe-car-blog-section .ea-comments .eicon-comments::before {
-  content: "\f075" !important;
-  color: #D10022;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 800;
-  font-size: 12px;
-  padding-right: 4px;
-}
-.wpe-car-blog-section {
-  box-shadow: 2px 80px #FDF4F4 !important;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-item .ea-img-wrap img {
-  height: 240px;
-  border-radius: 20px;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-author {
-  order: 1;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-date {
-  order: 2;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-comments {
-  order: 3;
-}
-.wpe-car-blog-section .ea-location-wrap .eicon-post::before {
-  display:none;
-}
-.wpe-car-blog-section .ea-location-wrap .eicon-post::before {
-  display:none;
-}
-.wpe-car-blog-section .ea-author a {
-  color: #000000;
-  pointer-events: none;
-  width: 50px;
-  display: inline-flex;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-author {
-  display: inline-block;
-  margin-right: 10px;
-}
-.wpe-car-blog-section .ea-amox-carousel .ea-date {
-  margin-right: 8px;
-}
-.wpe-car-blog-section .ea-meta.ea-flex-inline.ea-flex-middle {
-  position: absolute;
-  top: 0;
-  padding: 11px 0;
-}
 
 /*=========== Car Repair Blog Section CSS End ============*/
 
@@ -1025,60 +506,6 @@ img.bord {
 /*============= Car Repair Return to Top CSS End ============*/
 
 /*============= Car Repair Preloader CSS Start ============*/
-
-.demo{
-  background: linear-gradient(263deg, #d8d0b7 0%, #F3F3F3 100%);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.loader img{
-  object-fit: fill;
-  width: 30%;
-  height: 30%;
-  margin: 0 auto;
-}
-.loader{
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  position: relative;
-  top: 30%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.loader .loader-inner-1{
-  width: 270px;
-  height: 270px;
-  border-radius: 50%;
-  border-bottom: 10px dashed #A06F48;
-  position: absolute;
-  animation: loading-1 5s infinite linear;
-}
-.loader .loader-inner-2{
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  border-bottom: 10px dotted #ffb67a;
-  position: absolute;
-  top: 50px;
-  left: 45px;
-  animation: loading-1 1s infinite linear;
-}
-.loader .loader-inner-3{
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border-bottom: 5px solid #805810;
-  position: absolute;
-  top: 100px;
-  left: 90px;
-  animation: loading-1 2s infinite linear;
-}
 @keyframes loading-1{
   from{ -webkit-transform: rotate(0deg); }
   to{ -webkit-transform: rotate(360deg); }
@@ -1123,214 +550,6 @@ img.bord {
   z-index: 999;
   background-color: #000000;
 } */
-
-.cssload-loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 78.284271247462px;
-  height: 78.284271247462px;
-  margin-left: -39.142135623731px;
-  margin-top: -39.142135623731px;
-  border-radius: 100%;
-  animation-name: cssload-loader;
-  -o-animation-name: cssload-loader;
-  -ms-animation-name: cssload-loader;
-  -webkit-animation-name: cssload-loader;
-  -moz-animation-name: cssload-loader;
-  animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  -ms-animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  -o-animation-timing-function: linear;
-  -ms-animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  animation-duration: 2.4s;
-  -o-animation-duration: 2.4s;
-  -ms-animation-duration: 2.4s;
-  -webkit-animation-duration: 2.4s;
-  -moz-animation-duration: 2.4s;
-}
-
-.cssload-loader .cssload-side {
-  display: block;
-  width: 10px;
-  height: 33px;
-  background-color: #FC1313;
-  margin: 3px;
-  position: absolute;
-  border-radius: 50%;
-  animation-duration: 0.895s;
-  -o-animation-duration: 0.895s;
-  -ms-animation-duration: 0.895s;
-  -webkit-animation-duration: 0.895s;
-  -moz-animation-duration: 0.895s;
-  animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  -ms-animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  -o-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
-  -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
-}
-
-.cssload-loader .cssload-side:nth-child(1),
-.cssload-loader .cssload-side:nth-child(5) {
-  transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  animation-name: cssload-rotate0;
-  -o-animation-name: cssload-rotate0;
-  -ms-animation-name: cssload-rotate0;
-  -webkit-animation-name: cssload-rotate0;
-  -moz-animation-name: cssload-rotate0;
-}
-
-.cssload-loader .cssload-side:nth-child(3),
-.cssload-loader .cssload-side:nth-child(7) {
-  transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  animation-name: cssload-rotate90;
-  -o-animation-name: cssload-rotate90;
-  -ms-animation-name: cssload-rotate90;
-  -webkit-animation-name: cssload-rotate90;
-  -moz-animation-name: cssload-rotate90;
-}
-
-.cssload-loader .cssload-side:nth-child(2),
-.cssload-loader .cssload-side:nth-child(6) {
-  transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  animation-name: cssload-rotate45;
-  -o-animation-name: cssload-rotate45;
-  -ms-animation-name: cssload-rotate45;
-  -webkit-animation-name: cssload-rotate45;
-  -moz-animation-name: cssload-rotate45;
-}
-
-.cssload-loader .cssload-side:nth-child(4),
-.cssload-loader .cssload-side:nth-child(8) {
-  transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  animation-name: cssload-rotate135;
-  -o-animation-name: cssload-rotate135;
-  -ms-animation-name: cssload-rotate135;
-  -webkit-animation-name: cssload-rotate135;
-  -moz-animation-name: cssload-rotate135;
-}
-
-.cssload-loader .cssload-side:nth-child(1) {
-  top: 39.142135623731px;
-  left: 78.284271247462px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(2) {
-  top: 67.213203431093px;
-  left: 67.213203431093px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(3) {
-  top: 78.284271247462px;
-  left: 39.142135623731px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(4) {
-  top: 67.213203431093px;
-  left: 11.071067816369px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(5) {
-  top: 39.142135623731px;
-  left: 0px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(6) {
-  top: 11.071067816369px;
-  left: 11.071067816369px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(7) {
-  top: 0px;
-  left: 39.142135623731px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
-
-.cssload-loader .cssload-side:nth-child(8) {
-  top: 11.071067816369px;
-  left: 67.213203431093px;
-  margin-left: -5px;
-  margin-top: -16px;
-  animation-delay: 0;
-  -o-animation-delay: 0;
-  -ms-animation-delay: 0;
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-}
 
 @keyframes cssload-rotate0 {
   0% {
@@ -1478,208 +697,16 @@ img.bord {
 
 
 /*----------- Demo CSS Start -----------*/
-
-.wpe-car-slider-section .wpr-slider-prev-arrow:after {
-	content: '\f104'!important;
-  position: absolute;
-  font-family: 'Font Awesome 5 Free';
-  color: #000;
-  visibility: visible;
-  border-radius: 8px;
-  font-size: 25px;
-  font-weight: 600;
-	background-color: #FFF;
-  width: 38px;
-}
-.wpe-car-slider-section .wpr-slider-next-arrow:after {
-	content: '\f105'!important;
-  position: absolute;
-  font-family: 'Font Awesome 5 Free';
-  color: #000;
-  visibility: visible;
-  border-radius: 8px;
-  font-size: 25px;
-  font-weight: 600;
-	transform: rotate(180deg);
-	background-color: #FFF;
-  width: 38px;
-}
-.wpe-car-slider-section .wpr-slider-prev-arrow:hover.wpr-slider-prev-arrow:after {
-  background-color: #D10022 !important;
-  color: #FFF !important;
-}
-.wpe-car-slider-section .wpr-slider-next-arrow:hover.wpr-slider-next-arrow:after {
-  background-color: #D10022 !important;
-  color: #FFF !important;
-}
-.wpe-car-testimonial-content .ea-arrow .ea-arrow-prev, .wpe-car-testimonial-content .ea-arrow .ea-arrow-next {
-  visibility: hidden;
-}
-.wpe-car-testimonial-content .ea-arrow-prev:after {
-  content: '\f053'!important;
-  position: absolute;
-  font-family: 'FontAwesome';
-  color: #000;
-  visibility: visible;
-  background-color: #FFF;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 400;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
-  text-align: center;
-}
-.wpe-car-testimonial-content .ea-arrow-next:after {
-  content: '\f054'!important;
-  position: absolute;
-  font-family: 'FontAwesome';
-  color: #000;
-  visibility: visible;
-  background-color: #FFF;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight:400;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
-  text-align: center;
-}
-.wpe-car-testimonial-content .ea-arrow-prev:hover.ea-arrow-prev:after {
-  background-color: #D10022 !important;
-  color: #FFF !important;
-}
-.wpe-car-testimonial-content .ea-arrow-next:hover.ea-arrow-next:after {
-  background-color: #D10022 !important;
-  color: #FFF !important;
-}
-.wpe-car-testimonial-content .ea-arrow-prev.slick-arrow {
-  font-size: 0;
-  background-color: #FFF;
-  padding: 18px;
-  border-radius: 8px;
-}
-.wpe-car-testimonial-content .ea-arrow-next.slick-arrow {
-  font-size: 0;
-  background-color: #FFF;
-  padding: 18px;
-  border-radius: 8px;
-}
-.wpe-car-team-div .ea-tm-social-icon {
-  font-size: 0 !important;
-}
-.wpe-car-team-div .ea-tm-social-icon-wrap svg {
-  height: 16px !important;
-fill: #FFF;
-}
-.wpe-car-team-div .ea-tm-social-icon-wrap svg:hover {
-fill: #D10022;
-}
-.wpe-car-team-section ul.ea-tm-social-links {
-  position: absolute;
-  top: 0;
-  right: -18px;
-}
-.wpe-car-header-cart-btn .elementor-button-icon i:before {
-  font-style: normal;
-}
-.wpe-car-header-cart-btn .hfe-menu-cart__toggle .elementor-button-icon[data-counter]:before {
-  top: -11px;
-  right: -11px;
-}
-.wpe-car-slider-section .wpr-slider-arrow  {
-visibility:hidden;
-}
-.wpe-car-about-page-team-section .ea-tm-social-icon {
-  font-size: 0 !important;
-}
-.wpe-car-about-page-team-section .ea-tm-social-icon-wrap svg {
-  height: 16px !important;
-fill: #FFF;
-}
-.wpe-car-about-page-team-section .ea-tm-social-icon-wrap svg:hover {
-fill: #D10022;
-}
-.wpe-car-about-page-team-section ul.ea-tm-social-links {
-  position: absolute;
-  top: 0;
-  right: -30px;
-}
-.elementor-star-rating {
-  font-family: 'Font Awesome 5 Free' !important;
-  display: inline-block;
-}
-.elementor-star-rating i:before {
-  content: '\f005' !important;
-  display: block;
-  font-size: inherit;
-  font-family: 'FontAwesome' !important;
-  position: absolute;
-}
 .wpe-car-why-counter-box1 .elementor-widget-image .elementor-widget-container img, .wpe-car-why-counter-box2 .elementor-widget-image .elementor-widget-container img, .wpe-car-why-counter-box3 .elementor-widget-image .elementor-widget-container img, .wpe-car-why-counter-box4 .elementor-widget-image .elementor-widget-container img {
   padding-bottom: 15px;
 }
-.shop-popular-product .products li a h2.woocommerce-loop-product__title {
-  margin-left: 104px !important;
-  position: absolute;
-}
-.home-car-listing-sec .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+ .nav-pills .show>.nav-link {
   color: #d10022 !important;
-}
-.services-single-post-title h2 {
-  font: 800 30px/38px "Rajdhani", Sans-serif;
-}
-.plan-main-box .woocommerce-Price-amount bdi {
-  font: 800 20px/25px "Rajdhani", Sans-serif;
-}
-.pricing-plan-bottom-title {
-  font: 800 30px/40px "Rajdhani", Sans-serif;
-}
-.wpe-car-faq-page .ekit_accordion_icon_left_group .ekit_accordion_normal_icon svg, .wpe-car-faq-page .ekit_accordion_icon_left_group .ekit_accordion_active_icon svg {
-  background: #000;
-}
-
-@media screen and (min-width:320px) and (max-width:374px){
-.wpe-car-team-section .ea-tm-wrapper .ea-tm-social-links li {
-  padding: 3px 0;
-}
-.wpe-car-about-page-team-section ul.ea-tm-social-links {
-  position: absolute;
-  right: -19px;
-  top: 30px;
-}
-.wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
-  position: absolute;
-  bottom: -15%;
-}
-.wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
-  position: absolute;
-  bottom: -15%;
-}
-}
-.elementskit-btn-link .ekit_accordion_icon_left_group svg {
-  max-width: 40px !important;
-  height: 40px !important;
-}
-.ekit_accordion_active_icon svg {
-  background: #d10022 !important;
 }
 
 @media screen and (min-width:320px) and (max-width:767px) {
 .wpe-car-services-section .services-item {
   text-align: center;
-}
-.benifit-list ul {
-  text-align: start;
-}
-.wpe-car-about-page-team-section .ea-tm-description {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6!important;
-}
-.wpe-car-team-section .ea-tm-content {
-  margin-top: -25px;
 }
 .featured-services-sec .top-nav .nav-link {
   font: 600 0px/0px "Rajdhani", Sans-serif;
@@ -1688,27 +715,11 @@ fill: #D10022;
 .featured-services-sec .nav-item button img {
   width: 35px;
 }
-.woocommerce-shop .woocommerce-ordering {
-  position: unset !important;
-  right: unset !important;
-  top: unset !important;
-}
-.woocommerce .woocommerce-result-count {
-  padding-top: 10px;
-}
 
 }
 
 
 @media screen and (min-width:375px) and (max-width:424px) {
-.wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-prev {
-  position: absolute;
-  bottom: -15%;
-}
-.wpe-car-about-page-team-section .ea-team-member-carousel-wrap .swiper-button-next {
-  position: absolute;
-  bottom: -15%;
-}
 .featured-services-sec .top-nav {
   gap: 7px;
 }
@@ -1716,12 +727,6 @@ fill: #D10022;
 @media screen and (min-width:425px) and (max-width:575px) {
 .featured-services-sec .top-nav {
   gap: 15px;
-}
-}
-@media screen and (min-width:375px) and (max-width:575px) {
-.wpe-car-about-page-team-section ul.ea-tm-social-links {
-  position: absolute;
-  right: -21px;
 }
 }
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -1732,90 +737,10 @@ fill: #D10022;
   width: 37% !important;
   height: 125px !important;
 }
-.services-meta-box-benefit-row>div:nth-child(2){
-  margin:15px 0;
-}
-}
-@media screen and (min-width:768px) and (max-width:991px) {
-.woocommerce-shop .products li {
-  padding: 5px 5px 10px 5px!important;
-}
-.woocommerce-shop .woocommerce-ordering {
-  position: absolute;
-  right: 4% !important;
-  top: 1.5% !important;
- }
- .woocommerce-shop ul li a {
-  display: block !important;
- }
- .woocommerce-shop .shop-off-details {
-    margin-left: 15px !important;
-  }
-}
-@media screen and (min-width:992px) and (max-width:1024px) {
-  .woocommerce-shop .woocommerce-ordering {
-  position: absolute!important;
-  right: 4% !important;
-  top: 2.5% !important;
-}
-}
-@media screen and (min-width:768px) and (max-width:1024px) {
-.shop-popular-product .woocommerce ul li {
-  width: 100% !important;
-  margin: 5px 0px !important;
-}
-  .shop-popular-product .price ins {
-  font: 400 14px/14px "Rubik" , Sans-serif !important;
-}
-  .shop-popular-product .price del {
-  font: 400 14px/14px "Rubik" , Sans-serif !important;
-}
-.shop-popular-product .shop-page-rating {
-  display: none;
-}
-.shop-popular-product .woocommerce .price {
-  margin-left: 32px;
-}
-}
-@media screen and (min-width: 1023px) and (max-width: 1024px){
-.wpe-car-blog-section .ea-author a {
-  width: 7px !important;
-  display: inline-flex;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
 }
 @media screen and (min-width: 1025px) and (max-width: 1199px){
-.wpe-car-blog-section .ea-author a {
-  width: 11px;
-  display: inline-flex;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.shop-popular-product .shop-page-rating {
-  display: none;
-}
-.shop-popular-product .woocommerce .price {
-  margin-left: 27px;
-}
-.shop-popular-product .price ins {
-  font: 400 14px/14px "Rubik" , Sans-serif !important;
-}
-  .shop-popular-product .price del {
-  font: 400 14px/14px "Rubik" , Sans-serif !important;
-}
-.woocommerce-shop .products li {
-  padding: 5px 5px 5px 2px!important;
-}
 #menu-menu-right li a {
   padding: 0 3px !important;
-}
-.woocommerce-shop .woocommerce-ordering {
-  position: absolute!important;
-  right: 4% !important;
-  top: 2.5% !important;
 }
 }
 @media screen and (min-width:1025px) and (max-width:1599px) {
@@ -1827,70 +752,16 @@ fill: #D10022;
 #menu-menu-right li a {
   padding: 0 3px !important;
 }
-.shop-popular-product .shop-page-rating {
-  display: none;
-}
-.shop-popular-product .woocommerce .price {
-  margin-left: 18px;
-}
-.shop-popular-product .price ins {
-  font: 400 14px/14px "Rubik" , Sans-serif !important;
-}
-  .shop-popular-product .price del {
-  font: 400 14px/14px "Rubik" , Sans-serif !important;
-}
-.woocommerce-shop .woocommerce-ordering {
-  position: absolute!important;
-  right: 4% !important;
-  top: 2.5% !important;
-}
 }
 @media screen and (min-width: 1366px) and (max-width: 1439px) {
 #menu-menu-right li a {
   padding: 0 8px !important;
-}
-.shop-popular-product .shop-page-rating {
-  position: absolute;
-  top: 0%;
-}
-.shop-popular-product .price {
-  margin-left: 17px;
-}
-.woocommerce-shop .woocommerce-ordering {
-  position: absolute!important;
-  right: 9% !important;
-  top: 2.5% !important;
 }
 }
 @media screen and (min-width: 1440px) and (max-width: 1600px) {
   #menu-menu-right li a {
   padding: 0 8px !important;
 }
-.woocommerce-shop .woocommerce-ordering {
-  position: absolute !important;
-  right: 5% !important;
-  top: 2.6% !important;
-}
-}
-
-
-.woocommerce-shop .shop.shop-product {
-  border-top: 1px solid #f7f2ed;
-}
-.woocommerce-shop .woocommerce-breadcrumb {
-  display: none;
-}
-.woocommerce-shop .woocommerce-ordering {
-  position: absolute;
-  right: 14%;
-  top: 2.6%;
-}
-.woocommerce-shop .shop-page-filters {
-  margin-top: -9px;
-}
-.woocommerce-shop .filter-head {
-  font: 600 20px/26px "Rajdhani";
-  color: #121212;
 }
 
 /*----------- Demo CSS End -----------*/
