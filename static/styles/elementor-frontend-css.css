@@ -311,3 +311,1103 @@ body.rtl .e-con {
 		display: none
 	}
 }
+
+.dialog-widget-content {
+	background-color: var(--e-a-bg-default);
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, .2);
+	overflow: hidden
+}
+
+.dialog-message {
+	line-height: 1.5;
+	box-sizing: border-box
+}
+
+.dialog-close-button {
+	cursor: pointer;
+	position: absolute;
+	margin-block-start: 15px;
+	right: 15px;
+	color: var(--e-a-color-txt);
+	font-size: 15px;
+	line-height: 1;
+	transition: var(--e-a-transition-hover)
+}
+
+.dialog-close-button:hover {
+	color: var(--e-a-color-txt-hover)
+}
+
+.dialog-prevent-scroll {
+	overflow: hidden;
+	max-height: 100vh
+}
+
+.dialog-type-lightbox {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: 9999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none
+}
+
+.elementor-editor-active .elementor-popup-modal {
+	background-color: initial
+}
+
+.dialog-type-alert .dialog-widget-content,
+.dialog-type-confirm .dialog-widget-content {
+	margin: auto;
+	width: 400px;
+	padding: 20px
+}
+
+.dialog-type-alert .dialog-header,
+.dialog-type-confirm .dialog-header {
+	font-size: 15px;
+	font-weight: 500
+}
+
+.dialog-type-alert .dialog-header:after,
+.dialog-type-confirm .dialog-header:after {
+	content: "";
+	display: block;
+	border-block-end: var(--e-a-border);
+	padding-block-end: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: -20px;
+	margin-inline-end: -20px
+}
+
+.dialog-type-alert .dialog-message,
+.dialog-type-confirm .dialog-message {
+	min-height: 50px
+}
+
+.dialog-type-alert .dialog-buttons-wrapper,
+.dialog-type-confirm .dialog-buttons-wrapper {
+	padding-block-start: 10px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 15px
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.2;
+	padding: 8px 16px;
+	outline: none;
+	border: none;
+	border-radius: var(--e-a-border-radius);
+	background-color: var(--e-a-btn-bg);
+	color: var(--e-a-btn-color-invert);
+	transition: var(--e-a-transition-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:hover {
+	border: none
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:hover {
+	background-color: var(--e-a-btn-bg-hover);
+	color: var(--e-a-btn-color-invert)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:active,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:active {
+	background-color: var(--e-a-btn-bg-active)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:not([disabled]),
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:not([disabled]) {
+	cursor: pointer
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:disabled,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:disabled {
+	background-color: var(--e-a-btn-bg-disabled);
+	color: var(--e-a-btn-color-disabled)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:not(.elementor-button-state) .elementor-state-icon,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:not(.elementor-button-state) .elementor-state-icon {
+	display: none
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt {
+	background: transparent;
+	color: var(--e-a-color-txt)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt:hover {
+	background: var(--e-a-bg-hover);
+	color: var(--e-a-color-txt-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel:disabled,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt:disabled,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel:disabled,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt:disabled {
+	background: transparent;
+	color: var(--e-a-color-txt-disabled)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt-border,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt-border {
+	border: 1px solid var(--e-a-color-txt-muted)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-success,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-success,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-success,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-success {
+	background-color: var(--e-a-btn-bg-success)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-success:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-success:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-success:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-success:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-success:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-success:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-success:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-success:hover {
+	background-color: var(--e-a-btn-bg-success-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-ok,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-take_over,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-ok,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-take_over,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary {
+	background-color: var(--e-a-btn-bg-primary);
+	color: var(--e-a-btn-color)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-ok:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-ok:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-take_over:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-take_over:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-ok:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-ok:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-take_over:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-take_over:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary:hover {
+	background-color: var(--e-a-btn-bg-primary-hover);
+	color: var(--e-a-btn-color)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel.dialog-take_over,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-ok.dialog-cancel,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-ok,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-take_over,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary.dialog-cancel,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary.e-btn-txt,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel.dialog-take_over,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-ok.dialog-cancel,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-ok,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-take_over,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary.dialog-cancel,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary.e-btn-txt {
+	background: transparent;
+	color: var(--e-a-color-primary-bold)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel.dialog-take_over:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-cancel.dialog-take_over:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-ok.dialog-cancel:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.dialog-ok.dialog-cancel:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-ok:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-ok:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-take_over:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-take_over:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary.dialog-cancel:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary.dialog-cancel:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary.e-btn-txt:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-primary.e-btn-txt:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel.dialog-take_over:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-cancel.dialog-take_over:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-ok.dialog-cancel:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.dialog-ok.dialog-cancel:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-ok:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-ok:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-take_over:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-btn-txt.dialog-take_over:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary.dialog-cancel:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary.dialog-cancel:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary.e-btn-txt:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-primary.e-btn-txt:hover {
+	background: var(--e-a-bg-primary)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-accent,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.go-pro,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-accent,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.go-pro {
+	background-color: var(--e-a-btn-bg-accent)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-accent:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-accent:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.go-pro:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.go-pro:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-accent:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-accent:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.go-pro:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.go-pro:hover {
+	background-color: var(--e-a-btn-bg-accent-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-accent:active,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.go-pro:active,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-accent:active,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.go-pro:active {
+	background-color: var(--e-a-btn-bg-accent-active)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-info,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-info,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-info,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-info {
+	background-color: var(--e-a-btn-bg-info)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-info:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-info:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-info:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-info:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-info:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-info:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-info:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-info:hover {
+	background-color: var(--e-a-btn-bg-info-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-warning,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-warning,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-warning,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-warning {
+	background-color: var(--e-a-btn-bg-warning)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-warning:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-warning:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-warning:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-warning:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-warning:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-warning:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-warning:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-warning:hover {
+	background-color: var(--e-a-btn-bg-warning-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-danger,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-danger,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-danger,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-danger {
+	background-color: var(--e-a-btn-bg-danger)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-danger:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.e-danger:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-danger:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button.elementor-button-danger:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-danger:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.e-danger:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-danger:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button.elementor-button-danger:hover {
+	background-color: var(--e-a-btn-bg-danger-hover)
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button i,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button i {
+	margin-inline-end: 5px
+}
+
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:focus,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:hover,
+.dialog-type-alert .dialog-buttons-wrapper .dialog-button:visited,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:focus,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:hover,
+.dialog-type-confirm .dialog-buttons-wrapper .dialog-button:visited {
+	color: initial
+}
+
+.elementor-element,
+.elementor-lightbox {
+	--swiper-theme-color: #000;
+	--swiper-navigation-size: 44px;
+	--swiper-pagination-bullet-size: 6px;
+	--swiper-pagination-bullet-horizontal-gap: 6px
+}
+
+.elementor-element .swiper-container .swiper-slide figure,
+.elementor-element .swiper .swiper-slide figure,
+.elementor-lightbox .swiper-container .swiper-slide figure,
+.elementor-lightbox .swiper .swiper-slide figure {
+	line-height: 0
+}
+
+.elementor-element .swiper-container .elementor-lightbox-content-source,
+.elementor-element .swiper .elementor-lightbox-content-source,
+.elementor-lightbox .swiper-container .elementor-lightbox-content-source,
+.elementor-lightbox .swiper .elementor-lightbox-content-source {
+	display: none
+}
+
+.elementor-element .swiper-container .elementor-swiper-button,
+.elementor-element .swiper-container~.elementor-swiper-button,
+.elementor-element .swiper .elementor-swiper-button,
+.elementor-element .swiper~.elementor-swiper-button,
+.elementor-lightbox .swiper-container .elementor-swiper-button,
+.elementor-lightbox .swiper-container~.elementor-swiper-button,
+.elementor-lightbox .swiper .elementor-swiper-button,
+.elementor-lightbox .swiper~.elementor-swiper-button {
+	position: absolute;
+	display: inline-flex;
+	z-index: 1;
+	cursor: pointer;
+	font-size: 25px;
+	color: hsla(0, 0%, 93.3%, .9);
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.elementor-element .swiper-container .elementor-swiper-button svg,
+.elementor-element .swiper-container~.elementor-swiper-button svg,
+.elementor-element .swiper .elementor-swiper-button svg,
+.elementor-element .swiper~.elementor-swiper-button svg,
+.elementor-lightbox .swiper-container .elementor-swiper-button svg,
+.elementor-lightbox .swiper-container~.elementor-swiper-button svg,
+.elementor-lightbox .swiper .elementor-swiper-button svg,
+.elementor-lightbox .swiper~.elementor-swiper-button svg {
+	fill: hsla(0, 0%, 93.3%, .9);
+	height: 1em;
+	width: 1em
+}
+
+.elementor-element .swiper-container .elementor-swiper-button-prev,
+.elementor-element .swiper-container~.elementor-swiper-button-prev,
+.elementor-element .swiper .elementor-swiper-button-prev,
+.elementor-element .swiper~.elementor-swiper-button-prev,
+.elementor-lightbox .swiper-container .elementor-swiper-button-prev,
+.elementor-lightbox .swiper-container~.elementor-swiper-button-prev,
+.elementor-lightbox .swiper .elementor-swiper-button-prev,
+.elementor-lightbox .swiper~.elementor-swiper-button-prev {
+	left: 10px
+}
+
+.elementor-element .swiper-container .elementor-swiper-button-next,
+.elementor-element .swiper-container~.elementor-swiper-button-next,
+.elementor-element .swiper .elementor-swiper-button-next,
+.elementor-element .swiper~.elementor-swiper-button-next,
+.elementor-lightbox .swiper-container .elementor-swiper-button-next,
+.elementor-lightbox .swiper-container~.elementor-swiper-button-next,
+.elementor-lightbox .swiper .elementor-swiper-button-next,
+.elementor-lightbox .swiper~.elementor-swiper-button-next {
+	right: 10px
+}
+
+.elementor-element .swiper-container .elementor-swiper-button.swiper-button-disabled,
+.elementor-element .swiper-container~.elementor-swiper-button.swiper-button-disabled,
+.elementor-element .swiper .elementor-swiper-button.swiper-button-disabled,
+.elementor-element .swiper~.elementor-swiper-button.swiper-button-disabled,
+.elementor-lightbox .swiper-container .elementor-swiper-button.swiper-button-disabled,
+.elementor-lightbox .swiper-container~.elementor-swiper-button.swiper-button-disabled,
+.elementor-lightbox .swiper .elementor-swiper-button.swiper-button-disabled,
+.elementor-lightbox .swiper~.elementor-swiper-button.swiper-button-disabled {
+	opacity: .3
+}
+
+.elementor-element .swiper-container .swiper-image-stretch .swiper-slide .swiper-slide-image,
+.elementor-element .swiper .swiper-image-stretch .swiper-slide .swiper-slide-image,
+.elementor-lightbox .swiper-container .swiper-image-stretch .swiper-slide .swiper-slide-image,
+.elementor-lightbox .swiper .swiper-image-stretch .swiper-slide .swiper-slide-image {
+	width: 100%
+}
+
+.elementor-element .swiper-container .swiper-horizontal>.swiper-pagination-bullets,
+.elementor-element .swiper-container .swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-element .swiper-container .swiper-pagination-custom,
+.elementor-element .swiper-container .swiper-pagination-fraction,
+.elementor-element .swiper-container~.swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-element .swiper-container~.swiper-pagination-custom,
+.elementor-element .swiper-container~.swiper-pagination-fraction,
+.elementor-element .swiper .swiper-horizontal>.swiper-pagination-bullets,
+.elementor-element .swiper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-element .swiper .swiper-pagination-custom,
+.elementor-element .swiper .swiper-pagination-fraction,
+.elementor-element .swiper~.swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-element .swiper~.swiper-pagination-custom,
+.elementor-element .swiper~.swiper-pagination-fraction,
+.elementor-lightbox .swiper-container .swiper-horizontal>.swiper-pagination-bullets,
+.elementor-lightbox .swiper-container .swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-lightbox .swiper-container .swiper-pagination-custom,
+.elementor-lightbox .swiper-container .swiper-pagination-fraction,
+.elementor-lightbox .swiper-container~.swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-lightbox .swiper-container~.swiper-pagination-custom,
+.elementor-lightbox .swiper-container~.swiper-pagination-fraction,
+.elementor-lightbox .swiper .swiper-horizontal>.swiper-pagination-bullets,
+.elementor-lightbox .swiper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-lightbox .swiper .swiper-pagination-custom,
+.elementor-lightbox .swiper .swiper-pagination-fraction,
+.elementor-lightbox .swiper~.swiper-pagination-bullets.swiper-pagination-horizontal,
+.elementor-lightbox .swiper~.swiper-pagination-custom,
+.elementor-lightbox .swiper~.swiper-pagination-fraction {
+	bottom: 5px
+}
+
+.elementor-element .swiper-container.swiper-cube .elementor-swiper-button,
+.elementor-element .swiper-container.swiper-cube~.elementor-swiper-button,
+.elementor-element .swiper.swiper-cube .elementor-swiper-button,
+.elementor-element .swiper.swiper-cube~.elementor-swiper-button,
+.elementor-lightbox .swiper-container.swiper-cube .elementor-swiper-button,
+.elementor-lightbox .swiper-container.swiper-cube~.elementor-swiper-button,
+.elementor-lightbox .swiper.swiper-cube .elementor-swiper-button,
+.elementor-lightbox .swiper.swiper-cube~.elementor-swiper-button {
+	transform: translate3d(0, -50%, 1px)
+}
+
+.elementor-element :where(.swiper-container-horizontal)~.swiper-pagination-bullets,
+.elementor-lightbox :where(.swiper-container-horizontal)~.swiper-pagination-bullets {
+	bottom: 5px;
+	left: 0;
+	width: 100%
+}
+
+.elementor-element :where(.swiper-container-horizontal)~.swiper-pagination-bullets .swiper-pagination-bullet,
+.elementor-lightbox :where(.swiper-container-horizontal)~.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px)
+}
+
+.elementor-element :where(.swiper-container-horizontal)~.swiper-pagination-progressbar,
+.elementor-lightbox :where(.swiper-container-horizontal)~.swiper-pagination-progressbar {
+	width: 100%;
+	height: 4px;
+	left: 0;
+	top: 0
+}
+
+.elementor-element.elementor-pagination-position-outside .swiper,
+.elementor-element.elementor-pagination-position-outside .swiper-container,
+.elementor-lightbox.elementor-pagination-position-outside .swiper,
+.elementor-lightbox.elementor-pagination-position-outside .swiper-container {
+	padding-bottom: 30px
+}
+
+.elementor-element.elementor-pagination-position-outside .swiper-container .elementor-swiper-button,
+.elementor-element.elementor-pagination-position-outside .swiper-container~.elementor-swiper-button,
+.elementor-element.elementor-pagination-position-outside .swiper .elementor-swiper-button,
+.elementor-element.elementor-pagination-position-outside .swiper~.elementor-swiper-button,
+.elementor-lightbox.elementor-pagination-position-outside .swiper-container .elementor-swiper-button,
+.elementor-lightbox.elementor-pagination-position-outside .swiper-container~.elementor-swiper-button,
+.elementor-lightbox.elementor-pagination-position-outside .swiper .elementor-swiper-button,
+.elementor-lightbox.elementor-pagination-position-outside .swiper~.elementor-swiper-button {
+	top: calc(50% - 30px / 2)
+}
+
+.elementor-element .elementor-swiper,
+.elementor-lightbox .elementor-swiper {
+	position: relative
+}
+
+.elementor-element .elementor-main-swiper,
+.elementor-lightbox .elementor-main-swiper {
+	position: static
+}
+
+.elementor-element.elementor-arrows-position-outside .swiper,
+.elementor-element.elementor-arrows-position-outside .swiper-container,
+.elementor-lightbox.elementor-arrows-position-outside .swiper,
+.elementor-lightbox.elementor-arrows-position-outside .swiper-container {
+	width: calc(100% - 60px)
+}
+
+.elementor-element.elementor-arrows-position-outside .swiper-container .elementor-swiper-button-prev,
+.elementor-element.elementor-arrows-position-outside .swiper-container~.elementor-swiper-button-prev,
+.elementor-element.elementor-arrows-position-outside .swiper .elementor-swiper-button-prev,
+.elementor-element.elementor-arrows-position-outside .swiper~.elementor-swiper-button-prev,
+.elementor-lightbox.elementor-arrows-position-outside .swiper-container .elementor-swiper-button-prev,
+.elementor-lightbox.elementor-arrows-position-outside .swiper-container~.elementor-swiper-button-prev,
+.elementor-lightbox.elementor-arrows-position-outside .swiper .elementor-swiper-button-prev,
+.elementor-lightbox.elementor-arrows-position-outside .swiper~.elementor-swiper-button-prev {
+	left: 0
+}
+
+.elementor-element.elementor-arrows-position-outside .swiper-container .elementor-swiper-button-next,
+.elementor-element.elementor-arrows-position-outside .swiper-container~.elementor-swiper-button-next,
+.elementor-element.elementor-arrows-position-outside .swiper .elementor-swiper-button-next,
+.elementor-element.elementor-arrows-position-outside .swiper~.elementor-swiper-button-next,
+.elementor-lightbox.elementor-arrows-position-outside .swiper-container .elementor-swiper-button-next,
+.elementor-lightbox.elementor-arrows-position-outside .swiper-container~.elementor-swiper-button-next,
+.elementor-lightbox.elementor-arrows-position-outside .swiper .elementor-swiper-button-next,
+.elementor-lightbox.elementor-arrows-position-outside .swiper~.elementor-swiper-button-next {
+	right: 0
+}
+
+.elementor-lightbox {
+	--lightbox-ui-color: hsla(0, 0%, 93.3%, 0.9);
+	--lightbox-ui-color-hover: #fff;
+	--lightbox-text-color: var(--lightbox-ui-color);
+	--lightbox-header-icons-size: 20px;
+	--lightbox-navigation-icons-size: 25px
+}
+
+.elementor-lightbox:not(.elementor-popup-modal) .dialog-header,
+.elementor-lightbox:not(.elementor-popup-modal) .dialog-message {
+	text-align: center
+}
+
+.elementor-lightbox .dialog-header {
+	display: none
+}
+
+.elementor-lightbox .dialog-widget-content {
+	background: none;
+	box-shadow: none;
+	width: 100%;
+	height: 100%
+}
+
+.elementor-lightbox .dialog-message {
+	animation-duration: .3s;
+	height: 100%
+}
+
+.elementor-lightbox .dialog-message.dialog-lightbox-message {
+	padding: 0
+}
+
+.elementor-lightbox .dialog-lightbox-close-button {
+	cursor: pointer;
+	position: absolute;
+	font-size: var(--lightbox-header-icons-size);
+	right: .75em;
+	margin-top: 13px;
+	padding: .25em;
+	z-index: 2;
+	line-height: 1;
+	display: flex
+}
+
+.elementor-lightbox .dialog-lightbox-close-button svg {
+	height: 1em;
+	width: 1em
+}
+
+.elementor-lightbox .dialog-lightbox-close-button,
+.elementor-lightbox .elementor-swiper-button {
+	color: var(--lightbox-ui-color);
+	transition: all .3s;
+	opacity: 1
+}
+
+.elementor-lightbox .dialog-lightbox-close-button svg,
+.elementor-lightbox .elementor-swiper-button svg {
+	fill: var(--lightbox-ui-color)
+}
+
+.elementor-lightbox .dialog-lightbox-close-button:hover,
+.elementor-lightbox .elementor-swiper-button:hover {
+	color: var(--lightbox-ui-color-hover)
+}
+
+.elementor-lightbox .dialog-lightbox-close-button:hover svg,
+.elementor-lightbox .elementor-swiper-button:hover svg {
+	fill: var(--lightbox-ui-color-hover)
+}
+
+.elementor-lightbox .swiper,
+.elementor-lightbox .swiper-container {
+	height: 100%
+}
+
+.elementor-lightbox .elementor-lightbox-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 70px;
+	box-sizing: border-box;
+	height: 100%;
+	margin: auto
+}
+
+@media (max-width:767px) {
+	.elementor-lightbox .elementor-lightbox-item {
+		padding: 70px 0
+	}
+}
+
+.elementor-lightbox .elementor-lightbox-image {
+	max-height: 100%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none
+}
+
+.elementor-lightbox .elementor-lightbox-image,
+.elementor-lightbox .elementor-lightbox-image:hover {
+	opacity: 1;
+	filter: none;
+	border: none
+}
+
+.elementor-lightbox .elementor-lightbox-image {
+	box-shadow: 0 0 30px rgba(0, 0, 0, .3), 0 0 8px -5px rgba(0, 0, 0, .3);
+	border-radius: 2px
+}
+
+.elementor-lightbox .elementor-video-container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.elementor-lightbox .elementor-video-container .elementor-video-landscape,
+.elementor-lightbox .elementor-video-container .elementor-video-portrait,
+.elementor-lightbox .elementor-video-container .elementor-video-square {
+	width: 100%;
+	height: 100%;
+	margin: auto
+}
+
+.elementor-lightbox .elementor-video-container .elementor-video-landscape iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-portrait iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-square iframe {
+	border: 0;
+	background-color: #000
+}
+
+.elementor-lightbox .elementor-video-container .elementor-video-landscape iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-landscape video,
+.elementor-lightbox .elementor-video-container .elementor-video-portrait iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-portrait video,
+.elementor-lightbox .elementor-video-container .elementor-video-square iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-square video {
+	aspect-ratio: var(--video-aspect-ratio, 1.77777)
+}
+
+@supports not (aspect-ratio:1/1) {
+
+	.elementor-lightbox .elementor-video-container .elementor-video-landscape,
+	.elementor-lightbox .elementor-video-container .elementor-video-portrait,
+	.elementor-lightbox .elementor-video-container .elementor-video-square {
+		position: relative;
+		overflow: hidden;
+		height: 0;
+		padding-bottom: calc(100% / var(--video-aspect-ratio, 1.77777))
+	}
+
+	.elementor-lightbox .elementor-video-container .elementor-video-landscape iframe,
+	.elementor-lightbox .elementor-video-container .elementor-video-landscape video,
+	.elementor-lightbox .elementor-video-container .elementor-video-portrait iframe,
+	.elementor-lightbox .elementor-video-container .elementor-video-portrait video,
+	.elementor-lightbox .elementor-video-container .elementor-video-square iframe,
+	.elementor-lightbox .elementor-video-container .elementor-video-square video {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0
+	}
+}
+
+.elementor-lightbox .elementor-video-container .elementor-video-square iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-square video {
+	width: min(90vh, 90vw);
+	height: min(90vh, 90vw)
+}
+
+.elementor-lightbox .elementor-video-container .elementor-video-landscape iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-landscape video {
+	width: 100%;
+	max-height: 90vh
+}
+
+.elementor-lightbox .elementor-video-container .elementor-video-portrait iframe,
+.elementor-lightbox .elementor-video-container .elementor-video-portrait video {
+	height: 100%;
+	max-width: 90vw
+}
+
+@media (min-width:1025px) {
+	.elementor-lightbox .elementor-video-container .elementor-video-landscape {
+		width: 85vw;
+		max-height: 85vh
+	}
+
+	.elementor-lightbox .elementor-video-container .elementor-video-portrait {
+		height: 85vh;
+		max-width: 85vw
+	}
+}
+
+@media (max-width:1024px) {
+	.elementor-lightbox .elementor-video-container .elementor-video-landscape {
+		width: 95vw;
+		max-height: 95vh
+	}
+
+	.elementor-lightbox .elementor-video-container .elementor-video-portrait {
+		height: 95vh;
+		max-width: 95vw
+	}
+}
+
+.elementor-lightbox .swiper-container .elementor-swiper-button-prev,
+.elementor-lightbox .swiper .elementor-swiper-button-prev {
+	left: 0
+}
+
+.elementor-lightbox .swiper-container .elementor-swiper-button-next,
+.elementor-lightbox .swiper .elementor-swiper-button-next {
+	right: 0
+}
+
+.elementor-lightbox .swiper-container .swiper-pagination-fraction,
+.elementor-lightbox .swiper .swiper-pagination-fraction {
+	width: -moz-max-content;
+	width: max-content;
+	color: #fff
+}
+
+.elementor-lightbox .elementor-swiper-button:focus {
+	outline-width: 1px
+}
+
+.elementor-lightbox .elementor-swiper-button-next,
+.elementor-lightbox .elementor-swiper-button-prev {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	width: 15%;
+	justify-content: center;
+	font-size: var(--lightbox-navigation-icons-size)
+}
+
+@media (max-width:767px) {
+	.elementor-lightbox .elementor-swiper-button:focus {
+		outline: none
+	}
+
+	.elementor-lightbox .elementor-swiper-button-next,
+	.elementor-lightbox .elementor-swiper-button-prev {
+		width: 20%
+	}
+
+	.elementor-lightbox .elementor-swiper-button-next i,
+	.elementor-lightbox .elementor-swiper-button-prev i {
+		padding: 10px;
+		background-color: rgba(0, 0, 0, .5)
+	}
+
+	.elementor-lightbox .elementor-swiper-button-prev {
+		left: 0;
+		justify-content: flex-start
+	}
+
+	.elementor-lightbox .elementor-swiper-button-next {
+		right: 0;
+		justify-content: flex-end
+	}
+}
+
+.elementor-slideshow__counter {
+	color: currentColor;
+	font-size: .75em;
+	width: -moz-max-content;
+	width: max-content
+}
+
+.elementor-slideshow__footer,
+.elementor-slideshow__header {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 15px 20px;
+	transition: .3s
+}
+
+.elementor-slideshow__footer {
+	color: var(--lightbox-text-color)
+}
+
+.elementor-slideshow__header {
+	color: var(--lightbox-ui-color);
+	display: flex;
+	flex-direction: row-reverse;
+	font-size: var(--lightbox-header-icons-size);
+	padding-inline-start: 1em;
+	padding-inline-end: 2.6em;
+	top: 0;
+	align-items: center;
+	z-index: 10
+}
+
+.elementor-slideshow__header>i,
+.elementor-slideshow__header>svg {
+	cursor: pointer;
+	padding: .25em;
+	margin: 0 .35em
+}
+
+.elementor-slideshow__header>i {
+	font-size: inherit
+}
+
+.elementor-slideshow__header>i:hover {
+	color: var(--lightbox-ui-color-hover)
+}
+
+.elementor-slideshow__header>svg {
+	box-sizing: content-box;
+	fill: var(--lightbox-ui-color);
+	height: 1em;
+	width: 1em
+}
+
+.elementor-slideshow__header>svg:hover {
+	fill: var(--lightbox-ui-color-hover)
+}
+
+.elementor-slideshow__header .elementor-slideshow__counter {
+	margin-inline-end: auto
+}
+
+.elementor-slideshow__header .elementor-icon-share {
+	z-index: 5
+}
+
+.elementor-slideshow__share-menu {
+	background-color: transparent;
+	width: 0;
+	height: 0;
+	position: absolute;
+	overflow: hidden;
+	transition: background-color .4s
+}
+
+.elementor-slideshow__share-menu .elementor-slideshow__share-links a {
+	color: #0c0d0e
+}
+
+.elementor-slideshow__share-links {
+	display: block;
+	position: absolute;
+	min-width: 200px;
+	right: 2.8em;
+	top: 3em;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 14px 20px;
+	transform: scale(0);
+	opacity: 0;
+	transform-origin: 90% 10%;
+	transition: all .25s .1s;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, .3)
+}
+
+.elementor-slideshow__share-links a {
+	text-align: start;
+	color: #3f444b;
+	font-size: 12px;
+	line-height: 2.5;
+	display: block;
+	opacity: 0;
+	transition: opacity .5s .1s
+}
+
+.elementor-slideshow__share-links a:hover {
+	color: #000
+}
+
+.elementor-slideshow__share-links a i,
+.elementor-slideshow__share-links a svg {
+	margin-inline-end: .75em
+}
+
+.elementor-slideshow__share-links a i {
+	font-size: 1.25em
+}
+
+.elementor-slideshow__share-links a svg {
+	height: 1.25em;
+	width: 1.25em
+}
+
+.elementor-slideshow__share-links:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: .5em;
+	border: .45em solid transparent;
+	border-bottom-color: #fff;
+	transform: translateY(-100%) scaleX(.7)
+}
+
+.elementor-slideshow__footer {
+	bottom: 0;
+	z-index: 5;
+	position: fixed
+}
+
+.elementor-slideshow__description,
+.elementor-slideshow__title {
+	margin: 0
+}
+
+.elementor-slideshow__title {
+	font-size: 16px;
+	font-weight: 700
+}
+
+.elementor-slideshow__description {
+	font-size: 14px
+}
+
+.elementor-slideshow--ui-hidden .elementor-slideshow__footer,
+.elementor-slideshow--ui-hidden .elementor-slideshow__header {
+	opacity: 0;
+	pointer-events: none
+}
+
+.elementor-slideshow--ui-hidden .elementor-swiper-button-next,
+.elementor-slideshow--ui-hidden .elementor-swiper-button-prev {
+	opacity: 0
+}
+
+.elementor-slideshow--fullscreen-mode .elementor-video-container {
+	width: 100%
+}
+
+.elementor-slideshow--zoom-mode .elementor-slideshow__footer,
+.elementor-slideshow--zoom-mode .elementor-slideshow__header {
+	background-color: rgba(0, 0, 0, .5)
+}
+
+.elementor-slideshow--zoom-mode .elementor-swiper-button-next,
+.elementor-slideshow--zoom-mode .elementor-swiper-button-prev {
+	opacity: 0;
+	pointer-events: none
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-menu {
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 1;
+	cursor: default;
+	background-color: rgba(0, 0, 0, .5)
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links {
+	transform: scale(1)
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links,
+.elementor-slideshow--share-mode .elementor-slideshow__share-links a {
+	opacity: 1
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .eicon-twitter {
+	color: #1da1f2
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .eicon-facebook {
+	color: #3b5998
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .eicon-pinterest {
+	color: #bd081c
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .eicon-download-bold {
+	color: #9da5ae
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .e-eicon-twitter {
+	fill: #1da1f2
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .e-eicon-facebook {
+	fill: #3b5998
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .e-eicon-pinterest {
+	fill: #bd081c
+}
+
+.elementor-slideshow--share-mode .elementor-slideshow__share-links .e-eicon-download-bold {
+	fill: #9da5ae
+}
+
+.elementor-slideshow--share-mode .eicon-share-arrow {
+	z-index: 2
+}
+
+.animated {
+	animation-duration: 1.25s
+}
+
+.animated.animated-slow {
+	animation-duration: 2s
+}
+
+.animated.animated-fast {
+	animation-duration: .75s
+}
+
+.animated.infinite {
+	animation-iteration-count: infinite
+}
+
+.animated.reverse {
+	animation-direction: reverse;
+	animation-fill-mode: forwards
+}
+.elementor-screen-only,
+.screen-reader-text,
+.screen-reader-text span,
+.ui-helper-hidden-accessible {
+	position: absolute;
+	top: -10000em;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0
+}
