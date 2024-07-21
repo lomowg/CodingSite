@@ -6,7 +6,7 @@ function openYandexMail() {
     const subject = `Сообщение от ${name}`;
     const body = `Имя: ${name}\nE-mail: ${email}\nСообщение: ${message}`;
 
-    const mailtoLink = `mailto:g-makc@bk.ru?to=&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:bmwforce@bk.ru?to=&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoLink;
 }
