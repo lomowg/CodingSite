@@ -293,7 +293,7 @@ body.rtl .e-con {
 	--swiper-pagination-bullet-horizontal-gap: 6px
 }
 
-@media (max-width:767px) {
+@media (max-width:1024px) {
 
 	.elementor .elementor-hidden-mobile {
 		display: none
