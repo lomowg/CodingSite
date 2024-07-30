@@ -602,6 +602,15 @@ p.padd2 {
 
   }
 
+  .service-image1 {
+
+    margin-left: 75px;
+    margin-top: 0;
+    width: 700px;
+    height: 265px;
+
+  }
+
   .text-content {
 
     max-width: 50%;

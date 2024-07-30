@@ -110,5 +110,9 @@ def bg5():
 def menu1():
     return send_from_directory(directory='.', path='menu.webp')
 
+@app.route('/russian')
+def russian():
+    return render_template('russian.html')
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
