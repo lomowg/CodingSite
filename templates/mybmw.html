@@ -268,30 +268,100 @@
     </div>
     <div class="container">
       <div class="content_page col-lg-12 col-md-12 col-sm-12 mx-auto">
-        <div class="content-box-services text-lg-start text-md-start text-center text-sm-start mx-sm-5 mx-3 pt-4 px-sm-3 px-2">
+        <div class="content-box-services text-lg-start text-md-start text-center text-sm-start mx-sm-5 px-sm-3 px-2">
           <article class="container px-sm-0 px-col-0 px-sm-1 px-0" id="post-103">
 
              <div class="row">
-                                <div class="services-item product-content-box col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
-                                  <div class="pro-services"> <br><br><br>
-                                    <h4 style="font-family: Rubik , Sans-serif">Установка и активация приложения MYBMW</h4>
-                                  </div>
-                                  <div>
-                                    <div class="services-text mb-2">
-                                      <p>
-                                        <p style="font-family: Rubik, Sans-serif">Поможем создать аккаунт в ConnectedDrive, привязать его к автомобилю другого региона (за исключением автомобилей, выпущенных в Америке). Позволит закрывать автомобиль с мобильного приложения, видеть остаток топлива, температуру в салоне</p>
-                                    </div>
-                                  </div>
-                                  <div class="service-btn">
+                                <table style="width: 100%; height: 100%; text-align: center; top: 50px">
+                                  <tr>
+                                    <td>
+                                      <div class="services-item product-content-box col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="services-text mb3">
+                                          <script>
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        // Get the computed styles of .e-con-inner
+                                        const econInner = document.querySelector('.e-con-inner');
+                                        const computedStyle = getComputedStyle(econInner);
 
-                                  </div>
-                                </div>
-               <div class="services-right-content col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12">
-                                  <div class="pro-img">
-                                    <img decoding="async" src="{{ url_for('static', filename='images/mybmw.webp') }}" alt="Single Services Image">
-      <br><br>
-                                  </div>
-                                </div>
+                                        // Extract the margin-left and margin-right values
+                                        const marginLeftValue = computedStyle.marginLeft;
+                                        const marginRightValue = computedStyle.marginRight;
+
+                                        // Select all .mb3 elements
+                                        const mb3Elements = document.querySelectorAll('.mb3');
+
+                                        // Apply the negative margins to all .mb3 elements
+                                        mb3Elements.forEach(function(mb3) {
+                                            mb3.style.marginLeft = `calc(-1 * ${marginLeftValue} - 5000px)`;
+                                            mb3.style.marginRight = `calc(-1 * ${marginRightValue} - 5000px)`;
+                                        });
+                                    });
+                                </script> <!-- margin auto parsing for resolution -->
+                                        <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1">
+                                                Активация аккаунта MYBMW
+                                              </h4>
+                                              <p class="padd2">
+                                                Данная услуга включает в себя активацию аккаунта MYBMW с базовой подпиской, которая позволит с телефона открывать/закрывать авто, включать вентиляцию, воспроизводить гудок, включать фары, смотреть местоположение авто на карте
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img  class="service-image" src="{{ url_for('static', filename='images/mybmw.webp') }}" alt="Single Services Image">
+                                          </div>
+                                        </div>
+                                        <div class="services-text mb3 mb5">
+                                           <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1" style="color: #000000">
+                                                Активация виджета погоды
+                                              </h4>
+                                              <p class="padd2" style="color: #000000">
+                                                Активация виджета погоды в мультимедиа навсегда, так же появится виджет новостей
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img  class="service-image" src="{{ url_for('static', filename='images/weather.webp') }}" alt="Single Services Image">
+                                        </div>
+                                        </div>
+                                      <div class="services-text mb3 element">
+                                          <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1">
+                                                Активация пробок на штатной навигации
+                                              </h4>
+                                              <p class="padd2">
+                                                  Позволяет активировать пробки на штатной навигации, строить маршруты быстрее, избегая пробки
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <img class="service-image" src="{{ url_for('static', filename='images/rtti.webp') }}" alt="Single Services Image">
+                                        </div>
+                                          </div>
+                                          <div class="services-text mb3 mb5">
+                                           <div class="mbgkl">
+                                          <div class="text-content">
+                                            <div class="text-wrapper">
+                                              <h4 class="padd1" style="color: #000000">
+                                              Активация штатного регистратора Drive Recorder</h4>
+                                              <p class="padd2" style="color: #000000">
+                                              Позволяет активировать в штатной мультимедиа регистратор на штатных камерах, позволит автоматически записывать видео до и после дтп, а также просматривать в авто сохраненные записи</p>
+                                            </div>
+                                          </div>
+                                          <img  class="service-image" src="{{ url_for('static', filename='images/recorder.webp') }}" alt="Single Services Image">
+                                        </div>
+                                        </div>
+
+                                      </div>
+
+                                    </td>
+
+                                  </tr>
+                                </table>
+                              </div>
           </article>
         </div>
       </div>
